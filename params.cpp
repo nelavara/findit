@@ -17,7 +17,7 @@ params::params(int argc, char** argv) {
             {0,0,0,0}
     };
     int tester;
-    while (true){
+    for(;;){
         tester = getopt_long(argc, argv, "d:iRo",long_options , option_index);
         cout << "test out   " << tester << '\n'; //work in progress gives warnings, not sure if it works yet.
         governor.push_back(tester);
