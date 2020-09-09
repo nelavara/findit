@@ -11,12 +11,23 @@ params::params(int argc, char** argv) {
     /*int getopt_long(int argc, char * const argv[],
                     const char *optstring,
                     const struct option *longopts, int *longindex);*/
+    static struct option long_options[] = {
+            {"dir", required_argument, 0, 1},
+            {"verbose", optional_argument, 0, 0},
+            {0,0,0,0}
+    };
     stringIn = argv;
     size = argc;
     parseCommands(argc, argv);
     int tester;
-    tester = getopt_long(argc, argv, "d:iRo", long_options, option_index);
-    cout << tester; //work in progress gives warnings, not sure if it works yet.
+    while (true){
+        tester = getopt_long(argc, argv, "d:iRo",long_options , option_index);
+        cout << "test out   " << tester << '\n'; //work in progress gives warnings, not sure if it works yet.
+        if (tester == -1){
+            break;
+        }
+    }
+
 
 }
 

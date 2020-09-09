@@ -12,11 +12,7 @@ using namespace std;
 #include <ostream>
 #include <string>
 #include <iostream>
-static struct option long_options[] = {
-        {"dir", required_argument, 0, 0},
-        {"verbose", optional_argument, 0, 0},
-        {0,0,0,0}
-};
+
 class params{
     //ofstream
 private:
