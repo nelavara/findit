@@ -15,11 +15,14 @@ class params{
     //ofstream
 private:
     string searchWords;
+    char** stringIn;
+    int size;
     bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
     bool fileWriteOut = false; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
     bool verbose = false; //--verbose print the name of every file that is opened.
     bool dir = false; //--dir or -d followed by a pathname. The app with start is search there.
+    void parseCommands (int, char**);
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor
