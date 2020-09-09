@@ -25,7 +25,7 @@ params::params(int argc, char** argv) {
             break;
         }
     }
-    parseCommands(argc, argv);
+    parseCommands(argc, argv); //this will more than likely be modified or eliminated as developed, here for testing purposes only.
 }
 
 ostream & params::print(ostream &out) {
