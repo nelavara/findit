@@ -24,12 +24,12 @@ void params::parseCommands(int, char **) {
     const char* command = stringIn [0]; //not sure if this needs be const or not refer
     //to https://www.gnu.org/software/libc/manual/html_node/Getopt-Long-Options.html
     cout << "command   " << command << '\n';
-    string smallSwitch;
-    string largeSwitch;
-    string argument;
-    string largeArgument;
-    bool ss = false;
-    bool ls = false;
+    string smallSwitch; //string to hold small switch
+    string largeSwitch; //string to hold verbose switch, or long option
+    string argument;   //this is the argument that goes with any string we will need to deal with it if empty, but for now ignore
+    string largeArgument; //also an argument, used for now to go with largeSwitch
+    bool ss = false; //small switch boolean
+    bool ls = false; //large switch boolean
 
     for (int i=1; i< size; ++i) {
         if(stringIn[i][0] == '-' && stringIn[i][1] != '-'){
