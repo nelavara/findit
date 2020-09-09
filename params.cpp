@@ -55,7 +55,7 @@ void params::parseCommands(int, char **) {
     }
     cout << "switch    " << smallSwitch <<'\n';
     cout << "verbose    " << largeSwitch <<'\n';
-    if (argument.empty){
+    if (argument.empty()){
         cout << "argument  " << largeArgument << '\n';
     }
     else if (largeArgument.empty()){
