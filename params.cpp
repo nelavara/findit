@@ -7,6 +7,10 @@ params::params(int argc, char** argv) {
     //function stub
     //int test = getopt_long(argc, argv);
     //cout << test << endl;
+    //example of what we need to get too.
+    /*int getopt_long(int argc, char * const argv[],
+                    const char *optstring,
+                    const struct option *longopts, int *longindex);*/
     stringIn = argv;
     size = argc;
     parseCommands(argc, argv);
