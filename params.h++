@@ -12,11 +12,13 @@ using namespace std;
 #include <ostream>
 #include <string>
 #include <iostream>
+#include <vector>
 
 class params{
     //ofstream
 private:
     string searchWords;
+    vector <int> governor;
     int* option_index = 0; //to be used by getoptlong
     bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
