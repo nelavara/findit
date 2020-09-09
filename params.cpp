@@ -16,9 +16,6 @@ params::params(int argc, char** argv) {
             {"verbose", optional_argument, 0, 0},
             {0,0,0,0}
     };
-    stringIn = argv;
-    size = argc;
-    parseCommands(argc, argv);
     int tester;
     while (true){
         tester = getopt_long(argc, argv, "d:iRo",long_options , option_index);
@@ -27,8 +24,7 @@ params::params(int argc, char** argv) {
             break;
         }
     }
-
-
+    parseCommands(argc, argv);
 }
 
 ostream & params::print(ostream &out) {
@@ -37,7 +33,7 @@ ostream & params::print(ostream &out) {
     return out;
 }
 
-void params::parseCommands(int, char **) {
+void params::parseCommands(int size, char ** stringIn) {
     cout << "------------------------------------\n";
     const char* command = stringIn [0]; //not sure if this needs be const or not refer
     //to https://www.gnu.org/software/libc/manual/html_node/Getopt-Long-Options.html
