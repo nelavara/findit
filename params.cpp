@@ -14,6 +14,9 @@ params::params(int argc, char** argv) {
     stringIn = argv;
     size = argc;
     parseCommands(argc, argv);
+    int tester;
+    tester = getopt_long(argc, argv, "d:iRo", long_options, option_index);
+    cout << tester; //work in progress gives warnings, not sure if it works yet.
 
 }
 

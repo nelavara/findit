@@ -7,7 +7,8 @@
 using namespace std;
 #include <unistd.h>
 #include <getopt.h>
-//neeeded for including getopt_long https://linux.die.net/man/3/getopt_long
+//needed for including getopt_long https://linux.die.net/man/3/getopt_long
+//https://linux.die.net/man/3/getopt_long
 #include <ostream>
 #include <string>
 #include <iostream>
@@ -22,6 +23,7 @@ private:
     string searchWords;
     char** stringIn;
     int size;
+    int* option_index = 0; //to be used by getoptlong
     bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
     bool fileWriteOut = false; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
