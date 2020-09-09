@@ -11,6 +11,11 @@ using namespace std;
 #include <ostream>
 #include <string>
 #include <iostream>
+static struct option long_options[] = {
+        {"dir", required_argument, 0, 0},
+        {"verbose", optional_argument, 0, 0},
+        {0,0,0,0}
+};
 class params{
     //ofstream
 private:
@@ -23,6 +28,7 @@ private:
     bool verbose = false; //--verbose print the name of every file that is opened.
     bool dir = false; //--dir or -d followed by a pathname. The app with start is search there.
     void parseCommands (int, char**);
+
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor
