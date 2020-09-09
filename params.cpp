@@ -26,6 +26,8 @@ void params::parseCommands(int, char **) {
     for (int i=1; i< size; ++i) {
         if(stringIn[i][0] == '-')
             cout << "switch    " << stringIn[i] <<'\n';
+        else if((stringIn[i][0] == '-' ) && (stringIn[i][1] == '-'))
+            cout << "long option " << stringIn[i] << '\n';
         else
             cout << "argument  " << stringIn[i] << '\n';
     }
