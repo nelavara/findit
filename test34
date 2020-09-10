@@ -48,3 +48,38 @@ Verbose? Yes
 Case insensitive? No
 Output file name: test34
 Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing "CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing "CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing "CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing "CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing "CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command: test1 test1test1--verbose --verbosetest1--verboseadsfadsf adsfadsftest1--verboseadsfadsf-o -otest1--verboseadsfadsf-otest34 test34test1--verboseadsfadsf-otest34--dir --dirtest1--verboseadsfadsf-otest34--dir/home/evanperry/testing /home/evanperry/testingtest1--verboseadsfadsf-otest34--dir/home/evanperry/testingCSCI CSCI
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing "CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing

@@ -13,6 +13,7 @@ using namespace std;
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <cstring>
 
 class params{
 private:

@@ -6,6 +6,7 @@
 /*The constructor, takes argc and argv arguments from the main function
  * then uses getopt_long to process them. For now if there errors we stop processing here.*/
 params::params(int argc, char** argv) {
+
     for (int j =0; j < argc; j++){
         if (j == (argc-1)){
             searchWords.append("\"");
