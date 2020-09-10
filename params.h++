@@ -14,9 +14,11 @@ using namespace std;
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <vector>
 
 class params{
 private:
+    vector <string> commandLine;
     string searchWords; //search term, for now program can not do search terms with spaces.
     string directoryPath; //directory to start search at.
     bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.

@@ -8,19 +8,25 @@
 params::params(int argc, char** argv) {
 
     for (int j =0; j < argc; j++){
-        if (j == (argc-1)){
-            searchWords.append("\"");
-            searchWords.append(argv[j]);
-            searchWords.append("\"");
-            command.append(" ");
-            command.append(searchWords);
-            break;
-        }
-        if (j < argc){
-            command.append(" ");
-        }
+        commandLine.push_back(argv[j]);
         command.append(argv[j]);
     }
+    int c = 0;
+    bool foundDir = false;
+
+    for (int k = 0; k < int(commandLine.size()); k++){
+        if ((commandLine[k] == "--dir") || (commandLine[k] == "-d")){
+            c = k +2;
+            foundDir = true;
+        }
+        if ((foundDir == true) && (c != 0)){
+            if (c < int(commandLine.size())){
+                searchWords.append(commandLine[c]);
+            }
+            c++;
+        }
+    }
+
     //Here we define the options for getopt_long
     //Format of each long_option is as follows (name, argument?, flag?, value returned.
     static struct option long_options[] = {
@@ -141,6 +147,7 @@ ostream& params::print(ostream &out) {
         out << "No output file specified." << '\n';
         out << "Directory: " << directoryPath << '\n';
     }
+    out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
 
     return out;
 }
