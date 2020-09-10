@@ -41,7 +41,7 @@ params::params(int argc, char** argv) {
                 }
                 break;
             case 2:
-                cout << "Verbose has been selected" << endl;
+                verbose = true;
                 break;
             case 1:
                 if(optarg && !dirFound){
