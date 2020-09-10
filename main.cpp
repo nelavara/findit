@@ -5,8 +5,8 @@
 
 int main (int argc, char** argv){
 
-    params test(argc, argv);
-    test.print(cout);
+    params program2(argc, argv);
+    program2.print(cout);
 
     return 0;
 }
