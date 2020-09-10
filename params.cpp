@@ -4,13 +4,7 @@
 #include "params.h++"
 
 params::params(int argc, char** argv) {
-    //function stub
-    //int test = getopt_long(argc, argv);
-    //cout << test << endl;
-    //example of what we need to get too.
-    /*int getopt_long(int argc, char * const argv[],
-                    const char *optstring,
-                    const struct option *longopts, int *longindex);*/
+    //Here we define the options for getopt_long
     static struct option long_options[] = {
             {"dir", required_argument, 0, 1},
             {"verbose", no_argument, 0, 2},
