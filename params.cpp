@@ -19,7 +19,6 @@ params::params(int argc, char** argv) {
         switch(tester){
             case 'd':
                 if ((optarg) && (searchWords.empty())){
-                    dirFound =true;
                     searchWords = optarg;
                 }
                 else{
@@ -45,7 +44,6 @@ params::params(int argc, char** argv) {
                 break;
             case 1:
                 if((optarg) && (searchWords.empty())){
-                    dirFound = true;
                     searchWords = optarg;
                 }
                 else{
