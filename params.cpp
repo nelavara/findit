@@ -7,10 +7,18 @@
  * then uses getopt_long to process them. For now if there errors we stop processing here.*/
 params::params(int argc, char** argv) {
     for (int j =0; j < argc; j++){
-        command.append(argv[j]);
+        if (j == (argc-1)){
+            searchWords.append("\"");
+            searchWords.append(argv[j]);
+            searchWords.append("\"");
+            command.append(" ");
+            command.append(searchWords);
+            break;
+        }
         if (j < argc){
             command.append(" ");
         }
+        command.append(argv[j]);
     }
     //Here we define the options for getopt_long
     //Format of each long_option is as follows (name, argument?, flag?, value returned.
@@ -24,15 +32,15 @@ params::params(int argc, char** argv) {
      * long options structured passed in, and lastly a reference to the starting number which is
      * 0 in this case.*/
     for(;;){
-        tester = getopt_long(argc, argv, "d:iRo:",long_options , &option_index);
+        tester = getopt_long(argc, argv, "d:iRo:",long_options , 0);
         if (tester == -1){
             break;
         }
         //Switch case statement is used to parse results from the getopt_long
         switch(tester){
             case 'd':
-                if ((optarg) && (searchWords.empty())){
-                    searchWords = optarg;
+                if ((optarg) && (directoryPath.empty())){
+                    directoryPath = optarg;
                 }
                 else{
                     cout << "Either you have already specified a directory\n"
@@ -56,8 +64,8 @@ params::params(int argc, char** argv) {
                 verbose = true;
                 break;
             case 1:
-                if((optarg) && (searchWords.empty())){
-                    searchWords = optarg;
+                if((optarg) && (directoryPath.empty())){
+                    directoryPath = optarg;
                 }
                 else{
                     cout << "Either you have already specified a directory\n"
@@ -70,7 +78,7 @@ params::params(int argc, char** argv) {
                 exit(1);
         }
     }
-    if (searchWords.empty()){
+    if (directoryPath.empty()){
         cout << "You did not specify a directory!, try again!\n";
         exit(1);
     }
@@ -108,8 +116,8 @@ ostream& params::print(ostream &out) {
             }
             outFile << "Output file name: " << fileName << '\n';
             out << "Output file name: " << fileName << '\n';
-            outFile << "Directory: " << searchWords << '\n';
-            out << "Directory: " << searchWords << '\n';
+            outFile << "Directory: " << directoryPath << '\n';
+            out << "Directory: " << directoryPath << '\n';
         }
         outFile.close();
     }
@@ -130,7 +138,7 @@ ostream& params::print(ostream &out) {
             out << "No" << '\n';
         }
         out << "No output file specified." << '\n';
-        out << "Directory: " << searchWords << '\n';
+        out << "Directory: " << directoryPath << '\n';
     }
 
     return out;

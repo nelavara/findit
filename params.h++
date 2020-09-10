@@ -17,13 +17,13 @@ using namespace std;
 class params{
 private:
     string searchWords; //directory to start search at.
-    int option_index = 0; //to be used by getoptlong
+    string directoryPath; //directory to start search at.
     bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
     bool fileWriteOut = false; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
     bool verbose = false; //--verbose print the name of every file that is opened.
     string fileName; //this is where fileName to output too, used by -o
-    string command;
+    string command; //the command, needed for print function as part of assignment constraints.
 
 public:
     params(int, char**); //constructor

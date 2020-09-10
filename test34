@@ -8,3 +8,38 @@ Verbose? Yes
 Case insensitive? No
 Output file name: test34
 Directory: testing
+Command: test1 --verbose adsfadsf -o test34 --dir testing 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: testing
+Command: test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing CSCI 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command: test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing CSCI 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command: test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing CSCI 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command: test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing CSCI 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing"CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command:  test1 --verbose adsfadsf -o test34 --dir /home/evanperry/testing "CSCI"
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
