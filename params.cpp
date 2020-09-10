@@ -10,6 +10,7 @@ params::params(int argc, char** argv) {
     for (int j =0; j < argc; j++){
         commandLine.push_back(argv[j]);
         command.append(argv[j]);
+        command.append(" ");
     }
     int c = 0;
     bool foundDir = false;
@@ -65,6 +66,10 @@ params::params(int argc, char** argv) {
                 fileWriteOut = true;
                 if(optarg){
                     fileName = optarg;
+                    if (fileName[0] == '-'){
+                        cout << "You did not enter a file name, try again later.\n";
+                        exit(1);
+                    }
                 }
                 break;
             case 2:
@@ -94,6 +99,7 @@ params::params(int argc, char** argv) {
 /*Print function, checks if -o is true, if so creates file with string specified
  * if not it just prints out the results.*/
 ostream& params::print(ostream &out) {
+        //open and write file.
     if (fileWriteOut){
         //open and write file.
         ofstream outFile;

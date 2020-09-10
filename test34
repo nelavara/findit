@@ -138,3 +138,13 @@ Verbose? Yes
 Case insensitive? No
 Output file name: test34
 Directory: /home/evanperry/testing
+Command: test1--verbose-otest34--dir/home/evanperry/testingCSCI test CSCI nobody
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing
+Command: test1 --verbose -o test34 --dir /home/evanperry/testing3 CSCI test CSCI nobody 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing3
