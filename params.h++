@@ -14,7 +14,6 @@ using namespace std;
 #include <iostream>
 
 class params{
-    //ofstream
 private:
     string searchWords; //directory to start search at.
     int option_index = 0; //to be used by getoptlong
