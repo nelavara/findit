@@ -12,16 +12,44 @@ params::params(int argc, char** argv) {
                     const char *optstring,
                     const struct option *longopts, int *longindex);*/
     static struct option long_options[] = {
-            {"dir", required_argument, 0, 1},
-            {"verbose", optional_argument, 0, 0},
+            {"dir", 1, 0, 1},
+            {"verbose", 2, 0, 2},
             {0,0,0,0}
     };
     int tester;
     for(;;){
         tester = getopt_long(argc, argv, "d:iRo",long_options , option_index);
-        cout << "test out   " << tester << '\n'; //work in progress gives warnings, not sure if it works yet.
         if (tester == -1){
             break;
+        }
+        switch(tester){
+            case 'd':
+                cout << optarg << endl;
+                break;
+            case 'i':
+                cout << "i has been selected." << endl;
+                break;
+            case 'R':
+                cout << "R has been selected." << endl;
+                break;
+            case 'o':
+                cout << "o has been selected." << endl;
+                break;
+            case 2:
+                cout << "Verbose has been selected" << endl;
+                if(optarg){
+                    cout << optarg << endl;
+                }
+                else{
+                    cout << "no argument" << endl;
+                }
+                break;
+            case 1:
+                cout << "dir has been selected" << endl;
+                if(optarg){
+                    cout << optarg << endl;
+                }
+                break;
         }
     }
     parseCommands(argc, argv); //this will more than likely be modified or eliminated as developed, here for testing purposes only.
