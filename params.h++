@@ -23,8 +23,7 @@ private:
     bool verbose = false; //--verbose print the name of every file that is opened.
     bool dir = false; //--dir or -d followed by a pathname. The app with start is search there.
     void parseCommands (int, char**);
-    bool dirFound = false;
-    string fileName;
+    string fileName; //this is where fileName to output too, used by -o
 
 public:
     params(int, char**); //constructor

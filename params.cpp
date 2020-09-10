@@ -18,9 +18,9 @@ params::params(int argc, char** argv) {
         }
         switch(tester){
             case 'd':
-                if (optarg && !dirFound){
+                if ((optarg) && (searchWords.empty())){
                     dirFound =true;
-                    cout << optarg << endl;
+                    searchWords = optarg;
                 }
                 else{
                     cout << "Either you have already specified a directory\n"
@@ -44,9 +44,9 @@ params::params(int argc, char** argv) {
                 verbose = true;
                 break;
             case 1:
-                if(optarg && !dirFound){
+                if((optarg) && (searchWords.empty())){
                     dirFound = true;
-                    cout << optarg << endl;
+                    searchWords = optarg;
                 }
                 else{
                     cout << "Either you have already specified a directory\n"
@@ -57,7 +57,7 @@ params::params(int argc, char** argv) {
         }
     }
     parseCommands(argc, argv); //this will more than likely be modified or eliminated as developed, here for testing purposes only.
-    if (!dirFound){
+    if (searchWords.empty()){
         cout << "You did not specifiy a directory!, try again!\n";
         exit(1);
     }
