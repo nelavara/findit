@@ -6,6 +6,7 @@
 int main (int argc, char** argv){
 
     params test(argc, argv);
+    test.print(cout);
 
     return 0;
 }

@@ -4,6 +4,12 @@
 #include "params.h++"
 
 params::params(int argc, char** argv) {
+    for (int j =0; j < argc; j++){
+        command.append(argv[j]);
+        if (j < argc){
+            command.append(" ");
+        }
+    }
     //Here we define the options for getopt_long
     static struct option long_options[] = {
             {"dir", required_argument, 0, 1},
@@ -54,7 +60,6 @@ params::params(int argc, char** argv) {
                 break;
         }
     }
-    parseCommands(argc, argv); //this will more than likely be modified or eliminated as developed, here for testing purposes only.
     if (searchWords.empty()){
         cout << "You did not specifiy a directory!, try again!\n";
         exit(1);
@@ -62,7 +67,26 @@ params::params(int argc, char** argv) {
 }
 
 ostream & params::print(ostream &out) {
-    //function stub
+    out << "Command: " << command << '\n';
+    out << "Verbose? ";
+    if (verbose){
+        out << "Yes" << '\n';
+    }
+    else if (!verbose){
+        out << "No" << '\n';
+    }
+    out << "Case insensitive? ";
+    if (recursiveSearch){
+        out << "Yes" << '\n';
+    }
+    else if (!recursiveSearch){
+        out << "No" << '\n';
+    }
+    if (fileWriteOut){
+        out << "Output file name: " << fileName << '\n';
+    }
+    out << "Directory: " << searchWords << '\n';
+
 
     return out;
 }

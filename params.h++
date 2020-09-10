@@ -21,8 +21,8 @@ private:
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
     bool fileWriteOut = false; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
     bool verbose = false; //--verbose print the name of every file that is opened.
-    bool dir = false; //--dir or -d followed by a pathname. The app with start is search there.
     string fileName; //this is where fileName to output too, used by -o
+    string command;
 
 public:
     params(int, char**); //constructor
