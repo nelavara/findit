@@ -2,7 +2,9 @@
 // Created by evanperry on 9/7/20.
 //
 #include "params.h++"
-
+//--------------------------------------------------------
+/*The constructor, takes argc and argv arguments from the main function
+ * then uses getopt_long to process them. For now if there errors we stop processing here.*/
 params::params(int argc, char** argv) {
     for (int j =0; j < argc; j++){
         command.append(argv[j]);
@@ -11,17 +13,22 @@ params::params(int argc, char** argv) {
         }
     }
     //Here we define the options for getopt_long
+    //Format of each long_option is as follows (name, argument?, flag?, value returned.
     static struct option long_options[] = {
             {"dir", required_argument, 0, 1},
             {"verbose", no_argument, 0, 2},
             {0,no_argument,0,0}
     };
     int tester;
+    /*getopt_long format is as follows argc, argv, short options, a ':' means options expected
+     * long options structured passed in, and lastly a reference to the starting number which is
+     * 0 in this case.*/
     for(;;){
         tester = getopt_long(argc, argv, "d:iRo:",long_options , &option_index);
         if (tester == -1){
             break;
         }
+        //Switch case statement is used to parse results from the getopt_long
         switch(tester){
             case 'd':
                 if ((optarg) && (searchWords.empty())){
@@ -58,14 +65,19 @@ params::params(int argc, char** argv) {
                     exit(1);
                 }
                 break;
+            default:
+                cout << "Unrecognized argument or switch, try again.\n";
+                exit(1);
         }
     }
     if (searchWords.empty()){
-        cout << "You did not specifiy a directory!, try again!\n";
+        cout << "You did not specify a directory!, try again!\n";
         exit(1);
     }
 }
-
+//-----------------------------------------------------------------
+/*Print function, checks if -o is true, if so creates file with string specified
+ * if not it just prints out the results.*/
 ostream& params::print(ostream &out) {
     if (fileWriteOut){
         //open and write file.
