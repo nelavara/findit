@@ -12,6 +12,7 @@ using namespace std;
 #include <ostream>
 #include <string>
 #include <iostream>
+#include <fstream>
 
 class params{
 private:

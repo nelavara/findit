@@ -66,27 +66,60 @@ params::params(int argc, char** argv) {
     }
 }
 
-ostream & params::print(ostream &out) {
-    out << "Command: " << command << '\n';
-    out << "Verbose? ";
-    if (verbose){
-        out << "Yes" << '\n';
-    }
-    else if (!verbose){
-        out << "No" << '\n';
-    }
-    out << "Case insensitive? ";
-    if (recursiveSearch){
-        out << "Yes" << '\n';
-    }
-    else if (!recursiveSearch){
-        out << "No" << '\n';
-    }
+ostream& params::print(ostream &out) {
     if (fileWriteOut){
-        out << "Output file name: " << fileName << '\n';
+        //open and write file.
+        ofstream outFile;
+        outFile.open(fileName, ios_base::app);
+        if(outFile.is_open()){
+            outFile << "Command: " << command << '\n';
+            out << "Command: " << command << '\n';
+            outFile << "Verbose? ";
+            out << "Verbose? ";
+            if (verbose){
+                outFile << "Yes" << '\n';
+                out << "Yes" << '\n';
+            }
+            else if (!verbose){
+                outFile << "No" << '\n';
+                out << "No" << '\n';
+            }
+            outFile << "Case insensitive? ";
+            out << "Case insensitive? ";
+            if (recursiveSearch){
+                outFile << "Yes" << '\n';
+                out << "Yes" << '\n';
+            }
+            else if (!recursiveSearch){
+                outFile << "No" << '\n';
+                out << "No" << '\n';
+            }
+            outFile << "Output file name: " << fileName << '\n';
+            out << "Output file name: " << fileName << '\n';
+            outFile << "Directory: " << searchWords << '\n';
+            out << "Directory: " << searchWords << '\n';
+        }
+        outFile.close();
     }
-    out << "Directory: " << searchWords << '\n';
-
+    else{
+        out << "Command: " << command << '\n';
+        out << "Verbose? ";
+        if (verbose){
+            out << "Yes" << '\n';
+        }
+        else if (!verbose){
+            out << "No" << '\n';
+        }
+        out << "Case insensitive? ";
+        if (recursiveSearch){
+            out << "Yes" << '\n';
+        }
+        else if (!recursiveSearch){
+            out << "No" << '\n';
+        }
+        out << "No output file specified." << '\n';
+        out << "Directory: " << searchWords << '\n';
+    }
 
     return out;
 }
