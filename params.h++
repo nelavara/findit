@@ -16,7 +16,7 @@ using namespace std;
 
 class params{
 private:
-    string searchWords; //directory to start search at.
+    string searchWords; //search term, for now program can not do search terms with spaces.
     string directoryPath; //directory to start search at.
     bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
