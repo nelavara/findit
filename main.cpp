@@ -11,17 +11,3 @@ int main (int argc, char** argv){
 
     return 0;
 }
-
-
-/*int main(int argc, char** argv) {
-    ofstream out(FN, ios_base::app);
-    helloShell hello(argc, argv);
-
-    cout << hello << '\n';
-    out << hello << '\n';
-
-    out.close();
-
-    return 0;
-}
-*/
