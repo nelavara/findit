@@ -22,7 +22,6 @@ private:
     bool fileWriteOut = false; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
     bool verbose = false; //--verbose print the name of every file that is opened.
     bool dir = false; //--dir or -d followed by a pathname. The app with start is search there.
-    void parseCommands (int, char**);
     string fileName; //this is where fileName to output too, used by -o
 
 public:
