@@ -16,7 +16,7 @@ using namespace std;
 class params{
     //ofstream
 private:
-    string searchWords;
+    string searchWords; //directory to start search at.
     int option_index = 0; //to be used by getoptlong
     bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
@@ -24,6 +24,8 @@ private:
     bool verbose = false; //--verbose print the name of every file that is opened.
     bool dir = false; //--dir or -d followed by a pathname. The app with start is search there.
     void parseCommands (int, char**);
+    bool dirFound = false;
+    string fileName;
 
 public:
     params(int, char**); //constructor

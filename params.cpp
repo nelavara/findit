@@ -12,9 +12,9 @@ params::params(int argc, char** argv) {
                     const char *optstring,
                     const struct option *longopts, int *longindex);*/
     static struct option long_options[] = {
-            {"dir", 1, 0, 1},
-            {"verbose", 0, 0, 2},
-            {0,0,0,0}
+            {"dir", required_argument, 0, 1},
+            {"verbose", no_argument, 0, 2},
+            {0,no_argument,0,0}
     };
     int tester;
     for(;;){
@@ -24,7 +24,15 @@ params::params(int argc, char** argv) {
         }
         switch(tester){
             case 'd':
-                cout << optarg << endl;
+                if (optarg && !dirFound){
+                    dirFound =true;
+                    cout << optarg << endl;
+                }
+                else{
+                    cout << "Either you have already specified a directory\n"
+                            " or no argument was passed, try again.\n";
+                    exit(1);
+                }
                 break;
             case 'i':
                 caseSensitivity = true;
@@ -33,23 +41,32 @@ params::params(int argc, char** argv) {
                 recursiveSearch = true;
                 break;
             case 'o':
-                cout << "o has been selected." << endl;
+                fileWriteOut = true;
                 if(optarg){
-                    cout << optarg << endl;
+                    fileName = optarg;
                 }
                 break;
             case 2:
                 cout << "Verbose has been selected" << endl;
                 break;
             case 1:
-                cout << "dir has been selected" << endl;
-                if(optarg){
+                if(optarg && !dirFound){
+                    dirFound = true;
                     cout << optarg << endl;
+                }
+                else{
+                    cout << "Either you have already specified a directory\n"
+                            " or no argument was passed, try again.\n";
+                    exit(1);
                 }
                 break;
         }
     }
     parseCommands(argc, argv); //this will more than likely be modified or eliminated as developed, here for testing purposes only.
+    if (!dirFound){
+        cout << "You did not specifiy a directory!, try again!\n";
+        exit(1);
+    }
 }
 
 ostream & params::print(ostream &out) {
