@@ -13,12 +13,12 @@ params::params(int argc, char** argv) {
                     const struct option *longopts, int *longindex);*/
     static struct option long_options[] = {
             {"dir", 1, 0, 1},
-            {"verbose", 2, 0, 2},
+            {"verbose", 0, 0, 2},
             {0,0,0,0}
     };
     int tester;
     for(;;){
-        tester = getopt_long(argc, argv, "d:iRo",long_options , option_index);
+        tester = getopt_long(argc, argv, "d:iRo:",long_options , &option_index);
         if (tester == -1){
             break;
         }
@@ -27,22 +27,19 @@ params::params(int argc, char** argv) {
                 cout << optarg << endl;
                 break;
             case 'i':
-                cout << "i has been selected." << endl;
+                caseSensitivity = true;
                 break;
             case 'R':
-                cout << "R has been selected." << endl;
+                recursiveSearch = true;
                 break;
             case 'o':
                 cout << "o has been selected." << endl;
-                break;
-            case 2:
-                cout << "Verbose has been selected" << endl;
                 if(optarg){
                     cout << optarg << endl;
                 }
-                else{
-                    cout << "no argument" << endl;
-                }
+                break;
+            case 2:
+                cout << "Verbose has been selected" << endl;
                 break;
             case 1:
                 cout << "dir has been selected" << endl;
