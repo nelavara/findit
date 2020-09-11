@@ -148,3 +148,68 @@ Verbose? Yes
 Case insensitive? No
 Output file name: test34
 Directory: /home/evanperry/testing3
+Command: test1 --verbose -o test34 --dir /home/evanperry/testing3 CSCI test CSCI nobody 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing3
+Command: test1 --verbose -o test34 --dir /home/evanperry/testing3 CSCI test CSCI nobody 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing3
+Command: test1 --verbose -o test34 --dir /home/evanperry/testing3 CSCI test CSCI nobody 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing3
+Command: test1 --verbose -o test34 --dir /home/evanperry/testing3 CSCI test CSCI nobody 
+Verbose? Yes
+Case insensitive? No
+Output file name: test34
+Directory: /home/evanperry/testing3
+Command: test1 -d asdfa -o test34 
+Verbose? No
+Case insensitive? No
+Recursive Search: No
+Output file name: test34
+Directory: asdfa
+Command: test1 -d asdfa -o test34 
+Verbose? No
+Case insensitive? No
+Recursive Search: No
+Output file name: test34
+Directory: asdfa
+Command: test1 -d asdfa -o test34 
+Verbose? No
+Case insensitive? No
+Recursive Search: No
+Output file name: test34
+Directory: asdfa
+Command: test1 -d asdfa -o test34 
+Verbose? No
+Case insensitive? No
+Recursive Search: No
+Output file name: test34
+Directory: asdfa
+Command: test1 -d asdfa -o test34 
+Verbose? No
+Case insensitive? No
+Recursive Search: No
+Output file name: test34
+Directory: asdfa
+------------------------------------------------------
+Command: test1 -d asdfa -o test34 
+Verbose? No
+Case insensitive? No
+Recursive Search: No
+Output file name: test34
+Directory: asdfa
+------------------------------------------------------
+Command: test1 --verbose -o test34 --dir /home/evanperry/testing3 CSCI test CSCI nobody 
+Verbose? Yes
+Case insensitive? No
+Recursive Search: No
+Output file name: test34
+Directory: /home/evanperry/testing3
+------------------------------------------------------

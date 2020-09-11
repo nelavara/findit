@@ -6,7 +6,7 @@
 /*The constructor, takes argc and argv arguments from the main function
  * then uses getopt_long to process them. For now if there errors we stop processing here.*/
 params::params(int argc, char** argv) {
-
+     //We push all arguments into vector this allows for multiple words to be put into searchWords later
     for (int j =0; j < argc; j++){
         commandLine.push_back(argv[j]);
         command.append(argv[j]);
@@ -33,7 +33,7 @@ params::params(int argc, char** argv) {
     static struct option long_options[] = {
             {"dir", required_argument, 0, 1},
             {"verbose", no_argument, 0, 2},
-            {0,no_argument,0,0}
+            {0,0,0,0}
     };
     int tester;
     /*getopt_long format is as follows argc, argv, short options, a ':' means options expected
@@ -119,6 +119,16 @@ ostream& params::print(ostream &out) {
             }
             outFile << "Case insensitive? ";
             out << "Case insensitive? ";
+            if (caseSensitivity){
+                out << "Yes" << '\n';
+                outFile << "Yes" << '\n';
+            }
+            else if (!caseSensitivity){
+                out << "No" << '\n';
+                outFile << "No" << '\n';
+            }
+            out << "Recursive Search: ";
+            outFile << "Recursive Search: ";
             if (recursiveSearch){
                 outFile << "Yes" << '\n';
                 out << "Yes" << '\n';
@@ -131,7 +141,9 @@ ostream& params::print(ostream &out) {
             out << "Output file name: " << fileName << '\n';
             outFile << "Directory: " << directoryPath << '\n';
             out << "Directory: " << directoryPath << '\n';
-        }
+            }
+        outFile << "------------------------------------------------------\n";
+        out << "------------------------------------------------------\n";
         outFile.close();
     }
     else{
@@ -144,6 +156,13 @@ ostream& params::print(ostream &out) {
             out << "No" << '\n';
         }
         out << "Case insensitive? ";
+        if (caseSensitivity){
+            out << "Yes" << '\n';
+        }
+        else if (!caseSensitivity){
+            out << "No" << '\n';
+        }
+        out << "Recursive Search: ";
         if (recursiveSearch){
             out << "Yes" << '\n';
         }
@@ -152,8 +171,10 @@ ostream& params::print(ostream &out) {
         }
         out << "No output file specified." << '\n';
         out << "Directory: " << directoryPath << '\n';
+        out << "------------------------------------------------------\n";
     }
     out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
+
 
     return out;
 }
