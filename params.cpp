@@ -20,7 +20,7 @@ params::params(int argc, char** argv) {
             c = k +2;
             foundDir = true;
         }
-        if ((foundDir == true) && (c != 0)){
+        if ((foundDir) && (c != 0)){
             if (c < int(commandLine.size())){
                 searchWords.append(commandLine[c]);
             }
