@@ -63,6 +63,7 @@ params::params(int argc, char** argv) {
                         usage(2);
                     }
                 }
+                break;
             case 2:
                 verbose = true;
                 break;
