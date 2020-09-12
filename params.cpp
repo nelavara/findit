@@ -28,9 +28,7 @@ params::params(int argc, char** argv) {
         if (tester == -1){
             break;
         }
-        cout << optind << " : " << argv[optind] << endl;
         if (argv[optind][0] != '-'){
-            cout << "Non switch found" << endl;
             searchWords = string(argv[optind]);
 
         }
