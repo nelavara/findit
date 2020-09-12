@@ -12,22 +12,6 @@ params::params(int argc, char** argv) {
         command.append(argv[j]);
         command.append(" ");
     }
-    int c = 0;
-    bool foundDir = false;
-    //here we search for the file directory so we can
-    for (int k = 0; k < int(commandLine.size()); k++){
-        if ((commandLine[k] == "--dir") || (commandLine[k] == "-d")){
-            c = k + 2;
-            foundDir = true;
-        }
-        if ((foundDir) && (c != 0)){
-            if (c < int(commandLine.size())){
-                searchWords.append(commandLine[c]);
-            }
-            c++;
-        }
-    }
-
     //Here we define the options for getopt_long
     //Format of each long_option is as follows (name, argument?, flag?, value returned.
     static struct option long_options[] = {
@@ -43,6 +27,12 @@ params::params(int argc, char** argv) {
         tester = getopt_long(argc, argv, "d:iRo:",long_options , 0);
         if (tester == -1){
             break;
+        }
+        cout << optind << " : " << argv[optind] << endl;
+        if (argv[optind][0] != '-'){
+            cout << "Non switch found" << endl;
+            searchWords = string(argv[optind]);
+
         }
         //Switch case statement is used to parse results from the getopt_long
         switch(tester){
