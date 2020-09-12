@@ -31,7 +31,7 @@ params::params(int argc, char** argv) {
     //Here we define the options for getopt_long
     //Format of each long_option is as follows (name, argument?, flag?, value returned.
     static struct option long_options[] = {
-            {"dir", required_argument, 0, 1},
+            {"dir", required_argument, 0, 'd'},
             {"verbose", no_argument, 0, 2},
             {0,0,0,0}
     };
@@ -47,7 +47,12 @@ params::params(int argc, char** argv) {
         //Switch case statement is used to parse results from the getopt_long
         switch(tester){
             case 'd':
+                cout << tester << endl;
                 if ((optarg) && (directoryPath.empty())){
+                    if (optarg[0] == '-'){
+                        cout << "You did not enter in a required parameter!, try gain.\n";
+                        exit(1);
+                    }
                     directoryPath = optarg;
                 }
                 else{
@@ -74,16 +79,6 @@ params::params(int argc, char** argv) {
                 break;
             case 2:
                 verbose = true;
-                break;
-            case 1:
-                if((optarg) && (directoryPath.empty())){
-                    directoryPath = optarg;
-                }
-                else{
-                    cout << "Either you have already specified a directory\n"
-                            " or no argument was passed, try again.\n";
-                    exit(1);
-                }
                 break;
             default:
                 cout << "Unrecognized argument or switch, try again.\n";
