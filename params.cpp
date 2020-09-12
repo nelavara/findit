@@ -31,10 +31,7 @@ params::params(int argc, char** argv) {
         if (tester == 63){
             usage(4);
         }
-        if (argv[optind][0] != '-'){
-            searchWords = string(argv[optind]);
 
-        }
         //Switch case statement is used to parse results from the getopt_long
         switch(tester){
             case 'd':
@@ -52,7 +49,6 @@ params::params(int argc, char** argv) {
                 else{
                     usage(1);
                 }
-                break;
             case 'i':
                 caseSensitivity = true;
                 break;
@@ -67,16 +63,19 @@ params::params(int argc, char** argv) {
                         usage(2);
                     }
                 }
-                break;
             case 2:
                 verbose = true;
                 break;
             case'?':
                 usage(4);
-                break;
             default:
                 usage(4);
                 break;
+        }
+        if (searchWords.empty()){
+            if (argv[optind][0] != '-'){
+                searchWords = string(argv[optind]);
+            }
         }
     }
     if (directoryPath.empty()){
