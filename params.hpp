@@ -1,8 +1,7 @@
 /*Names: Jaron Bialecki & Evan Perry
 * Date:  09-10-2020
 */
-#ifndef PROGRAM2_PARAMS_H
-#define PROGRAM2_PARAMS_H
+#pragma once
 using namespace std;
 #include <getopt.h>
 //needed for including getopt_long https://linux.die.net/man/3/getopt_long
@@ -30,4 +29,3 @@ public:
     ostream& print(ostream& out); //print function
 };
 inline ostream& operator << (ostream&out, params& pm) { return pm.print(out); }
-#endif //PROGRAM2_PARAMS_H
