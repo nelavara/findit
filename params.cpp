@@ -28,6 +28,9 @@ params::params(int argc, char** argv) {
         if (tester == -1){
             break;
         }
+        if (tester == 63){
+            usage(4);
+        }
         if (argv[optind][0] != '-'){
             searchWords = string(argv[optind]);
 
@@ -73,6 +76,7 @@ params::params(int argc, char** argv) {
                 break;
             default:
                 usage(4);
+                break;
         }
     }
     if (directoryPath.empty()){
