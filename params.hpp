@@ -29,3 +29,4 @@ public:
     ostream& print(ostream& out); //print function
 };
 inline ostream& operator << (ostream&out, params& pm) { return pm.print(out); }
+
