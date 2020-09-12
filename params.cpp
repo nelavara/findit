@@ -8,7 +8,6 @@
 params::params(int argc, char** argv) {
      //We push all arguments into vector this allows for multiple words to be put into searchWords later
     for (int j =0; j < argc; j++){
-        commandLine.push_back(argv[j]);
         command.append(argv[j]);
         command.append(" ");
     }

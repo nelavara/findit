@@ -15,7 +15,6 @@ using namespace std;
 
 class params{
 private:
-    vector <string> commandLine; //This stores the entire command for processing later.
     string searchWords; //search term, for now program can not do search terms with spaces.
     string directoryPath; //directory to start search at.
     string fileName; //this is where fileName to output too, used by -o
