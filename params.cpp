@@ -14,10 +14,10 @@ params::params(int argc, char** argv) {
     }
     int c = 0;
     bool foundDir = false;
-
+    //here we search for the file directory so we can
     for (int k = 0; k < int(commandLine.size()); k++){
         if ((commandLine[k] == "--dir") || (commandLine[k] == "-d")){
-            c = k +2;
+            c = k + 2;
             foundDir = true;
         }
         if ((foundDir) && (c != 0)){
