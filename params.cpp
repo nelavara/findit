@@ -1,7 +1,7 @@
 /*Names: Jaron Bialecki & Evan Perry
 * Date:  09-10-2020
 */
-#include "params.h++"
+#include "params.hpp"
 //--------------------------------------------------------
 /*The constructor, takes argc and argv arguments from the main function
  * then uses getopt_long to process them. For now if there errors we stop processing here.*/

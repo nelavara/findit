@@ -1,7 +1,7 @@
 /*Names: Jaron Bialecki & Evan Perry
 * Date:  09-10-2020
 */
-#include "params.h++"
+#include "params.hpp"
 
 int main (int argc, char** argv){
 
