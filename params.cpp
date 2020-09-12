@@ -47,18 +47,19 @@ params::params(int argc, char** argv) {
         //Switch case statement is used to parse results from the getopt_long
         switch(tester){
             case 'd':
-                cout << tester << endl;
                 if ((optarg) && (directoryPath.empty())){
                     if (optarg[0] == '-'){
-                        cout << "You did not enter in a required parameter!, try gain.\n";
-                        exit(1);
+                        usage(1);
+                    }
+                    for (int k = 0; k < int(string(optarg).size()); k++){
+                        if(isspace(optarg[k])){
+                            usage(1);
+                        }
                     }
                     directoryPath = optarg;
                 }
                 else{
-                    cout << "Either you have already specified a directory\n"
-                            " or no argument was passed, try again.\n";
-                    exit(1);
+                    usage(1);
                 }
                 break;
             case 'i':
@@ -72,24 +73,44 @@ params::params(int argc, char** argv) {
                 if(optarg){
                     fileName = optarg;
                     if (fileName[0] == '-'){
-                        cout << "You did not enter a file name, try again later.\n";
-                        exit(1);
+                        usage(2);
                     }
                 }
                 break;
             case 2:
                 verbose = true;
                 break;
+            case'?':
+                usage(4);
+                break;
             default:
-                cout << "Unrecognized argument or switch, try again.\n";
-                exit(1);
+                usage(4);
         }
     }
     if (directoryPath.empty()){
-        cout << "You did not specify a directory!, try again!\n";
-        exit(1);
+        usage(3);
     }
 }
+
+void params::usage(int whichErr) {
+    if (whichErr == 1){
+        cout << "Either you have already specified a directory\n"
+                " or no argument was passed, try again.\n";
+    }
+    else if(whichErr == 2){
+        cout << "You did not enter a file name, try again later.\n";
+    }
+    else if (whichErr == 3){
+        cout << "You did not specify a directory!, try again!\n";
+    }
+    else{
+        cout << "Unrecognized argument or switch, try again.\n";
+    }
+    cout << "Proper usage: command options [-i][-R][-o][--verbose] --dir or -d /pathname \"Search Tearms\"\n";
+    exit(1);
+
+}
+
 //-----------------------------------------------------------------
 /*Print function, checks if -o is true, if so creates file with string specified
  * if not it just prints out the results.*/

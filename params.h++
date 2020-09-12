@@ -24,6 +24,7 @@ private:
     bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
     bool fileWriteOut = false; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
     bool verbose = false; //--verbose print the name of every file that is opened.
+    void usage (int);
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor
