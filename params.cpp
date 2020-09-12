@@ -97,7 +97,7 @@ void params::usage(int whichErr) {
     else{
         cout << "Unrecognized argument or switch, try again.\n";
     }
-    cout << "Proper usage: command options [-i][-R][-o][--verbose] --dir or -d /pathname \"Search Tearms\"\n";
+    cout << "Proper usage: command options [-i][-R][-o][--verbose] --dir or -d /pathname \"Search Terms\"\n";
     exit(1);
 
 }

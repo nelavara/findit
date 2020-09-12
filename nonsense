@@ -68,3 +68,10 @@ Recursive Search: Yes
 Output file name: nonsense
 Directory: testing
 ------------------------------------------------------
+Command: test1 -i -R -o nonsense --verbose -d /home/evanperry/testing/whatever CSCI 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: nonsense
+Directory: /home/evanperry/testing/whatever
+------------------------------------------------------
