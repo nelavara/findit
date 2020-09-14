@@ -68,6 +68,7 @@ params::params(int argc, char** argv) {
                 break;
             case'?':
                 usage(4);
+                break;
             default:
                 usage(4);
                 break;
