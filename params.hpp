@@ -2,6 +2,7 @@
 * Date:  09-10-2020
 */
 #pragma once
+#define FN "P2_PerBia.txt"
 using namespace std;
 #include <getopt.h>
 //needed for including getopt_long https://linux.die.net/man/3/getopt_long
@@ -33,6 +34,8 @@ private:
     bool verbose; //--verbose print the name of every file that is opened.
     void processCL(int argc, char** argv);
     void usage (int);
+    void directoryMaker();
+    void fileMaker();
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor

@@ -36,52 +36,15 @@ void params::processCL(int argc, char** argv){
         if (tester == -1){
             break;
         }
-        if (tester == 63){
-            usage(4);
-        }
-
         //Switch case statement is used to parse results from the getopt_long
         switch(tester){
-            case 'd':
-                if ((optarg) && (directoryPath == nullptr)){
-                    if (optarg[0] == '-'){
-                        usage(1);
-                    }
-                    for (int k = 0; k < int(string(optarg).size()); k++){
-                        if(isspace(optarg[k])){
-                            usage(1);
-                        }
-                    }
-                    directoryPath = optarg;
-                }
-                else{
-                    usage(1);
-                }
-                break;
-            case 'i':
-                caseSensitivity = true;
-                break;
-            case 'R':
-                recursiveSearch = true;
-                break;
-            case 'o':
-                fileWriteOut = true;
-                if(optarg){
-                    fileName = optarg;
-                    if (fileName[0] == '-'){
-                        usage(2);
-                    }
-                }
-                break;
-            case 2:
-                verbose = true;
-                break;
+            case 'd': directoryMaker(); break;
+            case 'i': caseSensitivity = true; break;
+            case 'R': recursiveSearch = true; break;
+            case 'o': fileMaker(); break;
+            case 2: verbose = true; break;
             case'?':
-                usage(4);
-                break;
-            default:
-                usage(4);
-                break;
+            default: usage(4); break;
         }
         if (searchWords.empty()){
             if (optind >= argc){
@@ -94,6 +57,36 @@ void params::processCL(int argc, char** argv){
     }
     if (directoryPath == nullptr){
         usage(3);
+    }
+}
+//---------------------------------------------
+/*Helper function for the making the directory variable.*/
+void params::directoryMaker() {
+    if ((optarg) && (directoryPath == nullptr)){
+        if (optarg[0] == '-'){
+            usage(1);
+        }
+        for (int k = 0; k < int(string(optarg).size()); k++){
+            if(isspace(optarg[k])){
+                usage(1);
+            }
+        }
+        directoryPath = optarg;
+    }
+    else{
+        usage(1);
+    }
+}
+
+//-------------------------------------------------------
+/*Helper function for making the fileName variable.*/
+void params::fileMaker() {
+    fileWriteOut = true;
+    if(optarg){
+        fileName = optarg;
+        if (fileName[0] == '-'){
+            usage(2);
+        }
     }
 }
 
@@ -124,80 +117,86 @@ void params::usage(int whichErr) {
  * if not it just prints out the results.*/
 ostream& params::print(ostream &out) {
         //open and write file.
-    if (fileWriteOut){
-        //open and write file.
-        ofstream outFile;
-        outFile.open(fileName, ios_base::app);
-        if(outFile.is_open()){
-            outFile << "Command: " << command << '\n';
-            out << "Command: " << command << '\n';
-            outFile << "Verbose? ";
-            out << "Verbose? ";
-            if (verbose){
-                outFile << "Yes" << '\n';
-                out << "Yes" << '\n';
+        if (out.good()){
+            if (fileWriteOut){
+                //open and write file.
+                ofstream outFile;
+                outFile.open(fileName, ios_base::app);
+                if(outFile.is_open()){
+                    outFile << "Command: " << command << '\n';
+                    out << "Command: " << command << '\n';
+                    outFile << "Verbose? ";
+                    out << "Verbose? ";
+                    if (verbose){
+                        outFile << "Yes" << '\n';
+                        out << "Yes" << '\n';
+                    }
+                    else if (!verbose){
+                        outFile << "No" << '\n';
+                        out << "No" << '\n';
+                    }
+                    outFile << "Case insensitive? ";
+                    out << "Case insensitive? ";
+                    if (caseSensitivity){
+                        out << "Yes" << '\n';
+                        outFile << "Yes" << '\n';
+                    }
+                    else if (!caseSensitivity){
+                        out << "No" << '\n';
+                        outFile << "No" << '\n';
+                    }
+                    out << "Recursive Search: ";
+                    outFile << "Recursive Search: ";
+                    if (recursiveSearch){
+                        outFile << "Yes" << '\n';
+                        out << "Yes" << '\n';
+                    }
+                    else if (!recursiveSearch){
+                        outFile << "No" << '\n';
+                        out << "No" << '\n';
+                    }
+                    outFile << "Output file name: " << fileName << '\n';
+                    out << "Output file name: " << fileName << '\n';
+                    outFile << "Directory: " << directoryPath << '\n';
+                    out << "Directory: " << directoryPath << '\n';
+                }
+                outFile << "------------------------------------------------------\n";
+                out << "------------------------------------------------------\n";
+                outFile.close();
             }
-            else if (!verbose){
-                outFile << "No" << '\n';
-                out << "No" << '\n';
+            else{
+                out << "Command: " << command << '\n';
+                out << "Verbose? ";
+                if (verbose){
+                    out << "Yes" << '\n';
+                }
+                else if (!verbose){
+                    out << "No" << '\n';
+                }
+                out << "Case insensitive? ";
+                if (caseSensitivity){
+                    out << "Yes" << '\n';
+                }
+                else if (!caseSensitivity){
+                    out << "No" << '\n';
+                }
+                out << "Recursive Search: ";
+                if (recursiveSearch){
+                    out << "Yes" << '\n';
+                }
+                else if (!recursiveSearch){
+                    out << "No" << '\n';
+                }
+                out << "No output file specified." << '\n';
+                out << "Directory: " << directoryPath << '\n';
+                out << "------------------------------------------------------\n";
             }
-            outFile << "Case insensitive? ";
-            out << "Case insensitive? ";
-            if (caseSensitivity){
-                out << "Yes" << '\n';
-                outFile << "Yes" << '\n';
-            }
-            else if (!caseSensitivity){
-                out << "No" << '\n';
-                outFile << "No" << '\n';
-            }
-            out << "Recursive Search: ";
-            outFile << "Recursive Search: ";
-            if (recursiveSearch){
-                outFile << "Yes" << '\n';
-                out << "Yes" << '\n';
-            }
-            else if (!recursiveSearch){
-                outFile << "No" << '\n';
-                out << "No" << '\n';
-            }
-            outFile << "Output file name: " << fileName << '\n';
-            out << "Output file name: " << fileName << '\n';
-            outFile << "Directory: " << directoryPath << '\n';
-            out << "Directory: " << directoryPath << '\n';
-            }
-        outFile << "------------------------------------------------------\n";
-        out << "------------------------------------------------------\n";
-        outFile.close();
-    }
-    else{
-        out << "Command: " << command << '\n';
-        out << "Verbose? ";
-        if (verbose){
-            out << "Yes" << '\n';
+            out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
+
         }
-        else if (!verbose){
-            out << "No" << '\n';
+        else{
+            out << "Epic Error!\n";
         }
-        out << "Case insensitive? ";
-        if (caseSensitivity){
-            out << "Yes" << '\n';
-        }
-        else if (!caseSensitivity){
-            out << "No" << '\n';
-        }
-        out << "Recursive Search: ";
-        if (recursiveSearch){
-            out << "Yes" << '\n';
-        }
-        else if (!recursiveSearch){
-            out << "No" << '\n';
-        }
-        out << "No output file specified." << '\n';
-        out << "Directory: " << directoryPath << '\n';
-        out << "------------------------------------------------------\n";
-    }
-    out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
 
 
     return out;
