@@ -4,24 +4,33 @@
 #include "params.hpp"
 //--------------------------------------------------------
 /*The constructor, takes argc and argv arguments from the main function
- * then uses getopt_long to process them. For now if there errors we stop processing here.*/
+ * then delegates to processCL for parsing the command.*/
 params::params(int argc, char** argv) {
-     //We put the command into a string.
-    for (int j =0; j < argc; j++){
+
+    searchWords = "";
+    directoryPath = nullptr;
+    fileName = "";
+    command = "";
+    caseSensitivity = false;
+    recursiveSearch = false;
+    fileWriteOut = false;
+    verbose = false;
+
+    //We put the command into a string.
+    for (int j = 0; j < argc; j++) {
         command.append(argv[j]);
         command.append(" ");
     }
-    //Here we define the options for getopt_long
-    //Format of each long_option is as follows (name, argument?, flag?, value returned.
-    static struct option long_options[] = {
-            {"dir", required_argument, 0, 'd'},
-            {"verbose", no_argument, 0, 2},
-            {0,0,0,0}
-    };
+    processCL(argc, argv);
+}
+
+//-------------------------------------------------------------------
+/*getopt_long format is as follows argc, argv, short options, a ':' means options expected
+ * long options structured passed in, and lastly a reference to the starting number which is
+ * 0 in this case.*/
+void params::processCL(int argc, char** argv){
+
     int tester;
-    /*getopt_long format is as follows argc, argv, short options, a ':' means options expected
-     * long options structured passed in, and lastly a reference to the starting number which is
-     * 0 in this case.*/
     for(;;){
         tester = getopt_long(argc, argv, "d:iRo:",long_options , 0);
         if (tester == -1){
@@ -34,7 +43,7 @@ params::params(int argc, char** argv) {
         //Switch case statement is used to parse results from the getopt_long
         switch(tester){
             case 'd':
-                if ((optarg) && (directoryPath.empty())){
+                if ((optarg) && (directoryPath == nullptr)){
                     if (optarg[0] == '-'){
                         usage(1);
                     }
@@ -48,6 +57,7 @@ params::params(int argc, char** argv) {
                 else{
                     usage(1);
                 }
+                break;
             case 'i':
                 caseSensitivity = true;
                 break;
@@ -74,15 +84,21 @@ params::params(int argc, char** argv) {
                 break;
         }
         if (searchWords.empty()){
+            if (optind >= argc){
+                usage(4);
+            }
             if (argv[optind][0] != '-'){
                 searchWords = string(argv[optind]);
             }
         }
     }
-    if (directoryPath.empty()){
+    if (directoryPath == nullptr){
         usage(3);
     }
 }
+
+//----------------------------------------------------------------
+/*Usage function, used for error handling.*/
 
 void params::usage(int whichErr) {
     if (whichErr == 1){

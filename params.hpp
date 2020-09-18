@@ -12,16 +12,26 @@ using namespace std;
 #include <fstream>
 #include <vector>
 
+
+
 class params{
 private:
+    //Here we define the options for getopt_long
+    //Format of each long_option is as follows (name, argument?, flag?, value returned.
+    constexpr static struct option long_options[] = {
+            {"dir", required_argument, 0, 'd'},
+            {"verbose", no_argument, 0, 2},
+            {0,0,0,0}
+    };
     string searchWords; //search term, for now program can not do search terms with spaces.
-    string directoryPath; //directory to start search at.
+    char* directoryPath; //directory to start search at.
     string fileName; //this is where fileName to output too, used by -o
     string command; //the command, needed for print function as part of assignment constraints.
-    bool caseSensitivity = false; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
-    bool recursiveSearch = false;  //-R do a recursive search if this switch is present, default is to search one directory.
-    bool fileWriteOut = false; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
-    bool verbose = false; //--verbose print the name of every file that is opened.
+    bool caseSensitivity; //- Do a case-insensitive search if this switch is present, case-sensitive is the default.
+    bool recursiveSearch;  //-R do a recursive search if this switch is present, default is to search one directory.
+    bool fileWriteOut; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
+    bool verbose; //--verbose print the name of every file that is opened.
+    void processCL(int argc, char** argv);
     void usage (int);
 public:
     params(int, char**); //constructor
