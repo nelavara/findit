@@ -40,3 +40,31 @@ Recursive Search: Yes
 Output file name: text23.txt
 Directory: /home/evanperry/asdfad
 ------------------------------------------------------
+Command: test1 -d /home/evanperry/asdfad testing the whatever -o text23.txt --verbose -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: text23.txt
+Directory: /home/evanperry/asdfad
+------------------------------------------------------
+Command: test1 -d /home/evanperry/asdfad testing the whatever -o text23.txt --verbose -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: text23.txt
+Directory: /home/evanperry/asdfad
+------------------------------------------------------
+Command: test1 -d /home/evanperry/asdfad testing the whatever -o text23.txt --verbose -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: text23.txt
+Directory: /home/evanperry/asdfad
+------------------------------------------------------
+Command: test1 -d /home/evanperry/asdfad testing the whatever -o text23.txt --verbose -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: text23.txt
+Directory: /home/evanperry/asdfad
+------------------------------------------------------

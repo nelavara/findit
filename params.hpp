@@ -33,7 +33,7 @@ private:
     bool fileWriteOut; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
     bool verbose; //--verbose print the name of every file that is opened.
     void processCL(int argc, char** argv);
-    void usage (int);
+    ostream& usage (int, ostream& out);
     void directoryMaker();
     void fileMaker();
 public:
@@ -41,5 +41,5 @@ public:
     ~params() = default; //destructor
     ostream& print(ostream& out); //print function
 };
-inline ostream& operator << (ostream&out, params& pm) { return pm.print(out); }
+inline ostream& operator << (ostream& out, params& pm) { return pm.print(out); }
 
