@@ -44,11 +44,11 @@ void params::processCL(int argc, char** argv){
             case 'o': fileMaker(); break;
             case 2: verbose = true; break;
             case'?':
-            default: usage(4, cout); break;
+            default: usage(4); break;
         }
         if (searchWords.empty()){
             if (optind >= argc){
-                usage(4, cout);
+                usage(4);
             }
             if (argv[optind][0] != '-'){
                 searchWords = string(argv[optind]);
@@ -56,7 +56,7 @@ void params::processCL(int argc, char** argv){
         }
     }
     if (directoryPath == nullptr){
-        usage(3, cout);
+        usage(3);
     }
     if (fileWriteOut){
         filePrint();
@@ -67,17 +67,17 @@ void params::processCL(int argc, char** argv){
 void params::directoryMaker() {
     if ((optarg) && (directoryPath == nullptr)){
         if (optarg[0] == '-'){
-            usage(1, cout);
+            usage(1);
         }
         for (int k = 0; k < int(string(optarg).size()); k++){
             if(isspace(optarg[k])){
-                usage(1, cout);
+                usage(1);
             }
         }
         directoryPath = optarg;
     }
     else{
-        usage(1, cout);
+        usage(1);
     }
 }
 
@@ -88,7 +88,7 @@ void params::fileMaker() {
     if(optarg){
         fileName = optarg;
         if (fileName[0] == '-'){
-            usage(2, cout);
+            usage(2);
         }
     }
 }
@@ -96,26 +96,24 @@ void params::fileMaker() {
 //----------------------------------------------------------------
 /*Usage function, used for error handling.*/
 
-ostream& params::usage(int whichErr, ostream& out) {
-    out << "The command you entered was: \n"
+void params::usage(int whichErr) {
+    cout << "The command you entered was: \n"
         << command << '\n';
     if (whichErr == 1){
-        out << "Either you have already specified a directory\n"
+        cout << "Either you have already specified a directory\n"
                 " or no argument was passed, try again.\n";
     }
     else if(whichErr == 2){
-        out << "You did not enter a file name, try again later.\n";
+        cout << "You did not enter a file name, try again later.\n";
     }
     else if (whichErr == 3){
-        out << "You did not specify a directory!, try again!\n";
+        cout << "You did not specify a directory!, try again!\n";
     }
     else{
-        out << "Unrecognized argument or switch, try again.\n";
+        cout << "Unrecognized argument or switch, try again.\n";
     }
-    out << "Proper usage: command options [-i][-R][-o][--verbose] --dir or -d /pathname \"Search Terms\"\n";
+    cout << "Proper usage: command options [-i][-R][-o][--verbose] --dir or -d /pathname \"Search Terms\"\n";
     exit(1);
-
-    return (out);
 
 }
 

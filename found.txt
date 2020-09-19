@@ -152,3 +152,17 @@ Recursive Search: Yes
 Output file name: found.txt
 Directory: /home/evanperry/foo/testdirec
 ------------------------------------------------------
+Command: Program2 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: Program2 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt 
+Verbose? Yes
+Case insensitive? No
+Recursive Search: No
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------

@@ -32,7 +32,7 @@ private:
     bool fileWriteOut; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
     bool verbose; //--verbose print the name of every file that is opened.
     void processCL(int argc, char** argv);
-    ostream& usage (int, ostream& out);
+    void usage (int);
     void directoryMaker();
     void fileMaker();
     void filePrint();

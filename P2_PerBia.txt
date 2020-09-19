@@ -116,3 +116,19 @@ No output file specified.
 Directory: /home/evanperry/foo/testdirec
 ------------------------------------------------------
 Search Term: CSCI test space 6
+Command: Program2 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+No output file specified.
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Search Term: CSCI test space 5
+Command: Program2 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt 
+Verbose? Yes
+Case insensitive? No
+Recursive Search: No
+No output file specified.
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Search Term: CSCI test space 5
