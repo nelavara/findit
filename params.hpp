@@ -6,7 +6,6 @@
 using namespace std;
 #include <getopt.h>
 //needed for including getopt_long https://linux.die.net/man/3/getopt_long
-//https://linux.die.net/man/3/getopt_long
 #include <ostream>
 #include <string>
 #include <iostream>
