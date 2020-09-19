@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="Add ostream to usage command">
+      <change afterPath="$PROJECT_DIR$/Program2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/--verbose" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P2_PerBia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonsense" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text23.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="85c48d8a-54d7-4dda-b35d-5d28f1eaa909" />
+  </component>
+  <component name="ProjectId" id="1hFhmdAYt26XjfFjjVIItM3CSA9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="" />
+      <created>1599612908452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599612908452</updated>
+      <workItem from="1599612910362" duration="4189000" />
+      <workItem from="1599617128366" duration="4497000" />
+      <workItem from="1599697729274" duration="18651000" />
+      <workItem from="1599916049736" duration="4237000" />
+      <workItem from="1599927416526" duration="10076000" />
+      <workItem from="1600395256590" duration="11497000" />
+    </task>
+    <task id="LOCAL-00007" summary="I think we need to have a structure to define the options for get opt long">
+      <created>1599619078912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599619078912</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added rudimentary getopt_long">
+      <created>1599619554328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599619554328</updated>
+    </task>
+    <task id="LOCAL-00009" summary="small change to distinguish dir from verbose in output.">
+      <created>1599620380151</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599620380151</updated>
+    </task>
+    <task id="LOCAL-00010" summary="eliminated some unnecessary code.">
+      <created>1599620497169</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599620497169</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added a way to keep track of output from getlong, the governor vector.">
+      <created>1599620901749</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599620901749</updated>
+    </task>
+    <task id="LOCAL-00012" summary="more comments">
+      <created>1599620940962</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599620940962</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changed while(1) to for(;;) as it appears getlong needs an infinite loop.">
+      <created>1599621028702</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599621028702</updated>
+    </task>
+    <task id="LOCAL-00014" summary="I don't think we need the vector afterall, perhaps a switch case like in the example in&#10;https://linux.die.net/man/3/getopt_long">
+      <created>1599697782524</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599697782524</updated>
+    </task>
+    <task id="LOCAL-00015" summary="flushing out switch case statement a bit.">
+      <created>1599700122890</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599700122890</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Flushed out a bit more.">
+      <created>1599700772113</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599700772113</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FLushed out more and added exit to end if user does not enter correctly.">
+      <created>1599701667112</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599701667112</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixed comments in constructor.">
+      <created>1599701717859</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599701717859</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated constructor a bit more">
+      <created>1599701770838</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599701770838</updated>
+    </task>
+    <task id="LOCAL-00020" summary="removed uneeded comment.">
+      <created>1599701859452</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599701859452</updated>
+    </task>
+    <task id="LOCAL-00021" summary="got rid of unneeded bool">
+      <created>1599702320571</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599702320571</updated>
+    </task>
+    <task id="LOCAL-00022" summary="forgot to remove references to dirFound, all set now.">
+      <created>1599702366936</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599702366936</updated>
+    </task>
+    <task id="LOCAL-00023" summary="got rid of parseCommands because it is not neccessary.">
+      <created>1599702506079</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599702506079</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fixed command string output.">
+      <created>1599704207669</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599704207669</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added ability to write out to file and create if necessary.">
+      <created>1599705169588</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599705169588</updated>
+    </task>
+    <task id="LOCAL-00026" summary="renamed params name in main function for a more refined look, it is now called program2 instead of test">
+      <created>1599705303508</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599705303508</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added some comments also added a default to the switch case statement.">
+      <created>1599705913434</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599705913434</updated>
+    </task>
+    <task id="LOCAL-00028" summary="modifed constructor to better fit output from assignment, included the quotes. Though it is not needed , we might need it later created searchWords to store what we are looking for in the directory.">
+      <created>1599706678231</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1599706678231</updated>
+    </task>
+    <task id="LOCAL-00029" summary="final commit of the day, to sync all changes.">
+      <created>1599707208011</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599707208011</updated>
+    </task>
+    <task id="LOCAL-00030" summary="forgot to fix a comment, all set now.">
+      <created>1599707294706</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1599707294706</updated>
+    </task>
+    <task id="LOCAL-00031" summary="final sync for real, tired.">
+      <created>1599709319384</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599709319384</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Changed code to allow for multiple words in search term.">
+      <created>1599780377203</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1599780377203</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added check to make sure file name is not --dir or -d">
+      <created>1599781668298</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599781668298</updated>
+    </task>
+    <task id="LOCAL-00034" summary="deleted unnecessary comments">
+      <created>1599781695779</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1599781695779</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fixed bugs and other things.">
+      <created>1599783492460</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1599783492460</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added our names to the top of the files.">
+      <created>1599783563446</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1599783563446</updated>
+    </task>
+    <task id="LOCAL-00037" summary="optimized code a little.">
+      <created>1599783707704</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1599783707704</updated>
+    </task>
+    <task id="LOCAL-00038" summary="optimized code a little.">
+      <created>1599925034824</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1599925034824</updated>
+    </task>
+    <task id="LOCAL-00039" summary="error handling.">
+      <created>1599928912244</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1599928912245</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added comments.">
+      <created>1599929813598</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1599929813598</updated>
+    </task>
+    <task id="LOCAL-00041" summary="bug in searchwords found.">
+      <created>1599930586612</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1599930586612</updated>
+    </task>
+    <task id="LOCAL-00042" summary="eliminated unnecessary lines.">
+      <created>1599930815822</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1599930815822</updated>
+    </task>
+    <task id="LOCAL-00043" summary="changed hpp">
+      <created>1599930868983</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1599930868983</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fixed a seg fault. Caused on line 34 of params.cpp">
+      <created>1599931780171</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1599931780171</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fixed another seg fault.">
+      <created>1599933269884</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1599933269884</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fixed a misspelling.">
+      <created>1599933461461</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1599933461461</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fixed a bug with verbose being always marked as true.">
+      <created>1599933845973</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1599933845973</updated>
+    </task>
+    <task id="LOCAL-00048" summary="vector no longer needed, so it was removed.">
+      <created>1599934123584</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1599934123584</updated>
+    </task>
+    <task id="LOCAL-00049" summary="changed hpp file to be #pragma once">
+      <created>1599935013368</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1599935013368</updated>
+    </task>
+    <task id="LOCAL-00050" summary="changed hpp file to be #pragma once">
+      <created>1599935145063</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1599935145063</updated>
+    </task>
+    <task id="LOCAL-00051" summary="removed a comment for vector.">
+      <created>1600123538253</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1600123538253</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fixed a missing break.">
+      <created>1600123578755</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1600123578755</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fixed segfault. Incorporated changes from Jaron. Also cleaned up comments code in preparation for submission.">
+      <created>1600402165698</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1600402165698</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Cleaned up code, also added another file to printed, as required by assignment.">
+      <created>1600403812810</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1600403812810</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Add ostream to usage command">
+      <created>1600404249821</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1600404249821</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="final commit of the day, to sync all changes." />
+    <MESSAGE value="forgot to fix a comment, all set now." />
+    <MESSAGE value="final sync for real, tired." />
+    <MESSAGE value="Changed code to allow for multiple words in search term." />
+    <MESSAGE value="Added check to make sure file name is not --dir or -d" />
+    <MESSAGE value="deleted unnecessary comments" />
+    <MESSAGE value="fixed bugs and other things." />
+    <MESSAGE value="added our names to the top of the files." />
+    <MESSAGE value="optimized code a little." />
+    <MESSAGE value="error handling." />
+    <MESSAGE value="added comments." />
+    <MESSAGE value="bug in searchwords found." />
+    <MESSAGE value="eliminated unnecessary lines." />
+    <MESSAGE value="changed hpp" />
+    <MESSAGE value="fixed a seg fault. Caused on line 34 of params.cpp" />
+    <MESSAGE value="fixed another seg fault." />
+    <MESSAGE value="fixed a misspelling." />
+    <MESSAGE value="fixed a bug with verbose being always marked as true." />
+    <MESSAGE value="vector no longer needed, so it was removed." />
+    <MESSAGE value="changed hpp file to be #pragma once" />
+    <MESSAGE value="removed a comment for vector." />
+    <MESSAGE value="fixed a missing break." />
+    <MESSAGE value="fixed segfault. Incorporated changes from Jaron. Also cleaned up comments code in preparation for submission." />
+    <MESSAGE value="Cleaned up code, also added another file to printed, as required by assignment." />
+    <MESSAGE value="Add ostream to usage command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ostream to usage command" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1600395293970">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1600395293970" />
+    <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600404252932">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1600404252932" />
+    <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
+    <state x="843" y="323" key="search.everywhere.popup" timestamp="1599778643368">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="843" y="323" key="search.everywhere.popup/0.27.1920.1173@0.27.1920.1173" timestamp="1599778643368" />
+  </component>
+</project>

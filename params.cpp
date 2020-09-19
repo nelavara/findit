@@ -58,6 +58,9 @@ void params::processCL(int argc, char** argv){
     if (directoryPath == nullptr){
         usage(3, cout);
     }
+    if (fileWriteOut){
+        filePrint();
+    }
 }
 //---------------------------------------------
 /*Helper function for the making the directory variable.*/
@@ -120,88 +123,65 @@ ostream& params::usage(int whichErr, ostream& out) {
 /*Print function, checks if -o is true, if so creates file with string specified
  * if not it just prints out the results.*/
 ostream& params::print(ostream &out) {
-        //open and write file.
-        if (out.good()){
-            if (fileWriteOut){
-                //open and write file.
-                ofstream outFile;
-                outFile.open(fileName, ios_base::app);
-                if(outFile.is_open()){
-                    outFile << "Command: " << command << '\n';
-                    out << "Command: " << command << '\n';
-                    outFile << "Verbose? ";
-                    out << "Verbose? ";
-                    if (verbose){
-                        outFile << "Yes" << '\n';
-                        out << "Yes" << '\n';
-                    }
-                    else if (!verbose){
-                        outFile << "No" << '\n';
-                        out << "No" << '\n';
-                    }
-                    outFile << "Case insensitive? ";
-                    out << "Case insensitive? ";
-                    if (caseSensitivity){
-                        out << "Yes" << '\n';
-                        outFile << "Yes" << '\n';
-                    }
-                    else if (!caseSensitivity){
-                        out << "No" << '\n';
-                        outFile << "No" << '\n';
-                    }
-                    out << "Recursive Search: ";
-                    outFile << "Recursive Search: ";
-                    if (recursiveSearch){
-                        outFile << "Yes" << '\n';
-                        out << "Yes" << '\n';
-                    }
-                    else if (!recursiveSearch){
-                        outFile << "No" << '\n';
-                        out << "No" << '\n';
-                    }
-                    outFile << "Output file name: " << fileName << '\n';
-                    out << "Output file name: " << fileName << '\n';
-                    outFile << "Directory: " << directoryPath << '\n';
-                    out << "Directory: " << directoryPath << '\n';
-                }
-                outFile << "------------------------------------------------------\n";
-                out << "------------------------------------------------------\n";
-                outFile.close();
-            }
-            else{
-                out << "Command: " << command << '\n';
-                out << "Verbose? ";
-                if (verbose){
-                    out << "Yes" << '\n';
-                }
-                else if (!verbose){
-                    out << "No" << '\n';
-                }
-                out << "Case insensitive? ";
-                if (caseSensitivity){
-                    out << "Yes" << '\n';
-                }
-                else if (!caseSensitivity){
-                    out << "No" << '\n';
-                }
-                out << "Recursive Search: ";
-                if (recursiveSearch){
-                    out << "Yes" << '\n';
-                }
-                else if (!recursiveSearch){
-                    out << "No" << '\n';
-                }
-                out << "No output file specified." << '\n';
-                out << "Directory: " << directoryPath << '\n';
-                out << "------------------------------------------------------\n";
-            }
-            out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
+        out << "Command: " << command << '\n';
+        out << "Verbose? ";
+        if (verbose){
+            out << "Yes" << '\n';
+        }
+        else if (!verbose){
+            out << "No" << '\n';
+        }
+        out << "Case insensitive? ";
+        if (caseSensitivity){
+            out << "Yes" << '\n';
+        }
+        else if (!caseSensitivity){
+            out << "No" << '\n';
+        }
+        out << "Recursive Search: ";
+        if (recursiveSearch){
+            out << "Yes" << '\n';
+        }
+        else if (!recursiveSearch){
+            out << "No" << '\n';
+        }
+        out << "No output file specified." << '\n';
+        out << "Directory: " << directoryPath << '\n';
+        out << "------------------------------------------------------\n";
 
-        }
-        else{
-            out << "Epic Error!\n";
-        }
+        out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
 
 
     return out;
+}
+
+void params::filePrint() {
+    //open and write file.
+    ofstream outFile;
+    outFile.open(fileName, ios_base::app);
+    if (outFile.is_open()) {
+        outFile << "Command: " << command << '\n';
+        outFile << "Verbose? ";
+        if (verbose) {
+            outFile << "Yes" << '\n';
+        } else if (!verbose) {
+            outFile << "No" << '\n';
+        }
+        outFile << "Case insensitive? ";
+        if (caseSensitivity) {
+            outFile << "Yes" << '\n';
+        } else if (!caseSensitivity) {
+            outFile << "No" << '\n';
+        }
+        outFile << "Recursive Search: ";
+        if (recursiveSearch) {
+            outFile << "Yes" << '\n';
+        } else if (!recursiveSearch) {
+            outFile << "No" << '\n';
+        }
+        outFile << "Output file name: " << fileName << '\n';
+        outFile << "Directory: " << directoryPath << '\n';
+    }
+    outFile << "------------------------------------------------------\n";
+    outFile.close();
 }

@@ -36,6 +36,7 @@ private:
     ostream& usage (int, ostream& out);
     void directoryMaker();
     void fileMaker();
+    void filePrint();
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor
