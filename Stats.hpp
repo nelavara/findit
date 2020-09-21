@@ -11,7 +11,10 @@ class Stats : stat {
 public:
     Stats () = default;
     ~Stats() = default;
-    ostream& print (ostream&);
+    ostream& print (ostream&) {out << "Inode: " << inode() <<
+                                '\n' << "Links: " << links()
+                                << '\n' << "Size: "<< size() << '\n';
+                                  return out;}
     int inode() {return (st_ino);}
     int size() {return (st_size);}
     int links() {return (st_nlink);}
