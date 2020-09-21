@@ -10,6 +10,7 @@
 class Stats : stat {
 public:
     Stats () = default;
+    ~Stats() = default;
     ostream& print (ostream&);
     int inode() {return (st_ino);}
     int size() {return (st_size);}

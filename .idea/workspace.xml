@@ -27,10 +27,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="returned usage to not use out, as it is not neccessary.">
-      <change afterPath="$PROJECT_DIR$/Stats.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="added class Stats prototype.">
+      <change beforePath="$PROJECT_DIR$/Stats.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +86,7 @@
       <workItem from="1599916049736" duration="4237000" />
       <workItem from="1599927416526" duration="10076000" />
       <workItem from="1600395256590" duration="12175000" />
-      <workItem from="1600524880080" duration="3665000" />
-    </task>
-    <task id="LOCAL-00010" summary="eliminated some unnecessary code.">
-      <created>1599620497169</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1599620497169</updated>
+      <workItem from="1600524880080" duration="3732000" />
     </task>
     <task id="LOCAL-00011" summary="added a way to keep track of output from getlong, the governor vector.">
       <created>1599620901749</created>
@@ -433,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600527904954</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added class Stats prototype.">
+      <created>1600649581419</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1600649581419</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="final sync for real, tired." />
     <MESSAGE value="Changed code to allow for multiple words in search term." />
     <MESSAGE value="Added check to make sure file name is not --dir or -d" />
     <MESSAGE value="deleted unnecessary comments" />
@@ -478,7 +475,8 @@
     <MESSAGE value="Add ostream to usage command" />
     <MESSAGE value="Fixed a bug found with fileprint, it was print duplicate." />
     <MESSAGE value="returned usage to not use out, as it is not neccessary." />
-    <option name="LAST_COMMIT_MESSAGE" value="returned usage to not use out, as it is not neccessary." />
+    <MESSAGE value="added class Stats prototype." />
+    <option name="LAST_COMMIT_MESSAGE" value="added class Stats prototype." />
   </component>
   <component name="WindowStateProjectService">
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1600395293970">
@@ -486,10 +484,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1600395293970" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600527907525">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600649584327">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1600527907525" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1600649584327" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="843" y="323" key="search.everywhere.popup" timestamp="1599778643368">
       <screen x="0" y="27" width="1920" height="1173" />
