@@ -3,14 +3,15 @@
 */
 #pragma once
 #include <dirent.h>
+#include "Stats.hpp"
 
-class Direntry : dirent{
+class Direntry : public dirent{
 public:
     Direntry() = default;
     ~Direntry() = default;
     char* name() { return(d_name); }
     ino_t inode() { return(d_ino); }
-    unsigned short int type() {return(d_reclen);}
+    unsigned short int type() {return(d_type);}
     ostream& print (ostream&) {out << "Name: " << name() <<
                                    '\n' << "Inode: " << inode()
                                    << '\n' << "Type: "<< type() << '\n';

@@ -6,8 +6,9 @@
 #include <sys/stat.h>
 #include <unistd.h>
 //https://linux.die.net/man/2/stat
+#include "params.hpp"
 
-class Stats : stat {
+class Stats : public stat {
 public:
     Stats () = default;
     ~Stats() = default;
