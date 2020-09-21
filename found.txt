@@ -166,3 +166,5 @@ Recursive Search: No
 Output file name: found.txt
 Directory: /home/evanperry/foo/testdirec
 ------------------------------------------------------
+main.o: main.cpp params.hpp
+params.o: params.cpp params.hpp
