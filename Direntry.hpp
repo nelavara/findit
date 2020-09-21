@@ -11,6 +11,9 @@ public:
     char* name() { return(d_name); }
     ino_t inode() { return(d_ino); }
     unsigned short int type() {return(d_reclen);}
-    ostream& print (ostream& );
+    ostream& print (ostream&) {out << "Name: " << name() <<
+                                   '\n' << "Inode: " << inode()
+                                   << '\n' << "Type: "<< type() << '\n';
+        return out;}
 };
 inline ostream& operator << (ostream& out, Direntry& dy) { return dy.print(out); }

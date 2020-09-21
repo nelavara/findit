@@ -27,9 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="defined print function in header file of hpp">
-      <change afterPath="$PROJECT_DIR$/Direntry.hpp" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="started Direntry.hpp as well.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Direntry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Direntry.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +87,7 @@
       <workItem from="1599916049736" duration="4237000" />
       <workItem from="1599927416526" duration="10076000" />
       <workItem from="1600395256590" duration="12175000" />
-      <workItem from="1600524880080" duration="4846000" />
-    </task>
-    <task id="LOCAL-00013" summary="changed while(1) to for(;;) as it appears getlong needs an infinite loop.">
-      <created>1599621028702</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1599621028702</updated>
+      <workItem from="1600524880080" duration="5053000" />
     </task>
     <task id="LOCAL-00014" summary="I don't think we need the vector afterall, perhaps a switch case like in the example in&#10;https://linux.die.net/man/3/getopt_long">
       <created>1599697782524</created>
@@ -432,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600649856065</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="started Direntry.hpp as well.">
+      <created>1600650749269</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1600650749269</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="deleted unnecessary comments" />
     <MESSAGE value="fixed bugs and other things." />
     <MESSAGE value="added our names to the top of the files." />
     <MESSAGE value="optimized code a little." />
@@ -477,7 +476,8 @@
     <MESSAGE value="added class Stats prototype." />
     <MESSAGE value="added default de constructor" />
     <MESSAGE value="defined print function in header file of hpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="defined print function in header file of hpp" />
+    <MESSAGE value="started Direntry.hpp as well." />
+    <option name="LAST_COMMIT_MESSAGE" value="started Direntry.hpp as well." />
   </component>
   <component name="WindowStateProjectService">
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1600395293970">
@@ -485,10 +485,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1600395293970" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600649857973">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600650751379">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1600649857973" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1600650751379" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="843" y="323" key="search.everywhere.popup" timestamp="1599778643368">
       <screen x="0" y="27" width="1920" height="1173" />
