@@ -14,6 +14,6 @@ private:
 public:
     FileID(char*, unsigned short int, ino_t);
     ~FileID() = default;
-    ostream& print (ostream&);
+    ostream& print (ostream& out);
 };
 inline ostream& operator << (ostream& out, FileID& fid) { return fid.print(out); }

@@ -12,7 +12,7 @@ class Stats : public stat {
 public:
     Stats () = default;
     ~Stats() = default;
-    ostream& print (ostream&) {out << "Inode: " << inode() <<
+    ostream& print (ostream& out) {out << "Inode: " << inode() <<
                                 '\n' << "Links: " << links()
                                 << '\n' << "Size: "<< size() << '\n';
                                   return out;}
