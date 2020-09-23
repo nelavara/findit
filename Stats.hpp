@@ -16,8 +16,8 @@ public:
                                 '\n' << "Links: " << links()
                                 << '\n' << "Size: "<< size() << '\n';
                                   return out;}
-    int inode() {return (st_ino);}
-    int size() {return (st_size);}
-    int links() {return (st_nlink);}
+    ino_t inode() {return (st_ino);}
+    off_t size() {return (st_size);}
+    nlink_t links() {return (st_nlink);}
 };
 inline ostream& operator << (ostream& out, Stats& sts) { return sts.print(out); }
