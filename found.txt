@@ -168,3 +168,80 @@ Directory: /home/evanperry/foo/testdirec
 ------------------------------------------------------
 main.o: main.cpp params.hpp
 params.o: params.cpp params.hpp
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: Program2 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------
+Command: test1 --dir /home/evanperry/foo/testdirec CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+Output file name: found.txt
+Directory: /home/evanperry/foo/testdirec
+------------------------------------------------------

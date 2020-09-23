@@ -12,10 +12,9 @@ using namespace std;
 #include <fstream>
 #include <vector>
 
-
-
 class params{
 private:
+    friend class Sniff;
     //Here we define the options for getopt_long
     //Format of each long_option is as follows (name, argument?, flag?, value returned.
     constexpr static struct option long_options[] = {
@@ -36,6 +35,7 @@ private:
     void directoryMaker();
     void fileMaker();
     void filePrint();
+    string getSearchWords(){return searchWords;}
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor
