@@ -24,7 +24,6 @@ void Sniff::work(int argc, char ** argv) {
     Direntry* tr;
     while((tr=(Direntry*)readdir(dir)) != NULL){
         tr->print(cout);
-
     }
     //Direntry().print(cout);
 
