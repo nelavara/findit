@@ -17,17 +17,16 @@ void Sniff::work(int argc, char ** argv) {
     char wcwd[PATH_MAX];
     char* npwd = getcwd(wcwd, sizeof(wcwd));
     cwd = string(npwd) + string(pms->getdirPath());
-    cout << cwd << endl;
     char char_array[int(cwd.length())+1];
     strcpy(char_array, cwd.c_str());
     opendir(char_array);
     DIR *dir = opendir(char_array);
-    struct dirent *dp;
-    char* file_name;
-    while((dp=readdir(dir)) != NULL){
-        file_name = dp->d_name;
-        cout << file_name;
+    Direntry* tr;
+    while((tr=(Direntry*)readdir(dir)) != NULL){
+        tr->print(cout);
+
     }
+    //Direntry().print(cout);
 
 
     //int j = lstat(char_array, new Stats);

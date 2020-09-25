@@ -27,13 +27,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="Fixed the return types to&#10;&#10;class Stats : public stat {&#10;    public:&#10;        Stats() = default;&#10;        ~Stats() = default;&#10;&#10;        ino_t   inode() { return st_ino; }&#10;        off_t   size()  { return st_size; }&#10;        nlink_t links() { return st_nlink; }&#10;&#10;        ostream&amp; print(ostream&amp; out);&#10;};&#10;&#10;class Dirent : public dirent {&#10;    public:&#10;        Dirent() = default;&#10;        ~Dirent() = default;&#10;&#10;        char*      name() { return d_name; }&#10;        ino_t      inode() { return st_ino; }&#10;        __uint16_t type() { return d_type; }">
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="added a bit more to Sniff.cpp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Direntry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Direntry.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,14 +90,7 @@
       <workItem from="1599916049736" duration="4237000" />
       <workItem from="1599927416526" duration="10076000" />
       <workItem from="1600395256590" duration="12175000" />
-      <workItem from="1600524880080" duration="28365000" />
-    </task>
-    <task id="LOCAL-00020" summary="removed uneeded comment.">
-      <created>1599701859452</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1599701859452</updated>
+      <workItem from="1600524880080" duration="32356000" />
     </task>
     <task id="LOCAL-00021" summary="got rid of unneeded bool">
       <created>1599702320571</created>
@@ -437,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600900748194</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="added a bit more to Sniff.cpp">
+      <created>1600998017584</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1600998017584</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="eliminated unnecessary lines." />
     <MESSAGE value="changed hpp" />
     <MESSAGE value="fixed a seg fault. Caused on line 34 of params.cpp" />
     <MESSAGE value="fixed another seg fault." />
@@ -482,7 +479,8 @@
     <MESSAGE value="wrote the header file for Sniff.hpp" />
     <MESSAGE value="started Sniff.cpp" />
     <MESSAGE value="Fixed the return types to&#10;&#10;class Stats : public stat {&#10;    public:&#10;        Stats() = default;&#10;        ~Stats() = default;&#10;&#10;        ino_t   inode() { return st_ino; }&#10;        off_t   size()  { return st_size; }&#10;        nlink_t links() { return st_nlink; }&#10;&#10;        ostream&amp; print(ostream&amp; out);&#10;};&#10;&#10;class Dirent : public dirent {&#10;    public:&#10;        Dirent() = default;&#10;        ~Dirent() = default;&#10;&#10;        char*      name() { return d_name; }&#10;        ino_t      inode() { return st_ino; }&#10;        __uint16_t type() { return d_type; }" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the return types to&#10;&#10;class Stats : public stat {&#10;    public:&#10;        Stats() = default;&#10;        ~Stats() = default;&#10;&#10;        ino_t   inode() { return st_ino; }&#10;        off_t   size()  { return st_size; }&#10;        nlink_t links() { return st_nlink; }&#10;&#10;        ostream&amp; print(ostream&amp; out);&#10;};&#10;&#10;class Dirent : public dirent {&#10;    public:&#10;        Dirent() = default;&#10;        ~Dirent() = default;&#10;&#10;        char*      name() { return d_name; }&#10;        ino_t      inode() { return st_ino; }&#10;        __uint16_t type() { return d_type; }" />
+    <MESSAGE value="added a bit more to Sniff.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a bit more to Sniff.cpp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1600993190077">
@@ -490,10 +488,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1600993190077" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600900751875">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600998020499">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1600900751875" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1600998020499" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="843" y="323" key="search.everywhere.popup" timestamp="1599778643368">
       <screen x="0" y="27" width="1920" height="1173" />

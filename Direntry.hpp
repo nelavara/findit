@@ -17,5 +17,7 @@ public:
                                    '\n' << "Inode: " << inode()
                                    << '\n' << "Type: "<< type() << '\n';
         return out;}
+    //operator struct dirent() {return dirent();}
+    Direntry& operator= (const dirent& x) {return *this;}
 };
 inline ostream& operator << (ostream& out, Direntry& dy) { return dy.print(out); }
