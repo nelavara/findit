@@ -4,6 +4,7 @@
 #pragma once
 #include "FileID.hpp"
 #include <sstream>
+#include <bits/stdc++.h>
 
 class Sniff{
 private:

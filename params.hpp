@@ -36,6 +36,7 @@ private:
     void fileMaker();
     void filePrint();
     string getSearchWords(){return searchWords;}
+    char* getdirPath(){return directoryPath;}
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor
