@@ -7,12 +7,14 @@
 class FileID{
 private:
     char* fileName;
+    char* filePath;
     unsigned short int fileType;
     ino_t iNodeNum;
     vector<string> sniffWords;
     void sniffWordmaker(string);
+    int numOfLinks;
 public:
-    FileID(char*, unsigned short int, ino_t);
+    FileID(char*, unsigned short int, ino_t, nlink_t, char*);
     ~FileID() = default;
     ostream& print (ostream& out);
 };

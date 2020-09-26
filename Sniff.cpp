@@ -29,13 +29,22 @@ void Sniff::oneDir() {
     cerr << char_array << '\n';
     while((tr=(Direntry*)readdir(dir)) != NULL){
         if (tr->name()[0] != '.' && tr->name()[1] != '.'){
-            tr->print(cout);
+            Direntry* temp = new Direntry();
+            temp = tr;
             Stats* ts;
             lstat(char_array, ts=(Stats*)&tr);
-            ts->print(cout);
+            Stats* temp1 = new Stats();
+            temp1 = ts;
+            FileIDmaker(temp, temp1);
         }
     }
     closedir(dir);
+}
+
+void Sniff::FileIDmaker(Direntry* temp, Stats* temp1) {
+    temp->print(cout);
+    temp1->print(cout);
+
 }
 
 ostream& Sniff::print(ostream &out) {

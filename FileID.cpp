@@ -3,12 +3,12 @@
 */
 #include "FileID.hpp"
 
-FileID::FileID(char*, unsigned short int, ino_t) {
-    Direntry dey;
-    // Stats st;
-    fileName = dey.name();
-    fileType = dey.type();
-    iNodeNum = dey.inode();
+FileID::FileID(char* name, unsigned short int ft, ino_t nodeNum, nlink_t numLinks, char* fp) {
+    fileName = name;
+    fileType = ft;
+    iNodeNum = nodeNum;
+    numOfLinks = numLinks;
+    filePath = fp;
 }
 
 void FileID::sniffWordmaker(string sniff) {
