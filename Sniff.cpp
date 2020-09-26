@@ -22,15 +22,13 @@ void Sniff::work(int argc, char ** argv) {
     opendir(char_array);
     DIR *dir = opendir(char_array);
     Direntry* tr;
-    while((tr=(Direntry*)readdir(dir)) != NULL){
+    while((tr=(Direntry*)readdir(dir)) != NULL){ //
         tr->print(cout);
+        Stats* ts;
+        int test = lstat(char_array, ts=(Stats*)&tr);
+        cout << test << endl;
+        ts->print(cout);
     }
-    //Direntry().print(cout);
-
-
-    //int j = lstat(char_array, new Stats);
-    //cout << j << endl;
-
 }
 
 ostream& Sniff::print(ostream &out) {

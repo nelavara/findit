@@ -140,3 +140,19 @@ No output file specified.
 Directory: /home/evanperry/foo/testdirec
 ------------------------------------------------------
 Search Term: CSCI test space 5
+Command: Program2 --dir /BidenTrump CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+No output file specified.
+Directory: /BidenTrump
+------------------------------------------------------
+Search Term: CSCI test space 5
+Command: Program2 -d /BidenTrump CSCI test space 5 --verbose -o found.txt -i -R 
+Verbose? Yes
+Case insensitive? Yes
+Recursive Search: Yes
+No output file specified.
+Directory: /BidenTrump
+------------------------------------------------------
+Search Term: CSCI test space 5
