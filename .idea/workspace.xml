@@ -27,14 +27,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Direntry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Direntry.hpp" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="Added onedir, also changed so now . and .. directories are not considered.">
       <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stats.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,14 +88,7 @@
       <workItem from="1599927416526" duration="10076000" />
       <workItem from="1600395256590" duration="12175000" />
       <workItem from="1600524880080" duration="36075000" />
-      <workItem from="1601124647944" duration="8463000" />
-    </task>
-    <task id="LOCAL-00024" summary="fixed command string output.">
-      <created>1599704207669</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1599704207669</updated>
+      <workItem from="1601124647944" duration="8561000" />
     </task>
     <task id="LOCAL-00025" summary="added ability to write out to file and create if necessary.">
       <created>1599705169588</created>
@@ -439,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601142563029</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Added onedir, also changed so now . and .. directories are not considered.">
+      <created>1601147549634</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1601147549634</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed a misspelling." />
     <MESSAGE value="fixed a bug with verbose being always marked as true." />
     <MESSAGE value="vector no longer needed, so it was removed." />
     <MESSAGE value="changed hpp file to be #pragma once" />
@@ -484,7 +477,8 @@
     <MESSAGE value="Proof of concept for direntry in sniff.cpp it will need to be moved, but it works." />
     <MESSAGE value="sync" />
     <MESSAGE value="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more." />
-    <option name="LAST_COMMIT_MESSAGE" value="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more." />
+    <MESSAGE value="Added onedir, also changed so now . and .. directories are not considered." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added onedir, also changed so now . and .. directories are not considered." />
   </component>
   <component name="WindowStateProjectService">
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1601146386911">
@@ -492,10 +486,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601142566345">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601147552495">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601142566345" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601147552495" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="843" y="323" key="search.everywhere.popup" timestamp="1599778643368">
       <screen x="0" y="27" width="1920" height="1173" />

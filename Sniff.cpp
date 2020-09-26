@@ -14,9 +14,7 @@ void Sniff::work(int argc, char ** argv) {
     while(getline(SniffWordsIn, temp, ' ')){
         sniffWords.push_back(temp);
     }
-
     oneDir();
-
 }
 
 void Sniff::oneDir() {
@@ -38,7 +36,6 @@ void Sniff::oneDir() {
         }
     }
     closedir(dir);
-
 }
 
 ostream& Sniff::print(ostream &out) {
