@@ -16,7 +16,7 @@ private:
     string cwd = "./";
     void work(int, char**);
     void oneDir();
-    void FileIDmaker(Direntry*, Stats*);
+    void FileIDmaker(Direntry*, Stats*, string);
 public:
     Sniff(int, char**);
     ~Sniff() = default;

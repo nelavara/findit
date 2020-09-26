@@ -21,29 +21,45 @@ void Sniff::oneDir() {
     char wcwd[PATH_MAX];
     char* npwd = getcwd(wcwd, sizeof(wcwd));
     cwd = string(npwd) + string(pms->getdirPath());
-    char char_array[int(cwd.length())+1];
-    strcpy(char_array, cwd.c_str());
-    opendir(char_array);
-    DIR *dir = opendir(char_array);
+    char filePath[int(cwd.length())+1];
+    strcpy(filePath, cwd.c_str());
+    opendir(filePath);
+    DIR *dir = opendir(filePath);
     Direntry* tr;
-    cerr << char_array << '\n';
     while((tr=(Direntry*)readdir(dir)) != NULL){
         if (tr->name()[0] != '.' && tr->name()[1] != '.'){
             Direntry* temp = new Direntry();
             temp = tr;
             Stats* ts;
-            lstat(char_array, ts=(Stats*)&tr);
+            lstat(filePath, ts=(Stats*)&tr);
             Stats* temp1 = new Stats();
             temp1 = ts;
-            FileIDmaker(temp, temp1);
+            FileIDmaker(temp, temp1, cwd);
         }
     }
     closedir(dir);
 }
 
-void Sniff::FileIDmaker(Direntry* temp, Stats* temp1) {
-    temp->print(cout);
-    temp1->print(cout);
+void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
+    //temp->print(cout);
+    //temp1->print(cout);
+    char filePath[int(cwd.length())+1];
+    strcpy(filePath, cwd.c_str());
+    if(temp->type() == 4){
+        strcat(filePath, "/");
+        strcat(filePath, temp->name());
+        cout << filePath << endl;
+        cout << temp->name() << endl;
+        cout << temp1->links() << endl;
+        cout << temp1->size() << endl;
+        cout << temp->inode() << endl;
+    }
+    else if (temp->type() == 8){
+        cout << "File Found!\n";
+    }
+    else{
+        cout << "File type not recognized.\n";
+    }
 
 }
 
