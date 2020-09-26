@@ -15,10 +15,10 @@ private:
     vector<FileID> subdirectories;
     string cwd = "./";
     void work(int, char**);
+    void oneDir();
 public:
     Sniff(int, char**);
     ~Sniff() = default;
-    void oneDir();
     ostream& print(ostream& out);
 };
 inline ostream& operator << (ostream& out, Sniff& sf) { return sf.print(out); }

@@ -14,6 +14,12 @@ void Sniff::work(int argc, char ** argv) {
     while(getline(SniffWordsIn, temp, ' ')){
         sniffWords.push_back(temp);
     }
+
+    oneDir();
+
+}
+
+void Sniff::oneDir() {
     char wcwd[PATH_MAX];
     char* npwd = getcwd(wcwd, sizeof(wcwd));
     cwd = string(npwd) + string(pms->getdirPath());
@@ -22,18 +28,23 @@ void Sniff::work(int argc, char ** argv) {
     opendir(char_array);
     DIR *dir = opendir(char_array);
     Direntry* tr;
-    while((tr=(Direntry*)readdir(dir)) != NULL){ //
-        tr->print(cout);
-        Stats* ts;
-        int test = lstat(char_array, ts=(Stats*)&tr);
-        cout << test << endl;
-        ts->print(cout);
+    cerr << char_array << '\n';
+    while((tr=(Direntry*)readdir(dir)) != NULL){
+        if (tr->name()[0] != '.' && tr->name()[1] != '.'){
+            tr->print(cout);
+            Stats* ts;
+            lstat(char_array, ts=(Stats*)&tr);
+            ts->print(cout);
+        }
     }
+    closedir(dir);
+
 }
 
 ostream& Sniff::print(ostream &out) {
     for (int j = 0; j < int(sniffWords.size()); j++){
-        out << sniffWords[j] << endl;
+        out << sniffWords[j] << '\t';
     }
+    out << '\n';
     return out;
 }

@@ -27,10 +27,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="sync">
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P2_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P2_PerBia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Direntry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Direntry.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stats.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
     </list>
@@ -70,6 +72,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,14 +94,7 @@
       <workItem from="1599927416526" duration="10076000" />
       <workItem from="1600395256590" duration="12175000" />
       <workItem from="1600524880080" duration="36075000" />
-      <workItem from="1601124647944" duration="4276000" />
-    </task>
-    <task id="LOCAL-00023" summary="got rid of parseCommands because it is not neccessary.">
-      <created>1599702506079</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1599702506079</updated>
+      <workItem from="1601124647944" duration="8463000" />
     </task>
     <task id="LOCAL-00024" summary="fixed command string output.">
       <created>1599704207669</created>
@@ -430,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601035306366</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more.">
+      <created>1601142563028</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1601142563029</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed another seg fault." />
     <MESSAGE value="fixed a misspelling." />
     <MESSAGE value="fixed a bug with verbose being always marked as true." />
     <MESSAGE value="vector no longer needed, so it was removed." />
@@ -475,18 +483,19 @@
     <MESSAGE value="added a bit more to Sniff.cpp" />
     <MESSAGE value="Proof of concept for direntry in sniff.cpp it will need to be moved, but it works." />
     <MESSAGE value="sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="sync" />
+    <MESSAGE value="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more." />
+    <option name="LAST_COMMIT_MESSAGE" value="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1600993190077">
+    <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1601146386911">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1600993190077" />
+    <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601035309348">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601142566345">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601035309348" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601142566345" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="843" y="323" key="search.everywhere.popup" timestamp="1599778643368">
       <screen x="0" y="27" width="1920" height="1173" />

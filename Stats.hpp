@@ -13,8 +13,8 @@ public:
     Stats () = default;
     ~Stats() = default;
     ostream& print (ostream& out) {out << "Inode: " << inode() <<
-                                '\n' << "Links: " << links()
-                                << '\n' << "Size: "<< size() << '\n';
+                                '\t' << "Links: " << links()
+                                << '\t' << "Size: "<< size() << '\n';
                                   return out;}
     ino_t inode() {return (st_ino);}
     off_t size() {return (st_size);}

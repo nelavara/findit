@@ -14,8 +14,8 @@ public:
     ino_t inode() { return(d_ino); }
     unsigned short int type() {return(d_type);}
     ostream& print (ostream& out) {out << "Name: " << name() <<
-                                   '\n' << "Inode: " << inode()
-                                   << '\n' << "Type: "<< type() << '\n';
+                                   '\t' << "Inode: " << inode()
+                                   << '\t' << "Type: "<< type() << '\t';
         return out;}
     //operator struct dirent() {return dirent();}
     Direntry& operator= (const dirent& x) {return *this;}
