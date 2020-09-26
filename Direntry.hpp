@@ -6,18 +6,15 @@
 #include "Stats.hpp"
 
 
-class Direntry : public dirent{
+class Direntry : public dirent {
+private:
+    string fileType;
 public:
     Direntry() = default;
     ~Direntry() = default;
-    char* name() { return(d_name); }
-    ino_t inode() { return(d_ino); }
-    unsigned short int type() {return(d_type);}
-    ostream& print (ostream& out) {out << "Name: " << name() <<
-                                   '\t' << "Inode: " << inode()
-                                   << '\t' << "Type: "<< type() << '\t';
-        return out;}
-    //operator struct dirent() {return dirent();}
-    Direntry& operator= (const dirent& x) {return *this;}
+    char *name() { return (d_name); }
+    ino_t inode() { return (d_ino); }
+    unsigned short int type() { return (d_type); }
+    ostream &print(ostream &out);
 };
 inline ostream& operator << (ostream& out, Direntry& dy) { return dy.print(out); }
