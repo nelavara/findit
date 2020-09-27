@@ -41,6 +41,7 @@ bool FileID::readFile(vector<string>& tobeSniffed){
     ifstream readin;
     readin.open(filePath);
     bool foundone = false;
+    bool anyWordfound = false;
     while(getline(readin, line)){
         foundone = false;
         istringstream iss (line);
@@ -51,6 +52,7 @@ bool FileID::readFile(vector<string>& tobeSniffed){
             regex des (regPattern);
             while(regex_search(line,test,des)){
                 for (string x:test) {
+                    anyWordfound = true;
                     foundone = true;
                     sniffWordmaker(x);
                     break;
@@ -61,7 +63,7 @@ bool FileID::readFile(vector<string>& tobeSniffed){
     }
     readin.close();
 
-    return foundone;
+    return anyWordfound;
 }
 
 ostream& FileID::print(ostream& out) {

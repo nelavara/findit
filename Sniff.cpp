@@ -62,22 +62,22 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
         (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File");
         FileID* tempFID = new FileID(dataContainer);
 
-        for (int j = 0; j < int(sniffWords.size()); j++){
-            tempFID->readFile(sniffWords);
+        if (tempFID->readFile(sniffWords)){
+            files.push_back(tempFID);
         }
-        tempFID->print(cout);
-
     }
     else{
         cout << "File type not recognized.\n";
     }
-
 }
 
 ostream& Sniff::print(ostream &out) {
     out << '\n';
     for (int k =0; k < int(subdirectories.size()); k++){
         subdirectories[k]->print(out);
+    }
+    for (int k = 0; k < int(files.size()); k++){
+        files[k]->print(out);
     }
     return out;
 }

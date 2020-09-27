@@ -15,6 +15,7 @@ using namespace std;
 #include <bits/stdc++.h>
 #include <tuple>
 #include <functional>
+#include <regex>
 
 class params{
 private:
