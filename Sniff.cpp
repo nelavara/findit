@@ -49,14 +49,21 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
     if(temp->type() == 4){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
-        tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>> dataContainer
-        (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), sniffWords);
+        tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>, bool, string> dataContainer
+        (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), sniffWords, pms->getVerbose(), "Directory");
         FileID* tempFID = new FileID(dataContainer);
         subdirectories.push_back(tempFID);
 
     }
     else if (temp->type() == 8){
         cout << "File Found!\n";
+        strcat(filePath, "/");
+        strcat(filePath, temp->name());
+        tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>, bool, string> dataContainer
+        (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), sniffWords, pms->getVerbose(), "File");
+        FileID* tempFID = new FileID(dataContainer);
+        tempFID->print(cout);
+
     }
     else{
         cout << "File type not recognized.\n";
@@ -65,9 +72,6 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
 }
 
 ostream& Sniff::print(ostream &out) {
-    for (int j = 0; j < int(sniffWords.size()); j++){
-        out << sniffWords[j] << '\t';
-    }
     out << '\n';
     for (int k =0; k < int(subdirectories.size()); k++){
         subdirectories[k]->print(out);

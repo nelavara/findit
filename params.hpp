@@ -41,6 +41,7 @@ private:
     void filePrint();
     string getSearchWords(){return searchWords;}
     char* getdirPath(){return directoryPath;}
+    bool getVerbose () {return verbose;}
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor

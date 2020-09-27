@@ -8,15 +8,16 @@ class FileID{
 private:
     char* fileName;
     char* filePath;
-    unsigned short int fileType;
+    string fileType;
     ino_t iNodeNum;
     vector<string> sniffWords;
     vector<string> inComingSniff;
-    void sniffWordmaker(string);
+    void sniffWordmaker();
     int numOfLinks;
     int sizeofFile;
+    bool verboseState;
 public:
-    FileID(tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>>);
+    FileID(tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>, bool, string>);
     ~FileID() = default;
     ostream& print (ostream& out);
 };
