@@ -14,6 +14,8 @@ public:
     char *name() { return (d_name); }
     ino_t inode() { return (d_ino); }
     unsigned short int type() { return (d_type); }
-    ostream &print(ostream &out);
+    ostream &print(ostream &out) {out << "File Type: " << type() << '\n' << "Name" << name() << '\n'
+                                        << "Inode" << inode() << '\n' << "Type: " << type();
+                                        return out;}
 };
 inline ostream& operator << (ostream& out, Direntry& dy) { return dy.print(out); }
