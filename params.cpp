@@ -65,20 +65,15 @@ void params::processCL(int argc, char** argv){
 //---------------------------------------------
 /*Helper function for the making the directory variable.*/
 void params::directoryMaker() {
-    if ((optarg) && (directoryPath == nullptr)){
-        if (optarg[0] == '-'){
-            usage(1);
-        }
-        for (int k = 0; k < int(string(optarg).size()); k++){
-            if(isspace(optarg[k])){
-                usage(1);
-            }
-        }
-        directoryPath = optarg;
-    }
-    else{
+    if (((!optarg) && (directoryPath != nullptr)) || (optarg[0] == '-')){
         usage(1);
     }
+    for (int k = 0; k < int(string(optarg).size()); k++){
+        if(isspace(optarg[k])){
+            usage(1);
+        }
+    }
+    directoryPath = optarg;
 }
 
 //-------------------------------------------------------
