@@ -20,5 +20,6 @@ public:
     FileID(tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>, bool, string>);
     ~FileID() = default;
     ostream& print (ostream& out);
+    void readFile();
 };
 inline ostream& operator << (ostream& out, FileID& fid) { return fid.print(out); }

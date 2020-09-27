@@ -63,6 +63,7 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
         (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), sniffWords, pms->getVerbose(), "File");
         FileID* tempFID = new FileID(dataContainer);
         tempFID->print(cout);
+        tempFID->readFile();
 
     }
     else{

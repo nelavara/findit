@@ -35,6 +35,18 @@ void FileID::sniffWordmaker() {
     }
 }
 
+void FileID::readFile(){
+    string line;
+    ifstream readin;
+    readin.open(filePath);
+    while(getline(readin, line)){
+        istringstream iss (line);
+        if(!iss) break;
+        cout << line << endl;
+    }
+    readin.close();
+}
+
 ostream& FileID::print(ostream& out) {
     out << "------------FileID output------\n";
     out << "File Name: \t" << fileName << '\n';
