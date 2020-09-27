@@ -11,10 +11,12 @@ private:
     unsigned short int fileType;
     ino_t iNodeNum;
     vector<string> sniffWords;
+    vector<string> inComingSniff;
     void sniffWordmaker(string);
     int numOfLinks;
+    int sizeofFile;
 public:
-    FileID(char*, unsigned short int, ino_t, nlink_t, char*);
+    FileID(tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>>);
     ~FileID() = default;
     ostream& print (ostream& out);
 };

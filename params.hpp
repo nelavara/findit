@@ -11,6 +11,10 @@ using namespace std;
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <sstream>
+#include <bits/stdc++.h>
+#include <tuple>
+#include <functional>
 
 class params{
 private:

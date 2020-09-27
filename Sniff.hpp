@@ -3,16 +3,15 @@
 */
 #pragma once
 #include "FileID.hpp"
-#include <sstream>
-#include <bits/stdc++.h>
+
 
 class Sniff{
 private:
     friend class params;
     params* pms;
     vector<string> sniffWords;
-    vector<FileID> files;
-    vector<FileID> subdirectories;
+    vector<FileID*> files;
+    vector<FileID*> subdirectories;
     string cwd = "./";
     void work(int, char**);
     void oneDir();

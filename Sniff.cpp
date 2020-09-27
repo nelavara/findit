@@ -43,16 +43,17 @@ void Sniff::oneDir() {
 void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
     //temp->print(cout);
     //temp1->print(cout);
+
     char filePath[int(cwd.length())+1];
     strcpy(filePath, cwd.c_str());
     if(temp->type() == 4){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
-        cout << filePath << endl;
-        cout << temp->name() << endl;
-        cout << temp1->links() << endl;
-        cout << temp1->size() << endl;
-        cout << temp->inode() << endl;
+        tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>> dataContainer
+        (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), sniffWords);
+        FileID* tempFID = new FileID(dataContainer);
+        subdirectories.push_back(tempFID);
+
     }
     else if (temp->type() == 8){
         cout << "File Found!\n";
@@ -68,5 +69,8 @@ ostream& Sniff::print(ostream &out) {
         out << sniffWords[j] << '\t';
     }
     out << '\n';
+    for (int k =0; k < int(subdirectories.size()); k++){
+        subdirectories[k]->print(out);
+    }
     return out;
 }

@@ -28,10 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="Started FileIDMaker, this will eventually make the FileID structures. However we did need to create new Objects to be passed. For now FileIDmaker just prints out contents of the Stats and Direntry objects.">
+      <change afterPath="$PROJECT_DIR$/BidenTrump/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BidenTrump/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BidenTrump/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BidenTrump/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileID.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileID.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +77,6 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,6 +93,8 @@
       <workItem from="1600395256590" duration="12175000" />
       <workItem from="1600524880080" duration="36075000" />
       <workItem from="1601124647944" duration="17187000" />
+      <workItem from="1601215659036" duration="1983000" />
+      <workItem from="1601218025768" duration="2410000" />
     </task>
     <task id="LOCAL-00028" summary="modifed constructor to better fit output from assignment, included the quotes. Though it is not needed , we might need it later created searchWords to store what we are looking for in the directory.">
       <created>1599706678231</created>
@@ -495,6 +497,10 @@
     </state>
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
+    <state x="3043" y="128" width="1367" height="1129" key="dock-window-1" timestamp="1601220681901">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3043" y="128" width="1367" height="1129" key="dock-window-1/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601220681901" />
     <state x="843" y="323" key="search.everywhere.popup" timestamp="1599778643368">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
