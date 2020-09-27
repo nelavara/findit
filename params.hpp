@@ -2,7 +2,7 @@
 * Date:  09-10-2020
 */
 #pragma once
-#define FN "P2_PerBia.txt"
+#define FN "P3_PerBia.txt"
 using namespace std;
 #include <getopt.h>
 //needed for including getopt_long https://linux.die.net/man/3/getopt_long

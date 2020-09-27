@@ -6,13 +6,16 @@
 
 int main (int argc, char** argv){
 
-    //ofstream out(FN, ios_base::app);
+    ofstream out(FN, ios_base::app);
     //params program2(argc, argv);
     //program2.print(cout);
     //out << program2;
     //out.close();
-    Sniff sf (argc, argv);
-    sf.print(cout);
+    Sniff program3 (argc, argv);
+    program3.print(cout);
+    out << program3;
+    out.close();
+
 
     return 0;
 }

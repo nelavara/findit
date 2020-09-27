@@ -4,8 +4,10 @@
 #include "FileID.hpp"
 
 FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer) {
-    filePath = get<0>(dataContainer);
-    fileName = get<1>(dataContainer);
+    filePath = new char [strlen(get<0>(dataContainer))];
+    strcpy(filePath, get<0>(dataContainer));
+    fileName = new char [strlen(get<1>(dataContainer))];
+    strcpy(fileName, get<1>(dataContainer));
     numOfLinks = get<2>(dataContainer);
     sizeofFile = get<3>(dataContainer);
     iNodeNum = get<4> (dataContainer);
@@ -66,14 +68,17 @@ bool FileID::readFile(vector<string>& tobeSniffed){
     return anyWordfound;
 }
 
-ostream& FileID::print(ostream& out) {
-    out << "------------FileID output------\n";
-    out << "File Name: \t" << fileName << '\n';
-    out << "File Type: \t" << fileType << '\n';
-    out << "iNode Number: " << iNodeNum << '\n';
-    out << "-------End of FileID output-----\n";
-    for (int j = 0; j < int(sniffWords.size()); j++){
-        out << sniffWords[j] << endl;
-    }
+ostream& FileID::print(ostream& out){
+  if (verboseState){
+      if (fileType == "File"){
+          out << fileType << '\t' << '\t' << iNodeNum << '\t' << fileName;
+      }
+      else{
+          out << fileType << '\t' << iNodeNum << '\t' << fileName << '\t';
+      }
+
+  }
+  out << '\t' << "iNode" << '\t' << iNodeNum << '\t' << "links" << '\t' << numOfLinks << '\n';
+  out << "\t\t" << filePath << '\n';
     return out;
 }

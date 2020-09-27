@@ -1,0 +1,117 @@
+
+Directory	938414	test1	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File	931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File	931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory  938414	test1	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory  938415	tes4	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File	931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File	931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File	931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File	931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txt	File	931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txt	File	931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txtFile	931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txtFile	931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txtFile	931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txtFile	931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txtiNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txtiNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1		iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4		iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1	   iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4	   iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txt   iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txt   iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1		iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4		iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txt	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txt	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+	iNode	938414	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+	iNode	931634	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	931633	links	4
+	/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+Directory	938414	test1		iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4		iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+File		931634	test2.txt	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+File		931633	test.txt	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
