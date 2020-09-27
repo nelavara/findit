@@ -3,8 +3,6 @@
 */
 #pragma once
 #include "FileID.hpp"
-
-
 class Sniff{
 private:
     friend class params;
