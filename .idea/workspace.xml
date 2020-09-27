@@ -27,12 +27,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="Created output to the console as required by the assignment.">
-      <change afterPath="$PROJECT_DIR$/tools.hpp" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="add tools.hpp for the assignment, this should be stripped out, if made public, as this is the teacher's code.">
+      <change afterPath="$PROJECT_DIR$/tools.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Direntry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Direntry.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/tools.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +97,7 @@
       <workItem from="1601124647944" duration="17187000" />
       <workItem from="1601215659036" duration="1983000" />
       <workItem from="1601218025768" duration="5730000" />
-      <workItem from="1601224027428" duration="11977000" />
-    </task>
-    <task id="LOCAL-00035" summary="fixed bugs and other things.">
-      <created>1599783492460</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1599783492460</updated>
+      <workItem from="1601224027428" duration="12504000" />
     </task>
     <task id="LOCAL-00036" summary="added our names to the top of the files.">
       <created>1599783563446</created>
@@ -440,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601241487354</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="add tools.hpp for the assignment, this should be stripped out, if made public, as this is the teacher's code.">
+      <created>1601241853330</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1601241853330</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added class Stats prototype." />
     <MESSAGE value="added default de constructor" />
     <MESSAGE value="defined print function in header file of hpp" />
     <MESSAGE value="started Direntry.hpp as well." />
@@ -485,7 +486,8 @@
     <MESSAGE value="Modified so only FileIDs that have a search term located are able to be stored in the array, to be in compliance with the assignment." />
     <MESSAGE value="removed a redundant line of code." />
     <MESSAGE value="Created output to the console as required by the assignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created output to the console as required by the assignment." />
+    <MESSAGE value="add tools.hpp for the assignment, this should be stripped out, if made public, as this is the teacher's code." />
+    <option name="LAST_COMMIT_MESSAGE" value="add tools.hpp for the assignment, this should be stripped out, if made public, as this is the teacher's code." />
   </component>
   <component name="WindowStateProjectService">
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1601146386911">
@@ -493,10 +495,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601241490287">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601241855525">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601241490287" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601241855525" />
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="1939" y="0" width="1367" height="1129" key="dock-window-1" timestamp="1601239270514">
