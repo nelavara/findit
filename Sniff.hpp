@@ -16,6 +16,7 @@ private:
     void work(int, char**);
     void oneDir();
     void FileIDmaker(Direntry*, Stats*, string);
+    void getDirectoryPath();
 public:
     Sniff(int, char**);
     ~Sniff() = default;

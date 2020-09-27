@@ -27,14 +27,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="flushed out the regex more, including even partial matches, since the purpose of this program is to find inappropirate content.">
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="Modified so only FileIDs that have a search term located are able to be stored in the array, to be in compliance with the assignment.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BidenTrump/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BidenTrump/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileID.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileID.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +70,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,14 +95,7 @@
       <workItem from="1601124647944" duration="17187000" />
       <workItem from="1601215659036" duration="1983000" />
       <workItem from="1601218025768" duration="5730000" />
-      <workItem from="1601224027428" duration="6938000" />
-    </task>
-    <task id="LOCAL-00032" summary="Changed code to allow for multiple words in search term.">
-      <created>1599780377203</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1599780377203</updated>
+      <workItem from="1601224027428" duration="8423000" />
     </task>
     <task id="LOCAL-00033" summary="Added check to make sure file name is not --dir or -d">
       <created>1599781668298</created>
@@ -436,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601229695989</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Modified so only FileIDs that have a search term located are able to be stored in the array, to be in compliance with the assignment.">
+      <created>1601231025415</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1601231025415</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +460,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add ostream to usage command" />
     <MESSAGE value="Fixed a bug found with fileprint, it was print duplicate." />
     <MESSAGE value="returned usage to not use out, as it is not neccessary." />
     <MESSAGE value="added class Stats prototype." />
@@ -481,7 +484,8 @@
     <MESSAGE value="Discovered error in FileID, file type was not being set. Since we discovered the file type in Sniff, we just pass a string to initalize to make printing easier." />
     <MESSAGE value="Starting to readin, using FileID to read file." />
     <MESSAGE value="flushed out the regex more, including even partial matches, since the purpose of this program is to find inappropirate content." />
-    <option name="LAST_COMMIT_MESSAGE" value="flushed out the regex more, including even partial matches, since the purpose of this program is to find inappropirate content." />
+    <MESSAGE value="Modified so only FileIDs that have a search term located are able to be stored in the array, to be in compliance with the assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified so only FileIDs that have a search term located are able to be stored in the array, to be in compliance with the assignment." />
   </component>
   <component name="WindowStateProjectService">
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl" timestamp="1601146386911">
@@ -489,10 +493,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601229698389">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601231028305">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601229698389" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601231028305" />
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="324" y="166" width="1367" height="1129" key="dock-window-1" timestamp="1601224012375">

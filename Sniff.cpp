@@ -23,7 +23,6 @@ void Sniff::oneDir() {
     cwd = string(npwd) + string(pms->getdirPath());
     char filePath[int(cwd.length())+1];
     strcpy(filePath, cwd.c_str());
-    opendir(filePath);
     DIR *dir = opendir(filePath);
     Direntry* tr;
     while((tr=(Direntry*)readdir(dir)) != NULL){
