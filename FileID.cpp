@@ -3,48 +3,65 @@
 */
 #include "FileID.hpp"
 
-FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>, bool, string> dataContainer) {
+FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer) {
     filePath = get<0>(dataContainer);
     fileName = get<1>(dataContainer);
     numOfLinks = get<2>(dataContainer);
     sizeofFile = get<3>(dataContainer);
     iNodeNum = get<4> (dataContainer);
-    inComingSniff = get<5>(dataContainer);
-    verboseState = get<6>(dataContainer);
-    fileType = get<7>(dataContainer);
-    sniffWordmaker();
+    verboseState = get<5>(dataContainer);
+    fileType = get<6>(dataContainer);
 }
 
-void FileID::sniffWordmaker() {
-    for (int k = 0; k < int(inComingSniff.size()); k++){
-        if (sniffWords.empty()){
-            sniffWords.push_back(inComingSniff[k]);
-        }
-        else{
+void FileID::sniffWordmaker(string inComing) {
+    if (sniffWords.empty()){
+        sniffWords.push_back(inComing);
+    }
+    else{
+        for (int k = 0; k < int(sniffWords.size()); k++){
             bool found = false;
             for (int j =0 ; j < int(sniffWords.size()); j ++){
-                if (sniffWords[j]==inComingSniff[k]){
+                if (sniffWords[j]==inComing){
                     found = true;
                     break;
                 }
             }
             if (!found){
-                sniffWords.push_back(inComingSniff[k]);
+                sniffWords.push_back(inComing);
+            }
+        }
+        }
+
+}
+
+bool FileID::readFile(vector<string>& tobeSniffed){
+    string line;
+    string test1= "\\b(";
+    string test2 = ")([^ ]*)";
+    ifstream readin;
+    readin.open(filePath);
+    bool foundone = false;
+    while(getline(readin, line)){
+        foundone = false;
+        istringstream iss (line);
+        if(!iss) break;
+        for (int k = 0; k < int(tobeSniffed.size()); k++){
+            string regPattern = test1+tobeSniffed[k]+test2;
+            smatch test;
+            regex des (regPattern);
+            while(regex_search(line,test,des)){
+                for (string x:test) {
+                    foundone = true;
+                    sniffWordmaker(x);
+                    break;
+                }
+                if (foundone) break;
             }
         }
     }
-}
-
-void FileID::readFile(){
-    string line;
-    ifstream readin;
-    readin.open(filePath);
-    while(getline(readin, line)){
-        istringstream iss (line);
-        if(!iss) break;
-        cout << line << endl;
-    }
     readin.close();
+
+    return foundone;
 }
 
 ostream& FileID::print(ostream& out) {
@@ -53,5 +70,8 @@ ostream& FileID::print(ostream& out) {
     out << "File Type: \t" << fileType << '\n';
     out << "iNode Number: " << iNodeNum << '\n';
     out << "-------End of FileID output-----\n";
+    for (int j = 0; j < int(sniffWords.size()); j++){
+        out << sniffWords[j] << endl;
+    }
     return out;
 }

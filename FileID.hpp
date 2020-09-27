@@ -3,6 +3,7 @@
 */
 #pragma once
 #include "Direntry.hpp"
+#include <regex>
 
 class FileID{
 private:
@@ -11,15 +12,14 @@ private:
     string fileType;
     ino_t iNodeNum;
     vector<string> sniffWords;
-    vector<string> inComingSniff;
-    void sniffWordmaker();
+    void sniffWordmaker(string);
     int numOfLinks;
     int sizeofFile;
     bool verboseState;
 public:
-    FileID(tuple <char*, char*, nlink_t, off_t, ino_t, vector<string>, bool, string>);
+    FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string>);
     ~FileID() = default;
     ostream& print (ostream& out);
-    void readFile();
+    bool readFile(vector<string>&);
 };
 inline ostream& operator << (ostream& out, FileID& fid) { return fid.print(out); }
