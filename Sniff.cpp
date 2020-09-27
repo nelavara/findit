@@ -2,10 +2,16 @@
 * Date:  09-22-2020
 */
 #include "Sniff.hpp"
+//Constructor for the Sniff Class
 Sniff::Sniff(int argc, char ** argv) {
-    //The directions in 4.1 do not make sense when params already gets the search words for you.
     work(argc, argv);
 }
+
+//------------------------------------------------------------
+/*
+ * The work function creats a params object which parses the command line arguments and gets them
+ * ready for the sniffer. We also populate the searchWords vector. Lastly we call oneDir() to start the process.
+ */
 
 void Sniff::work(int argc, char ** argv) {
     pms = new params(argc, argv);
@@ -16,6 +22,14 @@ void Sniff::work(int argc, char ** argv) {
     }
     oneDir();
 }
+
+
+//------------------------------------------------------------
+/*
+ * oneDir first we construct a relative path based on our current working directory and then
+ * append our search Directory location. Then we open the direction, lastly we read the entire contents
+ * of the directory and get the Direntrys and the Stats ready for the FileIDmaker.
+ */
 
 void Sniff::oneDir() {
     char wcwd[PATH_MAX];
@@ -39,10 +53,14 @@ void Sniff::oneDir() {
     closedir(dir);
 }
 
+//---------------------------------------------------------------------------------
+/*
+ * FileIDMaker makes the FileID objects. First we get the types read, make a tuple for easier passing and its cooler.
+ * Next we create a new FileID, for FileIDs that are directories we push them onto the vector of subdirectories.
+ * Files are only pushed on the files vector if they contain any of the search words. We delegate the
+ * searching of the file to FileID. Lastly because in Program 3 we ignore all other files types.
+ */
 void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
-    //temp->print(cout);
-    //temp1->print(cout);
-
     char filePath[int(cwd.length())+1];
     strcpy(filePath, cwd.c_str());
     if(temp->type() == 4){
@@ -70,6 +88,10 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
     }
 }
 
+//-----------------------------------------------------------------------------
+/*
+ * Print function. We delegate printing to the FileID class.
+ */
 ostream& Sniff::print(ostream &out) {
     out << '\n';
     for (int k =0; k < int(subdirectories.size()); k++){

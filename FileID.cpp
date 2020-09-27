@@ -2,7 +2,7 @@
 * Date:  09-20-2020
 */
 #include "FileID.hpp"
-
+//Constructor for FileID,takes a tuple, then parses it for the data items.
 FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer) {
     filePath = new char [strlen(get<0>(dataContainer))];
     strcpy(filePath, get<0>(dataContainer));
@@ -14,7 +14,10 @@ FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataCon
     verboseState = get<5>(dataContainer);
     fileType = get<6>(dataContainer);
 }
-
+//--------------------------------------------------------------------------
+/*
+ * This function will the vector of search words, and only add to it, if a found word does not match.
+ */
 void FileID::sniffWordmaker(string inComing) {
     if (sniffWords.empty()){
         sniffWords.push_back(inComing);
@@ -33,9 +36,13 @@ void FileID::sniffWordmaker(string inComing) {
             }
         }
         }
-
 }
 
+//---------------------------------------------------------------------------
+/*
+ * This function takes a vector, which is passed by the sniffer, it then reads the files for each
+ * search term.
+ */
 bool FileID::readFile(vector<string>& tobeSniffed){
     string line;
     string test1= "\\b(";
@@ -67,6 +74,11 @@ bool FileID::readFile(vector<string>& tobeSniffed){
 
     return anyWordfound;
 }
+
+//--------------------------------------------------------------------------
+/*
+ * Prints out the details of the file, if verbose is on, additional items are printed.
+ */
 
 ostream& FileID::print(ostream& out){
   if (verboseState){

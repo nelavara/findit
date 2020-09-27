@@ -3,7 +3,8 @@
 */
 #pragma once
 #include "Direntry.hpp"
-
+//File ID class holds the details of each entry parsed by the sniffer
+//Files that do not contact sniff words are discarded.
 class FileID{
 private:
     char* fileName;

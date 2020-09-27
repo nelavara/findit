@@ -4,7 +4,7 @@
 #pragma once
 #include "Stats.hpp"
 
-
+//Wrapper class for dirent.
 class Direntry : public dirent {
 private:
     string fileType;
