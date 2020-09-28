@@ -3,18 +3,17 @@
 */
 #pragma once
 #include "tools.hpp"
-
+constexpr static struct option long_options[] = {
+        {"dir", required_argument, 0, 'd'},
+        {"verbose", no_argument, 0, 2},
+        {0,0,0,0}
+};
 class params{
 private:
     friend class Sniff;
     //Here we define the options for getopt_long
     //Format of each long_option is as follows (name, argument?, flag?, value returned.
-    constexpr static struct option long_options[] = {
-            {"dir", required_argument, 0, 'd'},
-            {"verbose", no_argument, 0, 2},
-            {0,0,0,0}
-    };
-    //string dirPath;
+
     string searchWords; //search term, for now program can not do search terms with spaces.
     char* directoryPath; //directory to start search at.
     string fileName; //this is where fileName to output too, used by -o
@@ -29,7 +28,6 @@ private:
     void fileMaker();
     void filePrint();
     string getSearchWords(){return searchWords;}
-    //bool invalidOpt() { return !optarg || optarg[0] == '-'; }
     char* getdirPath(){return directoryPath;}
     bool getVerbose () {return verbose;}
 public:
