@@ -2,12 +2,9 @@
 * Date:  09-20-2020
 */
 #pragma once
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <unistd.h>
-//https://linux.die.net/man/2/stat
 #include "params.hpp"
 
+//Stats wrapper class.
 class Stats : public stat {
 public:
     Stats () = default;

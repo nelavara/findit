@@ -21,6 +21,9 @@
 #include <functional>
 #include <regex>
 #include <dirent.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
 
 #include <iostream>
 #include <fstream>
@@ -36,7 +39,6 @@
 #include <cctype>      // for isspace() and isdigit()
 #include <cstdarg>     // for functions with variable # of args
 #include <cerrno>
-#include <unistd.h>
 
 using namespace std;
 
