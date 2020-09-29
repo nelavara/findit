@@ -27,13 +27,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="moved remaining used includes into tools.hpp">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="moved constexpr static struct option long_options outside of params calls as its own strucutre. Would not compile when using make.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/found.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1" beforeDir="false" afterPath="$PROJECT_DIR$/test1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +94,7 @@
       <workItem from="1601124647944" duration="17187000" />
       <workItem from="1601215659036" duration="1983000" />
       <workItem from="1601218025768" duration="5730000" />
-      <workItem from="1601224027428" duration="18387000" />
-    </task>
-    <task id="LOCAL-00041" summary="bug in searchwords found.">
-      <created>1599930586612</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1599930586612</updated>
+      <workItem from="1601224027428" duration="20383000" />
     </task>
     <task id="LOCAL-00042" summary="eliminated unnecessary lines.">
       <created>1599930815822</created>
@@ -441,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601251983223</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="moved constexpr static struct option long_options outside of params calls as its own strucutre. Would not compile when using make.">
+      <created>1601252734603</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1601252734603</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="FileID implementation file." />
     <MESSAGE value="wrote the header file for Sniff.hpp" />
     <MESSAGE value="started Sniff.cpp" />
     <MESSAGE value="Fixed the return types to&#10;&#10;class Stats : public stat {&#10;    public:&#10;        Stats() = default;&#10;        ~Stats() = default;&#10;&#10;        ino_t   inode() { return st_ino; }&#10;        off_t   size()  { return st_size; }&#10;        nlink_t links() { return st_nlink; }&#10;&#10;        ostream&amp; print(ostream&amp; out);&#10;};&#10;&#10;class Dirent : public dirent {&#10;    public:&#10;        Dirent() = default;&#10;        ~Dirent() = default;&#10;&#10;        char*      name() { return d_name; }&#10;        ino_t      inode() { return st_ino; }&#10;        __uint16_t type() { return d_type; }" />
@@ -486,7 +483,8 @@
     <MESSAGE value="Added comments to make it easier to understand." />
     <MESSAGE value="Simplified the directoryMaker() function." />
     <MESSAGE value="moved remaining used includes into tools.hpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved remaining used includes into tools.hpp" />
+    <MESSAGE value="moved constexpr static struct option long_options outside of params calls as its own strucutre. Would not compile when using make." />
+    <option name="LAST_COMMIT_MESSAGE" value="moved constexpr static struct option long_options outside of params calls as its own strucutre. Would not compile when using make." />
   </component>
   <component name="WindowStateProjectService">
     <state x="660" y="414" width="589" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601251950567">
@@ -498,10 +496,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601251988121">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601252748486">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601251988121" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601252748486" />
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="2167" y="243" width="1367" height="1129" key="dock-window-1" timestamp="1601243947646">
