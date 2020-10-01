@@ -41,11 +41,11 @@ void Sniff::oneDir() {
     Direntry* tr;
     while((tr=(Direntry*)readdir(dir)) != NULL){
         if (tr->name()[0] != '.' && tr->name()[1] != '.'){
-            Direntry* temp = new Direntry();
+            Direntry* temp;
             temp = tr;
-            Stats* ts;
-            lstat(filePath, ts=(Stats*)&tr);
-            Stats* temp1 = new Stats();
+            Stats* ts = new Stats();
+            lstat(filePath, ts = (Stats*)&tr);
+            Stats* temp1;
             temp1 = ts;
             FileIDmaker(temp, temp1, cwd);
         }

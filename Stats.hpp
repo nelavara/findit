@@ -7,6 +7,7 @@
 //Stats wrapper class.
 class Stats : public stat {
 public:
+    //struct stat statsOffile;
     Stats () = default;
     ~Stats() = default;
     ostream& print (ostream& out) {out << "Inode: " << inode() <<
