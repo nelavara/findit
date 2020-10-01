@@ -718,3 +718,143 @@ File		931634	test2.txt	iNode	931634	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
 File		931633	test.txt	iNode	931633	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	18:43:27
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	18:43:33
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	18:43:38
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	18:43:53
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	18:45:42
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	18:46:08
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	18:46:54
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:08:29
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:09:04
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:09:11
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:09:51
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:14:02
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:17:45
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:18:21
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:19:48
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:20:37
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:21:09
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:22:33
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:27:11
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:28:50
+---------------------------------------------------------------
+
+	iNode	1241949	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test
+	iNode	1241956	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test1
+	iNode	1227453	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test2.txt
+	iNode	1227451	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:30:28
+---------------------------------------------------------------
+
+	iNode	1241949	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test
+	iNode	1241956	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test1
+	iNode	1227453	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test2.txt
+	iNode	1227451	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  1 2020	19:30:33
+---------------------------------------------------------------
+
+Directory	1241949	test		iNode	1241949	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test
+Directory	1241956	test1		iNode	1241956	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test1
+File		1227453	test2.txt	iNode	1227453	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test2.txt
+File		1227451	test.txt	iNode	1227451	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test.txt
