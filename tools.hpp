@@ -16,7 +16,7 @@
 #include <getopt.h>
 #include <ostream>
 #include <string>
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
 #include <tuple>
 #include <functional>
 #include <regex>
