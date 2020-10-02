@@ -4,7 +4,9 @@
 #include "Sniff.hpp"
 //Constructor for the Sniff Class
 Sniff::Sniff(int argc, char ** argv) {
+    CompareFileID cfid;
     work(argc, argv);
+    sort(files.begin(), files.end(), cfid);
 }
 
 //------------------------------------------------------------

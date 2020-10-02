@@ -4,7 +4,7 @@
 #pragma once
 #include "FileID.hpp"
 //Sniff class declaration.
-class Sniff{
+class Sniff {
 private:
     friend class params;
     params* pms;
@@ -16,9 +16,11 @@ private:
     void oneDir();
     void FileIDmaker(Direntry*, Stats*, string);
     void getDirectoryPath();
+
 public:
     Sniff(int, char**);
     ~Sniff() = default;
     ostream& print(ostream& out);
 };
+
 inline ostream& operator << (ostream& out, Sniff& sf) { return sf.print(out); }
