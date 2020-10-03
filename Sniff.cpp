@@ -5,6 +5,7 @@
 //Constructor for the Sniff Class
 Sniff::Sniff(int argc, char ** argv) {
     work(argc, argv);
+    sortObjects();
 
 
 }
@@ -53,7 +54,6 @@ void Sniff::oneDir() {
         }
     }
     closedir(dir);
-    sortObjects();
 }
 
 //---------------------------------------------------------------------------------
@@ -99,6 +99,9 @@ void Sniff::sortObjects() {
     for (int k = 0; k < int(files.size()); k++){
         allEntries.push_back(files[k]);
     }
+    /*for (int k = 0; k< int (allEntries.size()); k++){
+        allEntries[k]->print(cout);
+    }*/
     CompareFileID cfid;
     sort(allEntries.begin(), allEntries.end(), cfid);
 }
