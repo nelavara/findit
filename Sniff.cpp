@@ -41,9 +41,9 @@ void Sniff::oneDir() {
     char filePath[int(cwd.length())+1];
     strcpy(filePath, cwd.c_str());
     DIR *dir = opendir(filePath);
-    cout << errno << endl;
-    if(errno==2){
-        cout << "YOU SUCK!" << endl;
+    if(errno!=0){
+        cout << "Something went wrong, check your spelling, perhaps the folder path you"<<
+        " specified does not exist. Try again later!"<< endl;
         exit(1);
     }
     Direntry* tr;

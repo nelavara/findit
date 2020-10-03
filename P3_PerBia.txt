@@ -963,3 +963,23 @@ Directory	1241956	test1		iNode	1241956	links	8
 		/Users/evanperry/Documents/findit/BidenTrump/test.txt
 	iNode	1241956	links	8
 		/Users/evanperry/Documents/findit/BidenTrump/test1
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct  3 2020	11:39:22
+---------------------------------------------------------------
+
+	iNode	1241949	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test
+	iNode	1227453	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test2.txt
+	iNode	1227451	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test.txt
+	iNode	1241956	links	8
+		/Users/evanperry/Documents/findit/BidenTrump/test1
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct  3 2020	11:39:29
