@@ -4,9 +4,9 @@
 #include "Sniff.hpp"
 //Constructor for the Sniff Class
 Sniff::Sniff(int argc, char ** argv) {
-    CompareFileID cfid;
     work(argc, argv);
-    sort(files.begin(), files.end(), cfid);
+
+
 }
 
 //------------------------------------------------------------
@@ -53,6 +53,7 @@ void Sniff::oneDir() {
         }
     }
     closedir(dir);
+    sortObjects();
 }
 
 //---------------------------------------------------------------------------------
@@ -88,6 +89,18 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
     else{
         cout << "File type not recognized.\n";
     }
+
+}
+
+void Sniff::sortObjects() {
+    for (int k= 0; k < int(subdirectories.size()); k++){
+        allEntries.push_back(subdirectories[k]);
+    }
+    for (int k = 0; k < int(files.size()); k++){
+        allEntries.push_back(files[k]);
+    }
+    CompareFileID cfid;
+    sort(allEntries.begin(), allEntries.end(), cfid);
 }
 
 //-----------------------------------------------------------------------------
@@ -95,12 +108,16 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
  * Print function. We delegate printing to the FileID class.
  */
 ostream& Sniff::print(ostream &out) {
+
     out << '\n';
-    for (int k =0; k < int(subdirectories.size()); k++){
+    /*for (int k =0; k < int(subdirectories.size()); k++){
         subdirectories[k]->print(out);
     }
     for (int k = 0; k < int(files.size()); k++){
         files[k]->print(out);
+    }*/
+    for (int k = 0; k < int(allEntries.size()); k++){
+        allEntries[k]->print(out);
     }
     return out;
 }

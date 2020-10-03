@@ -11,11 +11,13 @@ private:
     vector<string> sniffWords;
     vector<FileID*> files;
     vector<FileID*> subdirectories;
+    vector<FileID*> allEntries;
     string cwd = "./";
     void work(int, char**);
     void oneDir();
     void FileIDmaker(Direntry*, Stats*, string);
     void getDirectoryPath();
+    void sortObjects();
 
 public:
     Sniff(int, char**);
