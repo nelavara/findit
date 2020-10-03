@@ -41,6 +41,11 @@ void Sniff::oneDir() {
     char filePath[int(cwd.length())+1];
     strcpy(filePath, cwd.c_str());
     DIR *dir = opendir(filePath);
+    cout << errno << endl;
+    if(errno==2){
+        cout << "YOU SUCK!" << endl;
+        exit(1);
+    }
     Direntry* tr;
     while((tr=(Direntry*)readdir(dir)) != NULL){
         if (tr->name()[0] != '.'){
