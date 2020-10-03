@@ -42,9 +42,7 @@ void Sniff::oneDir() {
     strcpy(filePath, cwd.c_str());
     DIR *dir = opendir(filePath);
     if(errno!=0){
-        cout << "Something went wrong, check your spelling, perhaps the folder path you"<<
-        " specified does not exist. Try again later!"<< endl;
-        exit(1);
+        throw Badsniff();
     }
     Direntry* tr;
     while((tr=(Direntry*)readdir(dir)) != NULL){
