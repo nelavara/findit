@@ -24,7 +24,7 @@ public:
 
     ostream& print (ostream& out);
     bool readFile(vector<string>&);
-    bool operator < (const FileID* b) { return iNodeNum < b->iNodeNum; }
+    bool operator < (const FileID* b) { return iNodeNum > b->iNodeNum; }
 };
 
 inline ostream& operator << (ostream& out, FileID& fid) { return fid.print(out); }

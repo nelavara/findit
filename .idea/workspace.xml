@@ -34,15 +34,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="troubleshooting sort.">
-      <change afterPath="$PROJECT_DIR$/exceptions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exceptions.hpp" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="add exceptions.cpp and its hpp file for basic error handling.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileID.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +79,6 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -113,13 +100,7 @@
       <workItem from="1601224027428" duration="20997000" />
       <workItem from="1601514235369" duration="635000" />
       <workItem from="1601550480051" duration="2527000" />
-    </task>
-    <task id="LOCAL-00045" summary="fixed another seg fault.">
-      <created>1599933269884</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1599933269884</updated>
+      <workItem from="1601778138746" duration="710000" />
     </task>
     <task id="LOCAL-00046" summary="fixed a misspelling.">
       <created>1599933461461</created>
@@ -457,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601692987443</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="add exceptions.cpp and its hpp file for basic error handling.">
+      <created>1601745764593</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1601745764593</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +477,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed the return types to&#10;&#10;class Stats : public stat {&#10;    public:&#10;        Stats() = default;&#10;        ~Stats() = default;&#10;&#10;        ino_t   inode() { return st_ino; }&#10;        off_t   size()  { return st_size; }&#10;        nlink_t links() { return st_nlink; }&#10;&#10;        ostream&amp; print(ostream&amp; out);&#10;};&#10;&#10;class Dirent : public dirent {&#10;    public:&#10;        Dirent() = default;&#10;        ~Dirent() = default;&#10;&#10;        char*      name() { return d_name; }&#10;        ino_t      inode() { return st_ino; }&#10;        __uint16_t type() { return d_type; }" />
     <MESSAGE value="added a bit more to Sniff.cpp" />
     <MESSAGE value="Proof of concept for direntry in sniff.cpp it will need to be moved, but it works." />
     <MESSAGE value="figured out how lstat wrapper needs to work. Implemented only kinda of a mock up, needs to be flushed out a bit more." />
@@ -514,7 +501,8 @@
     <MESSAGE value="sync" />
     <MESSAGE value="bits does not work on mac" />
     <MESSAGE value="troubleshooting sort." />
-    <option name="LAST_COMMIT_MESSAGE" value="troubleshooting sort." />
+    <MESSAGE value="add exceptions.cpp and its hpp file for basic error handling." />
+    <option name="LAST_COMMIT_MESSAGE" value="add exceptions.cpp and its hpp file for basic error handling." />
   </component>
   <component name="WindowStateProjectService">
     <state x="660" y="414" width="589" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601251950567">
@@ -526,10 +514,10 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601692990136">
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601745768186">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
-    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601692990136" />
+    <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601745768186" />
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="743" y="527" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601739866450">
