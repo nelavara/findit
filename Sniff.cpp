@@ -95,6 +95,11 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
 
 }
 
+//--------------------------------------------------------------
+/*
+ * Sort the files and directories by iNode.
+ */
+
 void Sniff::sortObjects() {
     for (int k= 0; k < int(subdirectories.size()); k++){
         allEntries.push_back(subdirectories[k]);
@@ -102,11 +107,9 @@ void Sniff::sortObjects() {
     for (int k = 0; k < int(files.size()); k++){
         allEntries.push_back(files[k]);
     }
-    /*for (int k = 0; k< int (allEntries.size()); k++){
-        allEntries[k]->print(cout);
-    }*/
     CompareFileID cfid;
     sort(allEntries.begin(), allEntries.end(), cfid);
+
 }
 
 //-----------------------------------------------------------------------------
@@ -116,12 +119,6 @@ void Sniff::sortObjects() {
 ostream& Sniff::print(ostream &out) {
 
     out << '\n';
-    /*for (int k =0; k < int(subdirectories.size()); k++){
-        subdirectories[k]->print(out);
-    }
-    for (int k = 0; k < int(files.size()); k++){
-        files[k]->print(out);
-    }*/
     for (int k = 0; k < int(allEntries.size()); k++){
         allEntries[k]->print(out);
     }
