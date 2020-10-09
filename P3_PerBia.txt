@@ -1404,3 +1404,193 @@ Directory	938414	test1		iNode	938414	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/test1
 Directory	938415	tes4		iNode	938415	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	17:34:28
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	17:34:36
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	17:34:47
+---------------------------------------------------------------
+
+File		931633	test.txt	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+File		931634	test2.txt	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+Directory	938414	test1		iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4		iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:50:58
+---------------------------------------------------------------
+
+File		931633	test.txt	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+File		931634	test2.txt	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+Directory	938414	test1		iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938415	tes4		iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:51:03
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:53:27
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:54:37
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:56:08
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:57:01
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:57:54
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:58:01
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	22:58:51
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	23:00:39
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Thu Oct  8 2020	23:03:17
+---------------------------------------------------------------
+
+	iNode	931633	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+	iNode	931634	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+	iNode	938414	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+	iNode	938415	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/tes4

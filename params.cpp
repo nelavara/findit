@@ -73,7 +73,6 @@ void params::directoryMaker() {
             usage(1);
         }
     }
-    //strcpy(directoryPath, optarg);
     directoryPath = optarg;
 }
 
