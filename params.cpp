@@ -93,7 +93,7 @@ void params::fileMaker() {
 
 void params::usage(int whichErr) {
     cout << "The command you entered was: \n"
-        << command << '\n';
+         << command << '\n';
     if (whichErr == 1){
         cout << "Either you have already specified a directory\n"
                 " or no argument was passed, try again.\n";
@@ -116,33 +116,33 @@ void params::usage(int whichErr) {
 /*Print function, checks if -o is true, if so creates file with string specified
  * if not it just prints out the results.*/
 ostream& params::print(ostream &out) {
-        out << "Command: " << command << '\n';
-        out << "Verbose? ";
-        if (verbose){
-            out << "Yes" << '\n';
-        }
-        else if (!verbose){
-            out << "No" << '\n';
-        }
-        out << "Case insensitive? ";
-        if (caseSensitivity){
-            out << "Yes" << '\n';
-        }
-        else if (!caseSensitivity){
-            out << "No" << '\n';
-        }
-        out << "Recursive Search: ";
-        if (recursiveSearch){
-            out << "Yes" << '\n';
-        }
-        else if (!recursiveSearch){
-            out << "No" << '\n';
-        }
-        out << "No output file specified." << '\n';
-        out << "Directory: " << directoryPath << '\n';
-        out << "------------------------------------------------------\n";
+    out << "Command: " << command << '\n';
+    out << "Verbose? ";
+    if (verbose){
+        out << "Yes" << '\n';
+    }
+    else if (!verbose){
+        out << "No" << '\n';
+    }
+    out << "Case insensitive? ";
+    if (caseSensitivity){
+        out << "Yes" << '\n';
+    }
+    else if (!caseSensitivity){
+        out << "No" << '\n';
+    }
+    out << "Recursive Search: ";
+    if (recursiveSearch){
+        out << "Yes" << '\n';
+    }
+    else if (!recursiveSearch){
+        out << "No" << '\n';
+    }
+    out << "No output file specified." << '\n';
+    out << "Directory: " << directoryPath << '\n';
+    out << "------------------------------------------------------\n";
 
-        out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
+    out << "Search Term: " << searchWords << '\n'; //This is not required for submission only for testing.
 
 
     return out;

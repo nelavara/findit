@@ -2399,3 +2399,54 @@ Directory	1624609	sub2		iNode	1624609	links	9
 		/Users/evanperry/Documents/findit/test/sub2
 File		1625926	hardMatter.txt	iNode	1625926	links	9
 		/Users/evanperry/Documents/findit/test/hardMatter.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	16:53:41
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	16:57:44
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	16:57:55
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	16:58:49
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	16:59:00
+---------------------------------------------------------------
+
+File		931976	test.txt	iNode	931976	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+File		931978	test2.txt	iNode	931978	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+Directory	938464	test1		iNode	938464	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938465	test2		iNode	938465	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	16:59:46
+---------------------------------------------------------------
+
+File		931976	test.txt	iNode	931976	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test.txt
+File		931978	test2.txt	iNode	931978	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2.txt
+Directory	938464	test1		iNode	938464	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test1
+Directory	938465	test2		iNode	938465	links	4
+		/home/evanperry/CLionProjects/findit/BidenTrump/test2

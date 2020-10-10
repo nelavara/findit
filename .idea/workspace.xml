@@ -35,7 +35,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="modifed ignore file to not upload txt files.">
+      <change afterPath="$PROJECT_DIR$/BidenTrump/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BidenTrump/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BidenTrump/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Direntry.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Direntry.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileID.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileID.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stats.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Stats.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program3" beforeDir="false" afterPath="$PROJECT_DIR$/program3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/gary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hardMatter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/random.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/softleft.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub1/anothersoftmadeup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub1/hard2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub1/left.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub1/right.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub1/softmary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/hard3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/mary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/matterhorn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/softgary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/softmadeup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-1/goslin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-1/hardleft.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-1/megaphone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-3/anotherhardright.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-3/hardright.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-3/notthis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-3/sub3/handoff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-3/sub3/hardnot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sub2/sub2-3/sub3/madeup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tools.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/tools.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +118,6 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,6 +142,7 @@
       <workItem from="1601778138746" duration="4933000" />
       <workItem from="1601821440997" duration="597000" />
       <workItem from="1602192744227" duration="9862000" />
+      <workItem from="1602363157949" duration="541000" />
     </task>
     <task id="LOCAL-00059" summary="added class Stats prototype.">
       <created>1600649581419</created>

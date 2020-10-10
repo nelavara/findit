@@ -4,6 +4,6 @@
 //
 ostream & Badsniff::print(ostream &out) {
     out << "Something went wrong, check your spelling, perhaps the folder path you"<<
-    " specified does not exist. Try again later!";
+        " specified does not exist. Try again later!";
     return (out);
 }

@@ -35,7 +35,7 @@ void FileID::sniffWordmaker(string inComing) {
                 sniffWords.push_back(inComing);
             }
         }
-        }
+    }
 }
 
 //---------------------------------------------------------------------------
@@ -81,19 +81,16 @@ bool FileID::readFile(vector<string>& tobeSniffed){
  */
 
 ostream& FileID::print(ostream& out){
-  if (verboseState){
-      if (fileType == "File"){
-          out << fileType << '\t' << '\t' << iNodeNum << '\t' << fileName;
-      }
-      else if (fileType == "Soft Link"){
-          out << fileType << '\t' << iNodeNum << '\t' << fileName;
-      }
-      else{
-          out << fileType << '\t' << iNodeNum << '\t' << fileName << '\t';
-      }
+    if (verboseState){
+        if (fileType == "File"){
+            out << fileType << '\t' << '\t' << iNodeNum << '\t' << fileName;
+        }
+        else{
+            out << fileType << '\t' << iNodeNum << '\t' << fileName << '\t';
+        }
 
-  }
-  out << '\t' << "iNode" << '\t' << iNodeNum << '\t' << "links" << '\t' << numOfLinks << '\n';
-  out << "\t\t" << filePath << '\n';
+    }
+    out << '\t' << "iNode" << '\t' << iNodeNum << '\t' << "links" << '\t' << numOfLinks << '\n';
+    out << "\t\t" << filePath << '\n';
     return out;
 }
