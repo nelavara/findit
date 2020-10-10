@@ -1720,3 +1720,80 @@ Directory	938414	test1		iNode	938414	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/test1
 Directory	938415	tes4		iNode	938415	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/tes4
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:04:46
+---------------------------------------------------------------
+
+File		931901	gary.txt	iNode	931901	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:05:00
+---------------------------------------------------------------
+
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:05:52
+---------------------------------------------------------------
+
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:07:20
+---------------------------------------------------------------
+
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:07:37
+---------------------------------------------------------------
+
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
