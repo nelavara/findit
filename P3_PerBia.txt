@@ -1998,3 +1998,241 @@ Directory	938437	sub1		iNode	938437	links	4
 		/home/evanperry/CLionProjects/findit/test/sub1
 Directory	938438	sub2		iNode	938438	links	4
 		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:54:53
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:54:56
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:56:53
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:59:55
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:03:57
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:04:29
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:10:36
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:12:33
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:19:36
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:19:55
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:20:54
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:24:24
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:28:22
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	15:29:52
+---------------------------------------------------------------
+
+File		1624599	gary.txt	iNode	1624599	links	8
+		/Users/evanperry/Documents/findit/test/gary.txt
+File		1624601	random.txt	iNode	1624601	links	8
+		/Users/evanperry/Documents/findit/test/random.txt
+Soft Link	1624602	softleft.txt	iNode	1624602	links	8
+		/Users/evanperry/Documents/findit/test/softleft.txt
+Directory	1624603	sub1		iNode	1624603	links	8
+		/Users/evanperry/Documents/findit/test/sub1
+Directory	1624609	sub2		iNode	1624609	links	8
+		/Users/evanperry/Documents/findit/test/sub2

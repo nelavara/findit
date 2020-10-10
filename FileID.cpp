@@ -13,6 +13,7 @@ FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataCon
     iNodeNum = get<4> (dataContainer);
     verboseState = get<5>(dataContainer);
     fileType = get<6>(dataContainer);
+    cout << "FilePath: " << filePath << endl;
 }
 //--------------------------------------------------------------------------
 /*
@@ -44,6 +45,7 @@ void FileID::sniffWordmaker(string inComing) {
  * search term.
  */
 bool FileID::readFile(vector<string>& tobeSniffed){
+    cout << " FilePath: " << filePath << " ==== " << "Number of Links: " << numOfLinks << " === " << "Inode Num: " << iNodeNum << endl;
     string line;
     string test1= "\\b(";
     string test2 = ")([^ ]*)";
