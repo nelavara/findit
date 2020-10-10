@@ -3,7 +3,7 @@
 #------------------------------- 09-27-2020
 #------------------------------- CSCI 6647
 OBJS = main.cpp FileID.cpp params.cpp Sniff.cpp tools.cpp exceptions.cpp
-CXXFLAGS = -Wall -std=c++17 -O1
+CXXFLAGS = -Wall -std=c++17
 # CCX is prefedeined to the default C++ compiler on your machine.
 #On a Mac, CXX = Cland++, on Linux, g++. Both define C== also.
 #--------------------------------- Linking Command
