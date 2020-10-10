@@ -34,9 +34,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="created a .ignorefile for git">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="modifed ignore file to not upload txt files.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +108,7 @@
       <workItem from="1601550480051" duration="2527000" />
       <workItem from="1601778138746" duration="4933000" />
       <workItem from="1601821440997" duration="597000" />
-      <workItem from="1602192744227" duration="9805000" />
-    </task>
-    <task id="LOCAL-00058" summary="returned usage to not use out, as it is not neccessary.">
-      <created>1600527904954</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1600527904954</updated>
+      <workItem from="1602192744227" duration="9862000" />
     </task>
     <task id="LOCAL-00059" summary="added class Stats prototype.">
       <created>1600649581419</created>
@@ -454,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602355806274</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="modifed ignore file to not upload txt files.">
+      <created>1602355996658</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1602355996658</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="flushed out the regex more, including even partial matches, since the purpose of this program is to find inappropirate content." />
     <MESSAGE value="Modified so only FileIDs that have a search term located are able to be stored in the array, to be in compliance with the assignment." />
     <MESSAGE value="removed a redundant line of code." />
     <MESSAGE value="Created output to the console as required by the assignment." />
@@ -511,7 +509,8 @@
     <MESSAGE value="added ability to read soft links." />
     <MESSAGE value="fixed a formatting issue with printing a soft link" />
     <MESSAGE value="created a .ignorefile for git" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a .ignorefile for git" />
+    <MESSAGE value="modifed ignore file to not upload txt files." />
+    <option name="LAST_COMMIT_MESSAGE" value="modifed ignore file to not upload txt files." />
   </component>
   <component name="WindowStateProjectService">
     <state x="674" y="433" width="562" height="367" key="#Notifications" timestamp="1602334052377">
@@ -527,13 +526,13 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602355809762">
+    <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602356000315">
       <screen x="0" y="27" width="4480" height="1413" />
     </state>
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601819818410" />
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
-    <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.4480.1413@0.27.4480.1413" timestamp="1602355809762" />
+    <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.4480.1413@0.27.4480.1413" timestamp="1602356000315" />
     <state x="1920" y="629" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602354355855">
       <screen x="0" y="27" width="4480" height="1413" />
     </state>
