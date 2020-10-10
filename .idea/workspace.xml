@@ -35,9 +35,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="removed an unnecessary comment">
+      <change afterPath="$PROJECT_DIR$/FileID.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sniff.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/params.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terst.tct" beforeDir="false" afterPath="$PROJECT_DIR$/terst.tct" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +109,7 @@
       <workItem from="1601550480051" duration="2527000" />
       <workItem from="1601778138746" duration="4933000" />
       <workItem from="1601821440997" duration="597000" />
-      <workItem from="1602192744227" duration="2836000" />
-    </task>
-    <task id="LOCAL-00049" summary="changed hpp file to be #pragma once">
-      <created>1599935013368</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1599935013368</updated>
+      <workItem from="1602192744227" duration="3973000" />
     </task>
     <task id="LOCAL-00050" summary="changed hpp file to be #pragma once">
       <created>1599935145063</created>
@@ -448,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602212646039</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="removed an unnecessary comment">
+      <created>1602213200141</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1602213200141</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,13 +523,13 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602212649595">
+    <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602213203538">
       <screen x="0" y="27" width="4480" height="1413" />
     </state>
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601819818410" />
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
-    <state x="1937" y="374" key="Vcs.Push.Dialog.v2/0.27.4480.1413@0.27.4480.1413" timestamp="1602212649595" />
+    <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.4480.1413@0.27.4480.1413" timestamp="1602213203538" />
     <state x="743" y="527" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601739866450">
       <screen x="0" y="27" width="1920" height="1173" />
     </state>
