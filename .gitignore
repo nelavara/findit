@@ -1,0 +1,5 @@
+# prevent program3 from being uploaded
+program3
+
+# lets not add any text files to make our lives easier.
+*.txt
