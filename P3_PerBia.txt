@@ -1884,3 +1884,98 @@ Directory	1624603	sub1		iNode	1624603	links	8
 		/Users/evanperry/Documents/findit/test/sub1
 Directory	1624609	sub2		iNode	1624609	links	8
 		/Users/evanperry/Documents/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:34:40
+---------------------------------------------------------------
+
+Soft Link	931901	softleft.txt		iNode	931901	links	4
+		/home/evanperry/CLionProjects/findit/test/softleft.txt
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:35:12
+---------------------------------------------------------------
+
+SftLnk	931901	softleft.txt		iNode	931901	links	4
+		/home/evanperry/CLionProjects/findit/test/softleft.txt
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:35:48
+---------------------------------------------------------------
+
+Soft Lk	931901	softleft.txt		iNode	931901	links	4
+		/home/evanperry/CLionProjects/findit/test/softleft.txt
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:37:31
+---------------------------------------------------------------
+
+Soft Link		931901	softleft.txt	iNode	931901	links	4
+		/home/evanperry/CLionProjects/findit/test/softleft.txt
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	14:37:52
+---------------------------------------------------------------
+
+Soft Link	931901	softleft.txt	iNode	931901	links	4
+		/home/evanperry/CLionProjects/findit/test/softleft.txt
+File		931902	gary.txt	iNode	931902	links	4
+		/home/evanperry/CLionProjects/findit/test/gary.txt
+File		931906	hard1.txt	iNode	931906	links	4
+		/home/evanperry/CLionProjects/findit/test/hard1.txt
+File		931911	random.txt	iNode	931911	links	4
+		/home/evanperry/CLionProjects/findit/test/random.txt
+Directory	938437	sub1		iNode	938437	links	4
+		/home/evanperry/CLionProjects/findit/test/sub1
+Directory	938438	sub2		iNode	938438	links	4
+		/home/evanperry/CLionProjects/findit/test/sub2

@@ -85,6 +85,9 @@ ostream& FileID::print(ostream& out){
       if (fileType == "File"){
           out << fileType << '\t' << '\t' << iNodeNum << '\t' << fileName;
       }
+      else if (fileType == "Soft Link"){
+          out << fileType << '\t' << iNodeNum << '\t' << fileName;
+      }
       else{
           out << fileType << '\t' << iNodeNum << '\t' << fileName << '\t';
       }

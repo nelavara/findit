@@ -93,7 +93,7 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
         strcat(filePath, "/");
         strcat(filePath, temp->name());
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer
-                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File");
+                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Soft Link");
         FileID* tempFID = new FileID(dataContainer);
 
         if (tempFID->readFile(sniffWords)){
