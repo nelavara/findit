@@ -78,24 +78,13 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
         subdirectories.push_back(tempFID);
 
     }
-    else if (temp->type() == 8){
+    else if (temp->type() == 8 || temp->type() == 10){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer
         (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File");
         FileID* tempFID = new FileID(dataContainer);
         
-        if (tempFID->readFile(sniffWords)){
-            files.push_back(tempFID);
-        }
-    }
-    else if (temp->type() == 10){
-        strcat(filePath, "/");
-        strcat(filePath, temp->name());
-        tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer
-                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Soft Link");
-        FileID* tempFID = new FileID(dataContainer);
-
         if (tempFID->readFile(sniffWords)){
             files.push_back(tempFID);
         }
