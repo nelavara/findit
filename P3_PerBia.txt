@@ -1669,3 +1669,14 @@ Directory	938415	tes4		iNode	938415	links	4
 	Evan Perry and Jaron Bialecki
 	CSCI 6647
 	Sat Oct 10 2020	08:11:14
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	08:24:12
+---------------------------------------------------------------
+
+File		1620562	test.txt	iNode	1620562	links	6
+		/Users/evanperry/Documents/findit/BidenTrump/test.txt
+File		1620564	test2.txt	iNode	1620564	links	6
+		/Users/evanperry/Documents/findit/BidenTrump/test2.txt
