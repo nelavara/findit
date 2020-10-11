@@ -41,22 +41,23 @@ void Sniff::run(int argc, char ** argv) {
 
 void Sniff::travel(char* filePath) {
     DIR *dir = opendir(filePath);
-    if(errno!=0){
+    if (errno != 0) {
+        cout << filePath << endl;
         throw Badsniff();
     }
-    Direntry* tr;
-    while((tr=(Direntry*)readdir(dir)) != NULL){
-        if (tr->name()[0] != '.'){
-            Direntry* temp;
-            Stats* ts = new Stats();
+    Direntry *tr;
+    while ((tr = (Direntry *) readdir(dir)) != NULL) {
+        if (tr->name()[0] != '.') {
+            Direntry *temp;
+            Stats *ts = new Stats();
             temp = tr;
-            lstat(filePath, (Stats*)ts);
-            Stats* temp1;
+            lstat(filePath, (Stats *) ts);
+            Stats *temp1;
             temp1 = ts;
             FileIDmaker(temp, temp1, cwd);
         }
+        closedir(dir);
     }
-    closedir(dir);
 }
 
 //---------------------------------------------------------------------------------
@@ -76,6 +77,7 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
                 (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Directory", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);
         subdirectories.push_back(tempFID);
+
 
     }
     else if (temp->type() == 8){
