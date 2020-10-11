@@ -34,10 +34,32 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="reverted to fix a malloc.">
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="removed some couts not needed.">
+      <change afterPath="$PROJECT_DIR$/linuxTest/gary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/whatever.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/anothersoftmadeup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/hardGoslin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linuxTest/sub1/hardGoslin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/left.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linuxTest/sub1/left.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/right.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/softmary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/hardHandoff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/mary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/matterhorn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/softGary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/softMadeup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/goslin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/hardLeft.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/megaphone.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/hardRight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/notthis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/handoff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/hardNotthis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/madeup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/program3" beforeDir="false" afterPath="$PROJECT_DIR$/program3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,14 +133,7 @@
       <workItem from="1601778138746" duration="4933000" />
       <workItem from="1601821440997" duration="597000" />
       <workItem from="1602192744227" duration="9862000" />
-      <workItem from="1602363157949" duration="9367000" />
-    </task>
-    <task id="LOCAL-00067" summary="started Sniff.cpp">
-      <created>1600830430161</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1600830430161</updated>
+      <workItem from="1602363157949" duration="11808000" />
     </task>
     <task id="LOCAL-00068" summary="Fixed the return types to&#10;&#10;class Stats : public stat {&#10;    public:&#10;        Stats() = default;&#10;        ~Stats() = default;&#10;&#10;        ino_t   inode() { return st_ino; }&#10;        off_t   size()  { return st_size; }&#10;        nlink_t links() { return st_nlink; }&#10;&#10;        ostream&amp; print(ostream&amp; out);&#10;};&#10;&#10;class Dirent : public dirent {&#10;    public:&#10;        Dirent() = default;&#10;        ~Dirent() = default;&#10;&#10;        char*      name() { return d_name; }&#10;        ino_t      inode() { return st_ino; }&#10;        __uint16_t type() { return d_type; }">
       <created>1600900748192</created>
@@ -456,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602434713218</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="removed some couts not needed.">
+      <created>1602434864276</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1602434864276</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +510,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added comments to make it easier to understand." />
     <MESSAGE value="Simplified the directoryMaker() function." />
     <MESSAGE value="moved remaining used includes into tools.hpp" />
     <MESSAGE value="moved constexpr static struct option long_options outside of params calls as its own strucutre. Would not compile when using make." />
@@ -513,7 +534,8 @@
     <MESSAGE value="enabled case sensitivity switch." />
     <MESSAGE value="starting on program 4, renamed ondir to travel and work to run. Moved inital creation of folder path to the run function." />
     <MESSAGE value="reverted to fix a malloc." />
-    <option name="LAST_COMMIT_MESSAGE" value="reverted to fix a malloc." />
+    <MESSAGE value="removed some couts not needed." />
+    <option name="LAST_COMMIT_MESSAGE" value="removed some couts not needed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="674" y="433" width="562" height="367" key="#Notifications" timestamp="1602334052377">
@@ -529,7 +551,7 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602434716029">
+    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602434869140">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601819818410" />
@@ -537,7 +559,7 @@
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.4480.1413@0.27.4480.1413" timestamp="1602356000315" />
     <state x="830" y="315" width="526" height="445" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1602426744951" />
-    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@1920.0.2560.1440" timestamp="1602434716029" />
+    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@1920.0.2560.1440" timestamp="1602434869140" />
     <state x="3017" y="614" width="433" height="183" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602434313864">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>

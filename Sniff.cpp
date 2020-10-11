@@ -28,7 +28,8 @@ void Sniff::run(int argc, char ** argv) {
     cwd = string(npwd) + string(pms->getdirPath());
     char filePath[int(cwd.length())+1];
     strcpy(filePath, cwd.c_str());
-    travel(filePath);
+    string tcwd = cwd;
+    travel(filePath, tcwd);
 }
 
 
@@ -39,9 +40,10 @@ void Sniff::run(int argc, char ** argv) {
  * of the directory and get the Direntrys and the Stats ready for the FileIDmaker.
  */
 
-void Sniff::travel(char* filePath) {
+void Sniff::travel(char* filePath, string tcwd) {
     DIR *dir = opendir(filePath);
     if(errno!=0){
+        cout << filePath << endl;
         throw Badsniff();
     }
     Direntry* tr;
@@ -53,12 +55,13 @@ void Sniff::travel(char* filePath) {
             lstat(filePath, (Stats*)ts);
             Stats* temp1;
             temp1 = ts;
-            FileIDmaker(temp, temp1, cwd);
+            FileIDmaker(temp, temp1, tcwd);
 
             }
         }
     closedir(dir);
 }
+
 
 //---------------------------------------------------------------------------------
 /*
@@ -67,9 +70,9 @@ void Sniff::travel(char* filePath) {
  * Files are only pushed on the files vector if they contain any of the search words. We delegate the
  * searching of the file to FileID. Lastly because in Program 3 we ignore all other files types.
  */
-void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
-    char filePath[int(cwd.length())+1];
-    strcpy(filePath, cwd.c_str());
+void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
+    char filePath[int(tcwd.length())+1];
+    strcpy(filePath, tcwd.c_str());
     if(temp->type()== 4){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
@@ -77,12 +80,15 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
                 (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Directory", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);
         subdirectories.push_back(tempFID);
+        tcwd = tcwd + "/" + temp->name();
+        travel(filePath, tcwd);
 
 
     }
     else if (temp->type() == 8){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
+        cout << filePath << endl;
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
                 (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);
@@ -94,6 +100,7 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
     else if (temp->type() == 10){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
+        cout << filePath << endl;
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
                 (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Soft Link", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);

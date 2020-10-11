@@ -14,7 +14,7 @@ private:
     vector<FileID*> allEntries;
     string cwd = "./";
     void run(int, char**);
-    void travel(char*);
+    void travel(char*,  string);
     void FileIDmaker(Direntry*, Stats*, string);
     void getDirectoryPath();
     void sortObjects();
