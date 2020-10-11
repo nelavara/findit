@@ -1,4 +1,4 @@
-#------------------------------- Make file for Program 3
+#------------------------------- Make file for Program 4
 #------------------------------- Evan Perry and Jaron Bialecki
 #------------------------------- 09-27-2020
 #------------------------------- CSCI 6647
@@ -7,8 +7,8 @@ CXXFLAGS = -Wall -std=c++17
 # CCX is prefedeined to the default C++ compiler on your machine.
 #On a Mac, CXX = Cland++, on Linux, g++. Both define C== also.
 #--------------------------------- Linking Command
-Program3: $(OBJS)
-	$(CXX) -o program3 $(CXXFLAGS) $(OBJS)
+Program4: $(OBJS)
+	$(CXX) -o program4 $(CXXFLAGS) $(OBJS)
 #--------------------------------- Compilation Commands
 exceptions.o: exceptions.cpp exceptions.hpp tools.hpp
 FileID.o: FileID.cpp FileID.hpp Direntry.hpp Stats.hpp params.hpp \
@@ -21,4 +21,4 @@ Sniff.o: Sniff.cpp Sniff.hpp FileID.hpp Direntry.hpp Stats.hpp params.hpp \
 tools.o: tools.cpp tools.hpp
 #Optional Cleanup Command
 clean:
-	rm -f $(OBJS) Program3
+	rm -f $(OBJS) Program4
