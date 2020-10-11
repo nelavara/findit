@@ -72,17 +72,28 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string cwd) {
     if(temp->type()== 4){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
-        tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer
-                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Directory");
+        tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
+                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Directory", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);
         subdirectories.push_back(tempFID);
 
     }
-    else if (temp->type() == 8 || 10){
+    else if (temp->type() == 8){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
-        tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer
-                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File");
+        tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
+                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File", pms->getCase());
+        FileID* tempFID = new FileID(dataContainer);
+
+        if (tempFID->readFile(sniffWords)){
+            files.push_back(tempFID);
+        }
+    }
+    else if (temp->type() == 10){
+        strcat(filePath, "/");
+        strcat(filePath, temp->name());
+        tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
+                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Soft Link", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);
 
         if (tempFID->readFile(sniffWords)){

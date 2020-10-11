@@ -2450,3 +2450,394 @@ Directory	938464	test1		iNode	938464	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/test1
 Directory	938465	test2		iNode	938465	links	4
 		/home/evanperry/CLionProjects/findit/BidenTrump/test2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	17:14:13
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	17:14:26
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	17:18:42
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	17:18:46
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sat Oct 10 2020	17:18:54
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:17:59
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:19:01
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+File		932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:32:36
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+File		932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:34:26
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:36:36
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:38:10
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:38:37
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:39:31
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:39:55
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:40:28
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:41:29
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:44:03
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:45:16
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:49:52
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:52:51
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:53:32
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:54:50
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:56:49
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	10:57:13
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	11:01:06
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	11:09:40
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	11:09:45
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	11:12:29
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	11:14:13
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	11:14:24
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	11:14:30
+---------------------------------------------------------------
+
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2

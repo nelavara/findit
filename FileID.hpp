@@ -14,13 +14,14 @@ private:
     int numOfLinks;
     int sizeofFile;
     bool verboseState;
+    bool caseSensitivity;
     string fileType;
     vector<string> sniffWords;
 
     void sniffWordmaker(string);
 
 public:
-    FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string>);
+    FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool>);
     ~FileID() = default;
     ostream& print (ostream& out);
     bool readFile(vector<string>&);

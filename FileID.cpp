@@ -3,7 +3,7 @@
 */
 #include "FileID.hpp"
 //Constructor for FileID,takes a tuple, then parses it for the data items.
-FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataContainer) {
+FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer) {
     filePath = new char [strlen(get<0>(dataContainer))];
     strcpy(filePath, get<0>(dataContainer));
     fileName = new char [strlen(get<1>(dataContainer))];
@@ -13,6 +13,7 @@ FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string> dataCon
     iNodeNum = get<4> (dataContainer);
     verboseState = get<5>(dataContainer);
     fileType = get<6>(dataContainer);
+    caseSensitivity = get<7>(dataContainer);
 }
 //--------------------------------------------------------------------------
 /*
@@ -58,15 +59,29 @@ bool FileID::readFile(vector<string>& tobeSniffed){
         for (int k = 0; k < int(tobeSniffed.size()); k++){
             string regPattern = test1+tobeSniffed[k]+test2;
             smatch test;
-            regex des (regPattern);
-            while(regex_search(line,test,des)){
-                for (string x:test) {
-                    anyWordfound = true;
-                    foundone = true;
-                    sniffWordmaker(x);
-                    break;
+            if (caseSensitivity){
+                regex des (regPattern, std::regex_constants::icase);
+                while(regex_search(line,test,des)){
+                    for (string x:test) {
+                        anyWordfound = true;
+                        foundone = true;
+                        sniffWordmaker(x);
+                        break;
+                    }
+                    if (foundone) break;
                 }
-                if (foundone) break;
+            }
+            else{
+                regex des (regPattern);
+                while(regex_search(line,test,des)){
+                    for (string x:test) {
+                        anyWordfound = true;
+                        foundone = true;
+                        sniffWordmaker(x);
+                        break;
+                    }
+                    if (foundone) break;
+                }
             }
         }
     }
@@ -84,6 +99,9 @@ ostream& FileID::print(ostream& out){
     if (verboseState){
         if (fileType == "File"){
             out << fileType << '\t' << '\t' << iNodeNum << '\t' << fileName;
+        }
+        else if (fileType == "Soft Link"){
+            out << fileType << '\t' << iNodeNum << '\t' << fileName;
         }
         else{
             out << fileType << '\t' << iNodeNum << '\t' << fileName << '\t';
