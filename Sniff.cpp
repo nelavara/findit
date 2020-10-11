@@ -84,10 +84,10 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
                 (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Directory", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);
         subdirectories.push_back(tempFID);
-        tcwd = tcwd + "/" + temp->name();
-        travel(filePath, tcwd);
-
-
+        if (pms->getRecursive()){
+            tcwd = tcwd + "/" + temp->name();
+            travel(filePath, tcwd);
+        }
     }
     else if (temp->type() == 8){
         strcat(filePath, "/");

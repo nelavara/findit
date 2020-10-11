@@ -31,6 +31,7 @@ private:
     char* getdirPath(){return directoryPath;}
     bool getVerbose () {return verbose;}
     bool getCase () {return caseSensitivity;}
+    bool getRecursive () {return recursiveSearch;}
 public:
     params(int, char**); //constructor
     ~params() = default; //destructor
