@@ -11,7 +11,7 @@
 #define NAME    "Evan Perry and Jaron Bialecki"
 #define CLASS   "CSCI 6647"
 
-#define FN "P3_PerBia.txt"
+#define FN "P4_PerBia.txt"
 
 #include <getopt.h>
 #include <ostream>

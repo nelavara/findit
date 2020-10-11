@@ -34,11 +34,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="created linuxTest folder structure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileID.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/program3" beforeDir="false" afterPath="$PROJECT_DIR$/program3" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="added printing out to program 4 constraints.">
+      <change beforePath="$PROJECT_DIR$/tools.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/tools.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +103,7 @@
       <workItem from="1601821440997" duration="597000" />
       <workItem from="1602192744227" duration="9862000" />
       <workItem from="1602363157949" duration="11808000" />
-      <workItem from="1602446042159" duration="2692000" />
-    </task>
-    <task id="LOCAL-00069" summary="added a bit more to Sniff.cpp">
-      <created>1600998017584</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1600998017584</updated>
+      <workItem from="1602446042159" duration="2786000" />
     </task>
     <task id="LOCAL-00070" summary="Proof of concept for direntry in sniff.cpp it will need to be moved, but it works.">
       <created>1601002386993</created>
@@ -451,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602448680927</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="added printing out to program 4 constraints.">
+      <created>1602451854078</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1602451854078</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="moved remaining used includes into tools.hpp" />
     <MESSAGE value="moved constexpr static struct option long_options outside of params calls as its own strucutre. Would not compile when using make." />
     <MESSAGE value="sync" />
     <MESSAGE value="bits does not work on mac" />
@@ -508,7 +504,8 @@
     <MESSAGE value="reverted to fix a malloc." />
     <MESSAGE value="removed some couts not needed." />
     <MESSAGE value="created linuxTest folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="created linuxTest folder structure" />
+    <MESSAGE value="added printing out to program 4 constraints." />
+    <option name="LAST_COMMIT_MESSAGE" value="added printing out to program 4 constraints." />
   </component>
   <component name="WindowStateProjectService">
     <state x="674" y="433" width="562" height="367" key="#Notifications" timestamp="1602334052377">
@@ -524,7 +521,7 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602448684359">
+    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1602451857010">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601819818410" />
@@ -532,7 +529,7 @@
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.4480.1413@0.27.4480.1413" timestamp="1602356000315" />
     <state x="830" y="315" width="526" height="445" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1602426744951" />
-    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@1920.0.2560.1440" timestamp="1602448684359" />
+    <state x="3027" y="354" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@1920.0.2560.1440" timestamp="1602451857010" />
     <state x="3017" y="614" width="433" height="183" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602448827633">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
