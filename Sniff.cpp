@@ -4,7 +4,7 @@
 #include "Sniff.hpp"
 //Constructor for the Sniff Class
 Sniff::Sniff(int argc, char ** argv) {
-    work(argc, argv);
+    run(argc, argv);
     sortObjects();
 
 
@@ -16,14 +16,19 @@ Sniff::Sniff(int argc, char ** argv) {
  * ready for the sniffer. We also populate the searchWords vector. Lastly we call oneDir() to start the process.
  */
 
-void Sniff::work(int argc, char ** argv) {
+void Sniff::run(int argc, char ** argv) {
     pms = new params(argc, argv);
     stringstream SniffWordsIn(pms->getSearchWords());
     string temp;
     while(getline(SniffWordsIn, temp, ' ')){
         sniffWords.push_back(temp);
     }
-    oneDir();
+    char wcwd[PATH_MAX];
+    char* npwd = getcwd(wcwd, sizeof(wcwd));
+    cwd = string(npwd) + string(pms->getdirPath());
+    char filePath[int(cwd.length())+1];
+    strcpy(filePath, cwd.c_str());
+    travel(filePath);
 }
 
 
@@ -34,12 +39,7 @@ void Sniff::work(int argc, char ** argv) {
  * of the directory and get the Direntrys and the Stats ready for the FileIDmaker.
  */
 
-void Sniff::oneDir() {
-    char wcwd[PATH_MAX];
-    char* npwd = getcwd(wcwd, sizeof(wcwd));
-    cwd = string(npwd) + string(pms->getdirPath());
-    char filePath[int(cwd.length())+1];
-    strcpy(filePath, cwd.c_str());
+void Sniff::travel(char* filePath) {
     DIR *dir = opendir(filePath);
     if(errno!=0){
         throw Badsniff();

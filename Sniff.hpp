@@ -13,8 +13,8 @@ private:
     vector<FileID*> subdirectories;
     vector<FileID*> allEntries;
     string cwd = "./";
-    void work(int, char**);
-    void oneDir();
+    void run(int, char**);
+    void travel(char*);
     void FileIDmaker(Direntry*, Stats*, string);
     void getDirectoryPath();
     void sortObjects();

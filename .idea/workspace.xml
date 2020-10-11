@@ -34,38 +34,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="Made Linux text folder tree">
-      <change afterPath="$PROJECT_DIR$/linuxTest/gary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/hardMatter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/random.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/softleft.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub1/anothersoftmadeup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub1/hardGoslin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub1/left.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub1/right.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub1/softmary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/hardHandoff.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/mary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/matterhorn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/softGary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/softMadeup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/goslin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/hardLeft.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/megaphone.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/hardRight.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/notthis.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/handoff.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/hardNotthis.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/madeup.txt" afterDir="false" />
+    <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="enabled case sensitivity switch.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileID.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileID.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileID.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/test1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/test2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/params.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/program3" beforeDir="false" afterPath="$PROJECT_DIR$/program3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,14 +113,7 @@
       <workItem from="1601778138746" duration="4933000" />
       <workItem from="1601821440997" duration="597000" />
       <workItem from="1602192744227" duration="9862000" />
-      <workItem from="1602363157949" duration="3874000" />
-    </task>
-    <task id="LOCAL-00063" summary="added some functionality to print function in Direntry.hpp">
-      <created>1600650941899</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1600650941899</updated>
+      <workItem from="1602363157949" duration="5493000" />
     </task>
     <task id="LOCAL-00064" summary="started FileID header, modified Stats and Direntry to use public derivation, as that is an assignment constraint.">
       <created>1600732523893</created>
@@ -485,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602426741207</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="enabled case sensitivity switch.">
+      <created>1602429291815</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1602429291815</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add tools.hpp for the assignment, this should be stripped out, if made public, as this is the teacher's code." />
     <MESSAGE value="added tools.cpp this also should be stripped if made public, as it is teachers code." />
     <MESSAGE value="Direntry.cpp no longer needed, the file has been deleted." />
     <MESSAGE value="Added comments to make it easier to understand." />
@@ -542,7 +514,8 @@
     <MESSAGE value="some modifies" />
     <MESSAGE value="so heres the problem, mac and Linux file system do not cooperate, there needs to be one for Linux and one for mac." />
     <MESSAGE value="Made Linux text folder tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Linux text folder tree" />
+    <MESSAGE value="enabled case sensitivity switch." />
+    <option name="LAST_COMMIT_MESSAGE" value="enabled case sensitivity switch." />
   </component>
   <component name="WindowStateProjectService">
     <state x="674" y="433" width="562" height="367" key="#Notifications" timestamp="1602334052377">
@@ -558,14 +531,15 @@
     </state>
     <state x="889" y="287" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1173@0.27.1920.1173" timestamp="1601146386911" />
     <state x="889" y="340" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1413@0.27.1920.1413" timestamp="1599935071020" />
-    <state x="830" y="315" width="526" height="445" key="Vcs.Push.Dialog.v2" timestamp="1602426744951">
-      <screen x="0" y="27" width="1920" height="1173" />
+    <state x="3027" y="354" width="526" height="445" key="Vcs.Push.Dialog.v2" timestamp="1602429294802">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1601819818410" />
     <state x="830" y="315" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1173@0.27.1920.1173" timestamp="1601154211544" />
     <state x="830" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1413@0.27.1920.1413" timestamp="1600123581988" />
     <state x="1937" y="374" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.4480.1413@0.27.4480.1413" timestamp="1602356000315" />
     <state x="830" y="315" width="526" height="445" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@0.27.1920.1173" timestamp="1602426744951" />
+    <state x="3027" y="354" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.27.1920.1173@1920.0.2560.1440" timestamp="1602429294802" />
     <state x="1920" y="629" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602354355855">
       <screen x="0" y="27" width="4480" height="1413" />
     </state>
