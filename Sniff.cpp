@@ -13,7 +13,9 @@ Sniff::Sniff(int argc, char ** argv) {
 //------------------------------------------------------------
 /*
  * The work function creats a params object which parses the command line arguments and gets them
- * ready for the sniffer. We also populate the searchWords vector. Lastly we call oneDir() to start the process.
+ * ready for the sniffer. We also populate the searchWords vector. Lastly we call travel() to start the process.
+ * but just before we call travel we set the current working directory and pass a char array of the path
+ * and a string contained the current working directory.
  */
 
 void Sniff::run(int argc, char ** argv) {
@@ -35,8 +37,8 @@ void Sniff::run(int argc, char ** argv) {
 
 //------------------------------------------------------------
 /*
- * oneDir first we construct a relative path based on our current working directory and then
- * append our search Directory location. Then we open the direction, lastly we read the entire contents
+ * travel takes a file path and a string of the current working directory.
+ * Then we open the direction, lastly we read the entire contents
  * of the directory and get the Direntrys and the Stats ready for the FileIDmaker.
  */
 
@@ -68,7 +70,9 @@ void Sniff::travel(char* filePath, string tcwd) {
  * FileIDMaker makes the FileID objects. First we get the types read, make a tuple for easier passing and its cooler.
  * Next we create a new FileID, for FileIDs that are directories we push them onto the vector of subdirectories.
  * Files are only pushed on the files vector if they contain any of the search words. We delegate the
- * searching of the file to FileID. Lastly because in Program 3 we ignore all other files types.
+ * searching of the file to FileID. Lastly because in Program 3 we ignore all other files types. If
+ * a directory is pass we will update the current working directory and call travel() to walk across
+ * that directory.
  */
 void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
     char filePath[int(tcwd.length())+1];
@@ -88,7 +92,6 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
     else if (temp->type() == 8){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
-        cout << filePath << endl;
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
                 (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);
@@ -100,7 +103,6 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
     else if (temp->type() == 10){
         strcat(filePath, "/");
         strcat(filePath, temp->name());
-        cout << filePath << endl;
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
                 (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Soft Link", pms->getCase());
         FileID* tempFID = new FileID(dataContainer);

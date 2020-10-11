@@ -3592,3 +3592,537 @@ Soft Link	932039	softleft.txt	iNode	932039	links	4
 		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
 Directory	938491	sub1		iNode	938491	links	4
 		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	13:36:08
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	13:38:05
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717480	hardMatter.txt	iNode	1717480	links	8
+		/Users/evanperry/Documents/findit/macTest/hardMatter.txt
+File		1717481	random.txt	iNode	1717481	links	8
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	8
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	8
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1717486	left.txt	iNode	1717486	links	7
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	13:39:06
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717480	hardMatter.txt	iNode	1717480	links	8
+		/Users/evanperry/Documents/findit/macTest/hardMatter.txt
+File		1717481	random.txt	iNode	1717481	links	8
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	8
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	8
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729871	hard2.txt	iNode	1729871	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/hard2.txt
+File		1729894	left.txt	iNode	1729894	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	13:42:02
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	9
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717480	hardMatter.txt	iNode	1717480	links	9
+		/Users/evanperry/Documents/findit/macTest/hardMatter.txt
+File		1717481	random.txt	iNode	1717481	links	9
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	9
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	9
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729871	hard2.txt	iNode	1729871	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/hard2.txt
+File		1729894	left.txt	iNode	1729894	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	9
+		/Users/evanperry/Documents/findit/macTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	13:42:17
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	9
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717480	hardMatter.txt	iNode	1717480	links	9
+		/Users/evanperry/Documents/findit/macTest/hardMatter.txt
+File		1717481	random.txt	iNode	1717481	links	9
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	9
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	9
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729871	hard2.txt	iNode	1729871	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/hard2.txt
+File		1729894	left.txt	iNode	1729894	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	9
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub-2		iNode	1729987	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub-2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	13:44:14
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	9
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717480	hardMatter.txt	iNode	1717480	links	9
+		/Users/evanperry/Documents/findit/macTest/hardMatter.txt
+File		1717481	random.txt	iNode	1717481	links	9
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	9
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	9
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729871	hard2.txt	iNode	1729871	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/hard2.txt
+File		1729894	left.txt	iNode	1729894	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	9
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	14:51:57
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	8
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	8
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	8
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	left.txt	iNode	1729894	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	14:52:28
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	8
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	8
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	8
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	left.txt	iNode	1729894	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	matterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	14:55:35
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	8
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	8
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	8
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	left.txt	iNode	1729894	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	matterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+File		1730994	testMe1.txt	iNode	1730994	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe1.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	14:58:44
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	8
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	8
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	8
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	left.txt	iNode	1729894	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	matterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+File		1730964	testMe.txt	iNode	1730964	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe.txt@b@‘¶
+File		1730994	testMe1.txt	iNode	1730994	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe1.txt
+File		1731064	hello.txt	iNode	1731064	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hello.txt
+File		1731082	other.txt	iNode	1731082	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/other.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	15:03:13
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	8
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	8
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	8
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	left.txt	iNode	1729894	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	matterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+File		1730964	testMe.txt	iNode	1730964	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe.txtðW
+File		1730994	testMe1.txt	iNode	1730994	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe1.txt
+File		1731064	hello.txt	iNode	1731064	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hello.txt
+File		1731082	other.txt	iNode	1731082	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/other.txt
+File		1731215	matt.txt	iNode	1731215	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/matt.txt
+File		1731238	max.txt	iNode	1731238	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/max.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	15:09:52
+---------------------------------------------------------------
+
+File		1717479	gary.txt	iNode	1717479	links	9
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	9
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	9
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	9
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	left.txt	iNode	1729894	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	5
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+Directory	1729981	sub2		iNode	1729981	links	9
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	matterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+File		1730964	testMe.txt	iNode	1730964	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe.txt0Fpüù
+File		1730994	testMe1.txt	iNode	1730994	links	5
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe1.txt
+File		1731064	hello.txt	iNode	1731064	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hello.txt
+File		1731082	other.txt	iNode	1731082	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/other.txt
+File		1731215	matt.txt	iNode	1731215	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/matt.txt
+File		1731238	max.txt	iNode	1731238	links	4
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/max.txt
+Soft Link	1731293	softMatt.txt	iNode	1731293	links	9
+		/Users/evanperry/Documents/findit/macTest/softMatt.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	15:19:26
+---------------------------------------------------------------
+
+File		1717479	hardGary.txt	iNode	1717479	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/hardGary.txt
+File		1717479	hardGary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/hardGary.txt
+File		1717479	gary.txt	iNode	1717479	links	10
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	10
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	10
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	10
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	hardLeft.txt	iNode	1729894	links	10
+		/Users/evanperry/Documents/findit/macTest/hardLeft.txt
+File		1729894	left.txt	iNode	1729894	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+File		1729912	hardRight.txt	iNode	1729912	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/hardRight.txt
+Directory	1729981	sub2		iNode	1729981	links	10
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	hardMatterhorn.txt	iNode	1730868	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/hardMatterhorn.txt
+File		1730868	matterhorn.txt	iNode	1730868	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730868	hardMatterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hardMatterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+File		1730964	testMe.txt	iNode	1730964	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe.txt
+File		1730994	testMe1.txt	iNode	1730994	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe1.txt
+File		1731064	hello.txt	iNode	1731064	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hello.txt
+File		1731082	other.txt	iNode	1731082	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/other.txt
+File		1731215	matt.txt	iNode	1731215	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/matt.txt
+File		1731238	max.txt	iNode	1731238	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/max.txt
+Soft Link	1731293	softMatt.txt	iNode	1731293	links	10
+		/Users/evanperry/Documents/findit/macTest/softMatt.txt
+Soft Link	1731324	softGary.txt	iNode	1731324	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/softGary.txt
+Soft Link	1731346	softRandom.txt	iNode	1731346	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/softRandom.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	15:26:19
+---------------------------------------------------------------
+
+File		1717479	hardGary.txt	iNode	1717479	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/hardGary.txt
+File		1717479	hardGary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/hardGary.txt
+File		1717479	gary.txt	iNode	1717479	links	10
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	10
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	10
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	10
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	hardLeft.txt	iNode	1729894	links	10
+		/Users/evanperry/Documents/findit/macTest/hardLeft.txt
+File		1729894	left.txt	iNode	1729894	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+File		1729912	hardRight.txt	iNode	1729912	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/hardRight.txt
+Directory	1729981	sub2		iNode	1729981	links	10
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	hardMatterhorn.txt	iNode	1730868	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/hardMatterhorn.txt
+File		1730868	matterhorn.txt	iNode	1730868	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730868	hardMatterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hardMatterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+File		1730964	testMe.txt	iNode	1730964	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe.txt
+File		1730994	testMe1.txt	iNode	1730994	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe1.txt
+File		1731064	hello.txt	iNode	1731064	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hello.txt
+File		1731082	other.txt	iNode	1731082	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/other.txt
+File		1731215	matt.txt	iNode	1731215	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/matt.txt
+File		1731238	max.txt	iNode	1731238	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/max.txt
+Soft Link	1731293	softMatt.txt	iNode	1731293	links	10
+		/Users/evanperry/Documents/findit/macTest/softMatt.txt
+Soft Link	1731324	softGary.txt	iNode	1731324	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/softGary.txt
+Soft Link	1731346	softRandom.txt	iNode	1731346	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/softRandom.txt
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	15:29:19
+---------------------------------------------------------------
+
+File		1717479	hardGary.txt	iNode	1717479	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/hardGary.txt
+File		1717479	hardGary.txt	iNode	1717479	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/hardGary.txt
+File		1717479	gary.txt	iNode	1717479	links	10
+		/Users/evanperry/Documents/findit/macTest/gary.txt
+File		1717481	random.txt	iNode	1717481	links	10
+		/Users/evanperry/Documents/findit/macTest/random.txt
+Soft Link	1717482	softleft.txt	iNode	1717482	links	10
+		/Users/evanperry/Documents/findit/macTest/softleft.txt
+Directory	1717483	sub1		iNode	1717483	links	10
+		/Users/evanperry/Documents/findit/macTest/sub1
+File		1729894	hardLeft.txt	iNode	1729894	links	10
+		/Users/evanperry/Documents/findit/macTest/hardLeft.txt
+File		1729894	left.txt	iNode	1729894	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/left.txt
+File		1729912	right.txt	iNode	1729912	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/right.txt
+File		1729912	hardRight.txt	iNode	1729912	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/hardRight.txt
+Directory	1729981	sub2		iNode	1729981	links	10
+		/Users/evanperry/Documents/findit/macTest/sub2
+Directory	1729985	sub2-1		iNode	1729985	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1
+Directory	1729987	sub2-2		iNode	1729987	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2
+Directory	1730017	sub3		iNode	1730017	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3
+File		1730868	hardMatterhorn.txt	iNode	1730868	links	6
+		/Users/evanperry/Documents/findit/macTest/sub1/hardMatterhorn.txt
+File		1730868	matterhorn.txt	iNode	1730868	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/matterhorn.txt
+File		1730868	hardMatterhorn.txt	iNode	1730868	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hardMatterhorn.txt
+File		1730888	whatever.txt	iNode	1730888	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/whatever.txt
+File		1730964	testMe.txt	iNode	1730964	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe.txt
+File		1730994	testMe1.txt	iNode	1730994	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/testMe1.txt
+File		1731064	hello.txt	iNode	1731064	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/hello.txt
+File		1731082	other.txt	iNode	1731082	links	7
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/other.txt
+File		1731215	matt.txt	iNode	1731215	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/matt.txt
+File		1731238	max.txt	iNode	1731238	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/max.txt
+Soft Link	1731293	softMatt.txt	iNode	1731293	links	10
+		/Users/evanperry/Documents/findit/macTest/softMatt.txt
+Soft Link	1731324	softGary.txt	iNode	1731324	links	8
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-1/softGary.txt
+Soft Link	1731346	softRandom.txt	iNode	1731346	links	6
+		/Users/evanperry/Documents/findit/macTest/sub2/sub2-2/sub3/softRandom.txt
