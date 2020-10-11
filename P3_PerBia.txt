@@ -3171,3 +3171,56 @@ Directory	938491	sub1		iNode	938491	links	4
 		/home/evanperry/CLionProjects/findit/linuxTest/sub1
 Directory	938492	sub2		iNode	938492	links	4
 		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	12:46:16
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	12:46:37
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	12:47:25
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932028	gary.txt	iNode	932028	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
