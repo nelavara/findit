@@ -3132,3 +3132,42 @@ Directory	938492	sub2		iNode	938492	links	4
 	Evan Perry and Jaron Bialecki
 	CSCI 6647
 	Sun Oct 11 2020	12:41:24
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	12:44:08
+---------------------------------------------------------------
+
+	iNode	938458	links	4
+		/home/evanperry/CLionProjects/findit/macTest/sub1
+	iNode	938459	links	4
+		/home/evanperry/CLionProjects/findit/macTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	12:44:40
+---------------------------------------------------------------
+
+Directory	938458	sub1		iNode	938458	links	4
+		/home/evanperry/CLionProjects/findit/macTest/sub1
+Directory	938459	sub2		iNode	938459	links	4
+		/home/evanperry/CLionProjects/findit/macTest/sub2
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Sun Oct 11 2020	12:44:51
+---------------------------------------------------------------
+
+File		932027	random.txt	iNode	932027	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File		932033	hardMatter.txt	iNode	932033	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardMatter.txt
+Soft Link	932039	softleft.txt	iNode	932039	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+Directory	938491	sub1		iNode	938491	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+Directory	938492	sub2		iNode	938492	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
