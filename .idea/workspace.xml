@@ -35,30 +35,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8953ad45-abb5-4491-9723-7b200c04ecb5" name="Default Changelist" comment="removed some couts not needed.">
-      <change afterPath="$PROJECT_DIR$/linuxTest/gary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/whatever.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/hardRight.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/softMax.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub1/hardTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub1/right.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/hardGuessWork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/hardMatter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/hardWhat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/matterhorn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/softGary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/softRandom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/guessWork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/max.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linuxTest/sub2/whatever2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_PerBia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/P3_PerBia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sniff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sniff.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/anothersoftmadeup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/hardGoslin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linuxTest/sub1/hardGoslin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/left.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linuxTest/sub1/left.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/right.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/softmary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/hardHandoff.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/mary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/matterhorn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/softGary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/softMadeup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/goslin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/hardLeft.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-1/megaphone.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/hardRight.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/notthis.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/handoff.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/hardNotthis.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/sub2-2/sub3/madeup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/hardMatter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub1/hardGoslin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linuxTest/sub2/whatever.txt" beforeDir="false" afterPath="$PROJECT_DIR$/linuxTest/sub2/whatever.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/program3" beforeDir="false" afterPath="$PROJECT_DIR$/program3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,13 +99,6 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -134,6 +124,7 @@
       <workItem from="1601821440997" duration="597000" />
       <workItem from="1602192744227" duration="9862000" />
       <workItem from="1602363157949" duration="11808000" />
+      <workItem from="1602446042159" duration="612000" />
     </task>
     <task id="LOCAL-00068" summary="Fixed the return types to&#10;&#10;class Stats : public stat {&#10;    public:&#10;        Stats() = default;&#10;        ~Stats() = default;&#10;&#10;        ino_t   inode() { return st_ino; }&#10;        off_t   size()  { return st_size; }&#10;        nlink_t links() { return st_nlink; }&#10;&#10;        ostream&amp; print(ostream&amp; out);&#10;};&#10;&#10;class Dirent : public dirent {&#10;    public:&#10;        Dirent() = default;&#10;        ~Dirent() = default;&#10;&#10;        char*      name() { return d_name; }&#10;        ino_t      inode() { return st_ino; }&#10;        __uint16_t type() { return d_type; }">
       <created>1600900748192</created>
