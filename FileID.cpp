@@ -96,6 +96,7 @@ bool FileID::readFile(vector<string>& tobeSniffed){
  */
 
 ostream& FileID::print(ostream& out){
+    out << '\n';
     if (verboseState){
         if (fileType == "File"){
             out << fileType << '\t' << '\t' << iNodeNum << '\t' << fileName;
@@ -110,5 +111,14 @@ ostream& FileID::print(ostream& out){
     }
     out << '\t' << "iNode" << '\t' << iNodeNum << '\t' << "links" << '\t' << numOfLinks << '\n';
     out << "\t\t" << filePath << '\n';
+
+    if (fileType != "Directory"){
+        out << "File: " << fileName << " Search words: ";
+        for (int j = 0; j < int (sniffWords.size()); j++){
+            out << sniffWords[j] << ", ";
+        }
+
+    }
+    out << '\n';
     return out;
 }
