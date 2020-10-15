@@ -1,124 +1,15 @@
-/*Names: Jaron Bialecki & Evan Perry
-* Date:  09-20-2020
-*/
 #include "FileID.hpp"
-//Constructor for FileID,takes a tuple, then parses it for the data items.
-FileID::FileID(tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer) {
-    filePath = new char [strlen(get<0>(dataContainer))];
-    strcpy(filePath, get<0>(dataContainer));
-    fileName = new char [strlen(get<1>(dataContainer))];
-    strcpy(fileName, get<1>(dataContainer));
-    numOfLinks = get<2>(dataContainer);
-    sizeofFile = get<3>(dataContainer);
-    iNodeNum = get<4> (dataContainer);
-    verboseState = get<5>(dataContainer);
-    fileType = get<6>(dataContainer);
-    caseSensitivity = get<7>(dataContainer);
-}
-//--------------------------------------------------------------------------
-/*
- * This function will the vector of search words, and only add to it, if a found word does not match.
- */
-void FileID::sniffWordmaker(string inComing) {
-    if (sniffWords.empty()){
-        sniffWords.push_back(inComing);
-    }
-    else{
-        for (int k = 0; k < int(sniffWords.size()); k++){
-            bool found = false;
-            for (int j =0 ; j < int(sniffWords.size()); j ++){
-                if (sniffWords[j]==inComing){
-                    found = true;
-                    break;
-                }
-            }
-            if (!found){
-                sniffWords.push_back(inComing);
-            }
-        }
-    }
-}
 
-//---------------------------------------------------------------------------
-/*
- * This function takes a vector, which is passed by the sniffer, it then reads the files for each
- * search term.
- */
-bool FileID::readFile(vector<string>& tobeSniffed){
-    string line;
-    string test1= "\\b(";
-    string test2 = ")([^ ]*)";
-    ifstream readin;
-    readin.open(filePath);
-    bool foundone = false;
-    bool anyWordfound = false;
-    while(getline(readin, line)){
-        foundone = false;
-        istringstream iss (line);
-        if(!iss) break;
-        for (int k = 0; k < int(tobeSniffed.size()); k++){
-            string regPattern = test1+tobeSniffed[k]+test2;
-            smatch test;
-            if (caseSensitivity){
-                regex des (regPattern, std::regex_constants::icase);
-                while(regex_search(line,test,des)){
-                    for (string x:test) {
-                        anyWordfound = true;
-                        foundone = true;
-                        sniffWordmaker(x);
-                        break;
-                    }
-                    if (foundone) break;
-                }
-            }
-            else{
-                regex des (regPattern);
-                while(regex_search(line,test,des)){
-                    for (string x:test) {
-                        anyWordfound = true;
-                        foundone = true;
-                        sniffWordmaker(x);
-                        break;
-                    }
-                    if (foundone) break;
-                }
-            }
-        }
-    }
-    readin.close();
+ostream& FileID::
+print(ostream& out) {
+    out << "iNode No: " << iNodeNum << '\n';
+    out << "Relative Path: " << relPath << '\n';
+    out << "File Name: " << fileName << '\n';
+    out << "Sniffwords: ";
 
-    return anyWordfound;
-}
-
-//--------------------------------------------------------------------------
-/*
- * Prints out the details of the file, if verbose is on, additional items are printed.
- */
-
-ostream& FileID::print(ostream& out){
+    for(string snwrd : sniffWords) 
+        out << snwrd << ' ';
     out << '\n';
-    if (verboseState){
-        if (fileType == "File"){
-            out << fileType << '\t' << '\t' << iNodeNum << '\t' << fileName;
-        }
-        else if (fileType == "Soft Link"){
-            out << fileType << '\t' << iNodeNum << '\t' << fileName;
-        }
-        else{
-            out << fileType << '\t' << iNodeNum << '\t' << fileName << '\t';
-        }
 
-    }
-    out << '\t' << "iNode" << '\t' << iNodeNum << '\t' << "links" << '\t' << numOfLinks << '\n';
-    out << "\t\t" << filePath << '\n';
-
-    if (fileType != "Directory"){
-        out << "File: " << fileName << " Search words: ";
-        for (int j = 0; j < int (sniffWords.size()); j++){
-            out << sniffWords[j] << ", ";
-        }
-
-    }
-    out << '\n';
     return out;
 }

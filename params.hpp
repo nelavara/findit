@@ -1,40 +1,61 @@
-/*Names: Jaron Bialecki & Evan Perry
-* Date:  09-10-2020
-*/
 #pragma once
-#include "exceptions.hpp"
-constexpr static struct option long_options[] = {
-        {"dir", required_argument, 0, 'd'},
-        {"verbose", no_argument, 0, 2},
-        {0,0,0,0}
-};
-class params{
-private:
-    friend class Sniff;
-    //Here we define the options for getopt_long
-    //Format of each long_option is as follows (name, argument?, flag?, value returned.
 
-    string searchWords; //search term, for now program can not do search terms with spaces.
-    char* directoryPath; //directory to start search at.
-    string fileName; //this is where fileName to output too, used by -o
-    string command; //the command, needed for print function as part of assignment constraints.
-    bool caseSensitivity; //-i Do a case-insensitive search if this switch is present, case-sensitive is the default.
-    bool recursiveSearch;  //-R do a recursive search if this switch is present, default is to search one directory.
-    bool fileWriteOut; //-o pathname (optional): Open the named file and use it for output, default will be screen output.
-    bool verbose; //--verbose print the name of every file that is opened.
-    void processCL(int argc, char** argv);
-    void usage (int);
-    void directoryMaker();
-    void fileMaker();
-    void filePrint();
-    string getSearchWords(){return searchWords;}
-    char* getdirPath(){return directoryPath;}
-    bool getVerbose () {return verbose;}
-    bool getCase () {return caseSensitivity;}
-    bool getRecursive () {return recursiveSearch;}
-public:
-    params(int, char**); //constructor
-    ~params() = default; //destructor
-    ostream& print(ostream& out); //print function
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <getopt.h>
+
+using namespace std;
+
+class Params {
+    friend class Sniff;
+    private:
+        constexpr static struct option long_options[] = {
+            { "dir",     required_argument, 0, 'd' },
+            { "verbose", no_argument,       0,  2  },
+            {  0,        0,                 0,  0  }
+        };
+
+        char*    pathname;              // Path name for file out
+        string   dirPath;               // Search Directory path name
+        string   commands;              // String of command line args
+        string   searchWords;           // Add search words in vector here
+        vector<string> cmdlne;    // Add search words in vector here
+        ofstream fileout;               // File to output
+        bool recursive;                 // Is Recursive?
+        bool verbose;                   // Is Verbose?
+        bool caseSens;                  // Is Case Insensitive?
+        bool output;                    // Is Recursive?
+
+        void usage(const int err);
+        void processCL(int argc, char* argv[]);   // Process command line arguments
+        void searchDir();
+
+        void setFileName() {
+            if(invalidOpt()) usage(2);
+            output = true;
+            pathname = optarg;
+        }
+
+        void writeToFile() { 
+            fileout.open(pathname);
+            fileout << this << '\n';
+            fileout.close();
+        }
+
+        // File non existent or filename starts w/ '-' then no valid file name given
+        bool invalidOpt()  { return !optarg || optarg[0] == '-'; }
+
+    public:
+        Params(int argc, char* argv[]);
+        ~Params() = default;
+
+        bool isVerbose()   { return verbose; }
+        const char* getdirPath() { return dirPath.c_str(); }
+
+        ostream& print(ostream& out);
 };
-inline ostream& operator << (ostream& out, params& pm) { return pm.print(out); }
+
+inline ostream& operator << (ostream& out, Params& p) { return p.print(out); }
+inline ostream& operator << (ostream& out, Params* p) { return p->print(out); }

@@ -1,21 +1,19 @@
-/*Names: Jaron Bialecki & Evan Perry
-* Date:  09-20-2020
-*/
 #pragma once
-#include "params.hpp"
 
-//Stats wrapper class.
+#include <sys/stat.h>
+
+using namespace std;
+
 class Stats : public stat {
-public:
-    //struct stat statsOffile;
-    Stats () = default;
-    ~Stats() = default;
-    ostream& print (ostream& out) {out << "Inode: " << inode() <<
-                                       '\t' << "Links: " << links()
-                                       << '\t' << "Size: "<< size() << '\n';
-        return out;}
-    ino_t inode() {return (st_ino);}
-    off_t size() {return (st_size);}
-    nlink_t links() {return (st_nlink);}
+    public:
+        Stats() = default;
+        ~Stats() = default;
+
+        ino_t   inode() { return st_ino; }
+        off_t   size()  { return st_size; }
+        nlink_t links() { return st_nlink; }
+
+        ostream& print(ostream& out);
 };
-inline ostream& operator << (ostream& out, Stats& sts) { return sts.print(out); }
+
+inline ostream& operator << (ostream& out, Stats& s) { return s.print(out); }
