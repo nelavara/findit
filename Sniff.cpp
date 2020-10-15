@@ -64,7 +64,8 @@ oneFile(Dirent* dnt, Stats sts, string path) {
 
         // Compare each sniffword to the word found in the file
         for(string s : sniffWords) {    
-            if(s.compare(word)) fid.insertSniff(s);
+            if(s == word) 
+                fid.insertSniff(s);
         }
     }
 
