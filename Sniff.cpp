@@ -3,7 +3,7 @@
 */
 #include "Sniff.hpp"
 //Constructor for the Sniff Class
-Sniff::Sniff(int argc, char ** argv) {
+Sniff::Sniff(int argc, char ** argv) : pms(argc, argv){
     run(argc, argv);
     sortObjects();
 
@@ -19,15 +19,14 @@ Sniff::Sniff(int argc, char ** argv) {
  */
 
 void Sniff::run(int argc, char ** argv) {
-    pms = new params(argc, argv);
-    stringstream SniffWordsIn(pms->getSearchWords());
+    stringstream SniffWordsIn(pms.getSearchWords());
     string temp;
     while(getline(SniffWordsIn, temp, ' ')){
         sniffWords.push_back(temp);
     }
     char wcwd[PATH_MAX];
     char* npwd = getcwd(wcwd, sizeof(wcwd));
-    cwd = string(npwd) + string(pms->getdirPath());
+    cwd = string(npwd) + string(pms.getdirPath());
     char filePath[int(cwd.length())+1];
     strcpy(filePath, cwd.c_str());
     string tcwd = cwd;
@@ -81,10 +80,10 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
         strcat(filePath, "/");
         strcat(filePath, temp->name());
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
-                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Directory", pms->getCase());
+                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms.getVerbose(), "Directory", pms.getCase());
         FileID* tempFID = new FileID(dataContainer);
         subdirectories.push_back(tempFID);
-        if (pms->getRecursive()){
+        if (pms.getRecursive()){
             tcwd = tcwd + "/" + temp->name();
             travel(filePath, tcwd);
         }
@@ -93,7 +92,7 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
         strcat(filePath, "/");
         strcat(filePath, temp->name());
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
-                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "File", pms->getCase());
+                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms.getVerbose(), "File", pms.getCase());
         FileID* tempFID = new FileID(dataContainer);
 
         if (tempFID->readFile(sniffWords)){
@@ -104,7 +103,7 @@ void Sniff::FileIDmaker(Direntry* temp, Stats* temp1, string tcwd) {
         strcat(filePath, "/");
         strcat(filePath, temp->name());
         tuple <char*, char*, nlink_t, off_t, ino_t, bool, string, bool> dataContainer
-                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms->getVerbose(), "Soft Link", pms->getCase());
+                (filePath,temp->name(), temp1->links(), temp1->size(), temp->inode(), pms.getVerbose(), "Soft Link", pms.getCase());
         FileID* tempFID = new FileID(dataContainer);
 
         if (tempFID->readFile(sniffWords)){

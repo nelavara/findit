@@ -7,7 +7,7 @@
 class Sniff {
 private:
     friend class params;
-    params* pms;
+    params pms;
     vector<string> sniffWords;
     vector<FileID*> files;
     vector<FileID*> subdirectories;
