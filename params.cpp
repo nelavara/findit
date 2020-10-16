@@ -21,9 +21,13 @@ params::params(int argc, char** argv) {
     for (int j = 0; j < argc; j++) {
         command.append(argv[j]);
         command.append(" ");
+        //We verify string integrity of search words.
         if (j > 0){
-            if (argv[j][0] != '-' && argv[j][0] !='/' ){
-                countSwords ++;
+            if (argv[j][0] != '-' && argv[j][0] !='/'){
+                countSwords++;
+                if (argv[j-1][0] == '-' && (argv[j-1][1] == 'o')){
+                    countSwords--;
+                }
                 if (countSwords > 1){
                     usage(4);
                 }

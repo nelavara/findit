@@ -139,6 +139,19 @@ void Sniff::sortObjects() {
  * Print function. We delegate printing to the FileID class.
  */
 ostream& Sniff::print(ostream &out) {
+    if (!pms.fileName.empty()){
+        out << pms.fileName <<'\n';
+        ofstream fileOut;
+        fileOut.open(pms.fileName);
+        if (!fileOut){
+            out << "Unable to open file.\n";
+        }
+        else{
+            for (int j = 0; j < int(allEntries.size()); j++){
+                allEntries[j]->print(fileOut);
+            }
+        }
+    }
 
     out << '\n';
     for (int k = 0; k < int(allEntries.size()); k++){
