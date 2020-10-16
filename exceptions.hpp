@@ -5,8 +5,11 @@
 #pragma once
 
 class Badsniff {
+    int whichErr;
 public:
-    Badsniff()=default;
+    Badsniff(int wE){
+        whichErr =wE;
+    }
     ~Badsniff()=default;
     ostream& print(ostream& out);
 };

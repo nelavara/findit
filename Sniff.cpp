@@ -45,7 +45,7 @@ void Sniff::travel(char* filePath, string tcwd) {
     DIR *dir = opendir(filePath);
     if(errno!=0){
         cout << filePath << endl;
-        throw Badsniff();
+        throw Badsniff(0);
     }
     Direntry* tr;
     while((tr=(Direntry*)readdir(dir)) != NULL){

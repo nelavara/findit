@@ -1823,3 +1823,2856 @@ Directory	938606	sub2-2		iNode	938606	links	4
 Directory	938607	sub3		iNode	938607	links	3
 		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
 
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:16:28
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:18:21
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:19:30
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:19:49
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:38:18
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:38:35
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:38:51
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:39:41
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:39:57
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, As, asked, as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: Ask, as, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, astonished., As, as, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, astonished., As, as, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, As, assure, astonished, as., 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, As, assure, astonished, as., 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, As, ask., ask, as., assistance, as, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, As, ask., ask, as., assistance, as, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: assure, ask, as, 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: assure, ask, as, 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: Ask, assured, ask., As, 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: Ask, assured, ask., As, 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, As, Assistance, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: as., as, assistance, ask, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: as., as, assistance, ask, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, ask., as, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: as., as, assistance, ask, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: as., as, assistance, ask, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, ask., as, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: Ask, as, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, As, asked, as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:41:13
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:43:16
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:43:59
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:44:44
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:45:02
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:45:22
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:45:33
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:46:19
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:48:13
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:49:00
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:49:39
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:52:36
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	13:53:59
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:09:16
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:09:51
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:10:57
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:11:31
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:12:13
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:12:40
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:15:51
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:16:19
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:17:27
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:17:40
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:19:00
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:19:04
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:28:19
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:28:28
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:34:55
+---------------------------------------------------------------
+
+
+File		932222	gary.txt	iNode	932222	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/gary.txt
+File: gary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+File		932224	random.txt	iNode	932224	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/random.txt
+File: random.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932225	softleft.txt	iNode	932225	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softleft.txt
+File: softleft.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932227	left.txt	iNode	932227	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/left.txt
+File: left.txt Search words: assurance, it, am, in, astonished., improve, If, As, income., ample, as, Ignorant, amongst., imagine, 
+
+File		932228	test.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test.txt
+File: test.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932228	hardTest.txt	iNode	932228	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/hardTest.txt
+File: hardTest.txt Search words: as, In, interested, am, As, it, in, assure, its, astonished, as., intention, ample, 
+
+File		932264	whatever.txt	iNode	932264	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever.txt
+File: whatever.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932264	hardWhat.txt	iNode	932264	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/hardWhat.txt
+File: hardWhat.txt Search words: Ask, in, As, improve., ask., if, intention, ample, impression, ask, it, among, as., am, i, assistance, In, as, is, 
+
+File		932265	right.txt	iNode	932265	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1/right.txt
+File: right.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932265	hardRight.txt	iNode	932265	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/hardRight.txt
+File: hardRight.txt Search words: informed, assure, is., Am, If, in, ask, insensible, as, its, am, if, improved., 
+
+File		932266	whatever2.txt	iNode	932266	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/whatever2.txt
+File: whatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932266	hardWhatever2.txt	iNode	932266	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/hardWhatever2.txt
+File: hardWhatever2.txt Search words: inquietude, am, Ask, in., assured, in, am., improved., ask., if, As, incommode, it, invited., 
+
+File		932267	test1.txt	iNode	932267	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/test1.txt
+File: test1.txt Search words: as, indulgence, if, Am, As, Is, am, Assistance, if., In, in, 
+
+File		932269	hardMatter.txt	iNode	932269	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1/hardMatter.txt
+File: hardMatter.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932269	matterhorn.txt	iNode	932269	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/matterhorn.txt
+File: matterhorn.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932272	max.txt	iNode	932272	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/max.txt
+File: max.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+File		932274	hardGuessWork.txt	iNode	932274	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/hardGuessWork.txt
+File: hardGuessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+File		932274	guessWork.txt	iNode	932274	links	2
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3/guessWork.txt
+File: guessWork.txt Search words: its., as., in, Am, as, its, indulgence, indeed, am, assistance, improved, In, ask, It, 
+
+Soft Link	932275	softMax.txt	iNode	932275	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/softMax.txt
+File: softMax.txt Search words: assure, improving, am, ask., impossible, it, as, in., Am, in, immediate, informed, improved, In, 
+
+Soft Link	932276	softRandom.txt	iNode	932276	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softRandom.txt
+File: softRandom.txt Search words: If, am, Ask, among., as, Introduced, Income, its, amiable, in., it, invitation, it., incommode, 
+
+Soft Link	932277	softGary.txt	iNode	932277	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/softGary.txt
+File: softGary.txt Search words: as, is, amounted, As, invited, am, intention, In, asked, its., If, in, impression., as., 
+
+Directory	938596	sub1		iNode	938596	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub1
+
+
+Directory	938597	sub2		iNode	938597	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2
+
+
+Directory	938605	sub2-1		iNode	938605	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-1
+
+
+Directory	938606	sub2-2		iNode	938606	links	4
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2
+
+
+Directory	938607	sub3		iNode	938607	links	3
+		/home/evanperry/CLionProjects/findit/linuxTest/sub2/sub2-2/sub3
+
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:34:58
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:35:09
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+	Evan Perry and Jaron Bialecki
+	CSCI 6647
+	Fri Oct 16 2020	14:35:21
+---------------------------------------------------------------

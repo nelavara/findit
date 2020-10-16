@@ -15,11 +15,21 @@ params::params(int argc, char** argv) {
     recursiveSearch = false;
     fileWriteOut = false;
     verbose = false;
+    int countSwords = 0;
 
     //We put the command into a string.
     for (int j = 0; j < argc; j++) {
         command.append(argv[j]);
         command.append(" ");
+        if (j > 0){
+            if (argv[j][0] != '-' && argv[j][0] !='/' ){
+                countSwords ++;
+                if (countSwords > 1){
+                    usage(4);
+                }
+            }
+
+        }
     }
     processCL(argc, argv);
 }
@@ -95,21 +105,17 @@ void params::usage(int whichErr) {
     cout << "The command you entered was: \n"
          << command << '\n';
     if (whichErr == 1){
-        cout << "Either you have already specified a directory\n"
-                " or no argument was passed, try again.\n";
+        throw Badsniff(1);
     }
     else if(whichErr == 2){
-        cout << "You did not enter a file name, try again later.\n";
+        throw Badsniff(2);
     }
     else if (whichErr == 3){
-        cout << "You did not specify a directory!, try again!\n";
+        throw Badsniff(3);
     }
     else{
-        cout << "Unrecognized argument or switch, try again.\n";
+        throw Badsniff(4);
     }
-    cout << "Proper usage: command options [-i][-R][-o][--verbose] --dir or -d /pathname \"Search Terms\"\n";
-    exit(1);
-
 }
 
 //-----------------------------------------------------------------
