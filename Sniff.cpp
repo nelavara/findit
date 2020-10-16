@@ -140,7 +140,6 @@ void Sniff::sortObjects() {
  */
 ostream& Sniff::print(ostream &out) {
     if (!pms.fileName.empty()){
-        out << pms.fileName <<'\n';
         ofstream fileOut;
         fileOut.open(pms.fileName);
         if (!fileOut){
@@ -150,6 +149,7 @@ ostream& Sniff::print(ostream &out) {
             for (int j = 0; j < int(allEntries.size()); j++){
                 allEntries[j]->print(fileOut);
             }
+            fileOut.close();
         }
     }
 
